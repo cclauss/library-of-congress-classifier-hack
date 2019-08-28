@@ -5,7 +5,7 @@ env:
   - PYTHON_VERSION="3.6.7"
   - PYTHON_VERSION="3.7.1"
 jobs:
-  include:
+  # include:
     - stage: "Compile"
       name: "Compile V8"
       script: echo "${TRAVIS_JOB_NAME}: ${TRAVIS_BUILD_STAGE_NAME} on ${PYTHON_VERSION}"

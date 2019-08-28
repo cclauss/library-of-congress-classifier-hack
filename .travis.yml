@@ -1,7 +1,7 @@
 language: cpp
 jobs:
-  matrix:
-    env:
+  env:
+    matrix:
       - PYTHON_VERSION="2.7.15"
       - PYTHON_VERSION="3.7.11"
   include:

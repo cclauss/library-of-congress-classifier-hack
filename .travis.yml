@@ -5,7 +5,7 @@ pythons: &pythons
 
 language: cpp
 jobs:
-  include:
+  # include:
     - stage: "Compile"
       name: "Compile V8"
       matrix: *pythons

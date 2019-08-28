@@ -4,8 +4,9 @@
 #    - PYTHON_VERSION="3.7.11"
 
 language: cpp
-jobs:
-  include:
+#jobs:
+#  include:
+matrix:
     - stage: "Compile"
       name: "Compile V8"
       # matrix: *pythons

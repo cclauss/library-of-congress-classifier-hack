@@ -16,7 +16,7 @@ jobs:
     - stage: "Tests"
       name: "Test JS Suites"
       script:
-        - pyenv global ${PYTHON_VERSION}
+        - pyenv global "${PYTHON_VERSION}"
         - echo "${TRAVIS_JOB_NAME}: ${TRAVIS_BUILD_STAGE_NAME} on ${PYTHON_VERSION}"
 
     - name: "Test C++ Suites"

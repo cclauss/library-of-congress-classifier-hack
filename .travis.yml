@@ -1,0 +1,27 @@
+language: cpp
+matrix:
+  env:
+    - PYTHON_VERSION="2.7.15"
+    - PYTHON_VERSION="3.5.1"
+    - PYTHON_VERSION="3.6.7"
+    - PYTHON_VERSION="3.7.1"
+jobs:
+  include:
+    - stage: "Compile"
+      name: "Compile V8"
+      script: echo "${TRAVIS_JOB_NAME} ${TRAVIS_BUILD_STAGE_NAME}"
+
+    - name: "Compile Node.js"
+      script: echo "${TRAVIS_JOB_NAME} ${TRAVIS_BUILD_STAGE_NAME}"
+
+    - stage: "Tests"
+      name: "Test JS Suites"
+      script:
+        - pyenv global ${PYTHON_VERSION}
+        - echo "${TRAVIS_JOB_NAME} ${TRAVIS_BUILD_STAGE_NAME}"
+
+    - name: "Test C++ Suites"
+      script: echo "${TRAVIS_JOB_NAME} ${TRAVIS_BUILD_STAGE_NAME}"
+
+    - name: "Linter"
+      script: echo "${TRAVIS_JOB_NAME} ${TRAVIS_BUILD_STAGE_NAME}"

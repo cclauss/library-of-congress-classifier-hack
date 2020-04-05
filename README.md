@@ -7,8 +7,8 @@ This borrows heavily from https://github.com/thisismattmiller/lcc-pdf-to-json to
 ### Classify a work based on its Library of Congress Classification code
 
 
-Open Library IDs | Library of Congress Classification code
---- | ---
+Open Library ID | Library of Congress Classification code
+-- | --
 [OL1025841M](https://openlibrary.org/books/OL1025841M) | [HB1951 .R64 1995](https://openlibrary.org/books/HB1951.R641995)
 [OL1025966M](https://openlibrary.org/books/OL1025966M) | [DP402.C8 O46 1995](https://openlibrary.org/books/DP402.C8O461995)
 [OL1026156M](https://openlibrary.org/books/OL1026156M) | [CS879 .R3 1995](https://openlibrary.org/books/CS879.R31995)

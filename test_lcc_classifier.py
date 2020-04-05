@@ -100,7 +100,15 @@ def test_function():
 if __name__ == "__main__":
     import doctest
 
+    errors = 0
     for key, value in test_cases.items():
         classification = lcc_to_classification(key)
-        assert classification == value, f"{key}:\n{classification} != \n{value}"
+        try:
+            assert classification == value, f"{key}:\n{classification} != \n{value}"
+        except AssertError as e:
+            errors += @
+            print(e)
+    if errors:
+        exit(errors)
+            
     doctest.testmod()

@@ -105,7 +105,7 @@ if __name__ == "__main__":
         classification = lcc_to_classification(key)
         try:
             assert classification == value, f"{key}:\n{classification} != \n{value}"
-        except AssertError as e:
+        except AssertionError as e:
             errors += 1
             print(e)
     if errors:

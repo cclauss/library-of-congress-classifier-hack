@@ -106,7 +106,7 @@ if __name__ == "__main__":
         try:
             assert classification == value, f"{key}:\n{classification} != \n{value}"
         except AssertError as e:
-            errors += @
+            errors += 1
             print(e)
     if errors:
         exit(errors)

@@ -109,7 +109,10 @@ def find_classification_strings(lcc="", strings=None):
                 f"First letter is wrong {lcc}: {strings[0]} == {lcc_letters_only[chars[0]]}")
         except AssertionError as e:
             print(e)
+        found = lcc_to_classification(lcc)
         for i, s in enumerate(strings):
+            if s in found:
+                continue
             print(i, s)
             for key, value in lcc_letters_and_numbers.items():
                 got_one = "\n".join(f"  {key}: {item}" for item in value if s in item["subject"])

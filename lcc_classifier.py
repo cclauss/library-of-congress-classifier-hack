@@ -111,8 +111,8 @@ def find_classification_strings(lcc="", strings=None):
             print(e)
         for i, s in enumerate(strings):
             print(i, s)
-            print({key: value["subject"] for key, value in lcc_letters_and_numbers.items()
-                   if s in value["subject"]})
+            for key, value in lcc_letters_and_numbers.items():
+                print((key, item) for item in value if s in item["subject"]})
     else:
         for key, value in test_cases.items():
             find_classification_strings(key, value)

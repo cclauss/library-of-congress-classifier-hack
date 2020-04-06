@@ -92,6 +92,31 @@ def lcc_to_classification(lcc):
     return classification
 
 
+def find_classification_strings(lcc="", strings=None):
+    test_cases = {
+        "DP402.C8 O46 1995": [
+            "World History and History of Europe",
+            "Asia, Africa, Australia, New Zealand, Etc.",
+            "History of Spain",
+            "Local history and description",
+            "Other cities, towns, etc., A-Z",
+        ],
+    }
+    if lcc and strings:
+        chars, number = parse_lcc(lcc)
+        try:
+            assert strings[0] == lcc_letters_only[chars[0]], (
+                f"First letter is wrong {lcc}: {strings[0]} == {lcc_letters_only[chars[0]]}")
+        except AssertionError as e:
+            print(e)
+        for i, s in enumerate(strings):
+            print(i, s)
+            print({key, value["subject"] for key, value in lcc_letters_and_numbers if s in value["subject"]})
+    else:
+        for key, value in test_cases:
+            find_classification_strings(key, value)
+
+
 if __name__ == "__main__":
     import doctest
 

@@ -100,7 +100,7 @@ def test_function():
 if __name__ == "__main__":
     import doctest
 
-    find_classification_strings()
+    # find_classification_strings()
     
     errors = 0
     for key, value in test_cases.items():
@@ -110,6 +110,7 @@ if __name__ == "__main__":
         except AssertionError as e:
             errors += 1
             print(e)
+            find_classification_strings(key, classification)
     if errors:
         exit(errors)
             

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from lcc_classifier import lcc_to_classification
+from lcc_classifier import find_classification_strings, lcc_to_classification
 
 test_cases = {
     "DP402.C8 O46 1995": [
@@ -100,6 +100,8 @@ def test_function():
 if __name__ == "__main__":
     import doctest
 
+    find_classification_strings()
+    
     errors = 0
     for key, value in test_cases.items():
         classification = lcc_to_classification(key)

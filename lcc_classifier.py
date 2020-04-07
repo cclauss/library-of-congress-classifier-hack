@@ -60,6 +60,10 @@ def parse_lcc(lcc):
     ('DP', 402)
     >>> parse_lcc("CS879 .R3 1995")
     ('CS', 879)
+    >>> parse_lcc("PR2782 H3 H4")
+    ('PR', 2782)
+    >>> parse_lcc("OL24614660M")
+    ('PR', 2782)
     """
     lcc = lcc.strip().upper()
     if lcc.startswith("OL"):  # User entered an OL number so convert it to LCC

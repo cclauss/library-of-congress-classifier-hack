@@ -19,7 +19,7 @@ with open(os.path.join(here, "lc_classifiers_letters_and_numbers.json")) as in_f
     lcc_letters_and_numbers = json.load(in_file)
 # Make corrections...
 # "D": "World History and History of Europe" -->
-lcc_letters_and_numbers["D"] = "History, General and Old World"
+lcc_letters_only["D"] = "World History and History of Europe Asia, Africa, Australia, New Zealand, Etc."
 out_file = None
 
 
@@ -98,8 +98,7 @@ def lcc_to_classification(lcc):
 def find_classification_strings(lcc="", strings=None):
     test_cases = {
         "DP402.C8 O46 1995": [
-            "World History and History of Europe",
-            "Asia, Africa, Australia, New Zealand, Etc.",
+            "World History and History of Europe Asia, Africa, Australia, New Zealand, Etc.",
             "History of Spain",
             "Local history and description",
             "Other cities, towns, etc., A-Z",

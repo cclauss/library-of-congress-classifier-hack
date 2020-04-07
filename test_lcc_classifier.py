@@ -102,7 +102,7 @@ if __name__ == "__main__":
     for key, value in test_cases.items():
         classification = lcc_to_classification(key)
         try:
-            assert classification == value, f"{key}:\n{classification} != \n{value}"
+            assert classification == value, f"{key}: Ours vs. Theirs...\n{classification} != \n{value}"
         except AssertionError as e:
             errors += 1
             print(e)

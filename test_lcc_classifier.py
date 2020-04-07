@@ -4,29 +4,25 @@ from lcc_classifier import find_classification_strings, lcc_to_classification
 
 test_cases = {
     "DP402.C8 O46 1995": [
-        "World History and History of Europe",
-        "Asia, Africa, Australia, New Zealand, Etc.",
+        "World History and History of Europe, Asia, Africa, Australia, New Zealand, Etc.",
         "History of Spain",
         "Local history and description",
         "Other cities, towns, etc., A-Z",
     ],
     "DR1313.3 .U54 1993": [
-        "World History and History of Europe",
-        "Asia, Africa, Australia, New Zealand, Etc.",
+        "World History and History of Europe, Asia, Africa, Australia, New Zealand, Etc.",
         "History of Spain",
         "Local history and description",
         "Other cities, towns, etc., A-Z",
     ],
     "DR82 .G46 1993": [
-        "World History and History of Europe",
-        "Asia, Africa, Australia, New Zealand, Etc.",
+        "World History and History of Europe, Asia, Africa, Australia, New Zealand, Etc.",
         "History of Spain",
         "Local history and description",
         "Other cities, towns, etc., A-Z",
     ],
     "DS557.8.M9 B55 1992B": [
-        "World History and History of Europe",
-        "Asia, Africa, Australia, New Zealand, Etc.",
+        "World History and History of Europe, Asia, Africa, Australia, New Zealand, Etc.",
         "History of Spain",
         "Local history and description",
         "Other cities, towns, etc., A-Z",

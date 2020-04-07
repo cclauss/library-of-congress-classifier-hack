@@ -19,7 +19,7 @@ with open(os.path.join(here, "lc_classifiers_letters_and_numbers.json")) as in_f
     lcc_letters_and_numbers = json.load(in_file)
 # Make corrections...
 # "D": "World History and History of Europe" -->
-lcc_letters_only["D"] = "World History and History of Europe Asia, Africa, Australia, New Zealand, Etc."
+lcc_letters_only["D"] = "World History and History of Europe, Asia, Africa, Australia, New Zealand, Etc."
 out_file = None
 
 

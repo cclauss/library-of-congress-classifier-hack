@@ -106,7 +106,7 @@ if __name__ == "__main__":
         except AssertionError as e:
             errors += 1
             print(e)
-            find_classification_strings(key, value)
+            # find_classification_strings(key, value)
     if errors:
         exit(errors)
             

@@ -2,3 +2,9 @@ subclass split
 | - increase indent
 |+ - decrease indent (*creates alignment issues)
 || - same indentation level as last indentation
+
+# We will continue to use the symbols above but...
+# I sense it would have been more intuitive as:
+|| same indentation level as the previous subclass
+|+ increase indentation level from previous subclass
+|- decrease indentation level from previous subclass

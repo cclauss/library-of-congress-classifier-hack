@@ -8,12 +8,13 @@ with open("bunk_1.txt") as in_file:
     for line in in_file:
         line = line.strip()
         first_word, _, rest = line.partition(" ")
-        if any(char in digits for char in first_word):  # If we have a key
+        # Is first_word a new key?
+        if first_word[0] not in digits and any(char in digits for char in first_word):
             if key:  # If we have any data to save
-                data[key] = s  # Add data to dict
+                data[key] = s.rstrip(":")  # Add data to dict
             key, s = first_word, rest + ":"  # Start new data
         else:
             s += " " + line  # Add to existing string
 if key:  # If we have any data to save
-    data[key] = s  # Add data to dict
+    data[key] = s.rstrip(":")  # Add data to dict
 print(json.dumps(data, indent=2))

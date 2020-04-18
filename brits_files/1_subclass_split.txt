@@ -4,4 +4,5 @@ Subclass
 |- decrease indentation level from previous subclass
 # Notes:
 # Number of pluses and minuses determine how far many subclasses away from the previous one it is
+# ex's: |--, |---, |++, etc.
 # There are no extra plus symbols beyond |+, as it would lose context (i.e. there's no category above it to reference to)

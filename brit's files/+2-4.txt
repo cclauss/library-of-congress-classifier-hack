@@ -2,7 +2,7 @@ BP165.5 Dogma (?Aqa?id)
 BP166-166.94 Theology (Kalam)
 BQ7100-7285 Theravada (Hinayana) Buddhism
 DA990.U45-U46 Northern Ireland (Ulster)
-DP145-152.8 LeÛn (Asturias)
+DP145-152.8 Le√≥n (Asturias)
 DT469.M4-.M495 Mautitius (Ile de France)
 DT546.2-546.29 Congo (Brazzaville). Middle Congo
 KBM523.6 Even ha-?ezer law (General)
@@ -10,7 +10,7 @@ KDZ-KH1 950 State (provincial, etc.) and local finance
 KDZ-KH2 4840 State (provincial, etc.) and local finance
 KDZ-KH3 432 State (provincial, etc.) and local finance
 KDZ-KH4 85 State (provincial, etc.) and local finance
-KEQ205.3 Common law (in QuÈbec)
+KEQ205.3 Common law (in Qu√©bec)
 KH-KHW South America (General)
 KJ-KKZ1 1834 Non-contentious (ex parte) jurisdiction
 KJ-KKZ1 2620 Constitutional courts (tribunals) and procedure
@@ -27,7 +27,7 @@ KJ-KKZ4 8.57 Professions. Intelligentsia (Socialist)
 KJP Czech Republic (1993- )
 KJP Czechoslovakia (to 1993)
 KJQ Slovakia (1993- )
-KJV4081-4097 Ancien RÈgime (to 1789)
+KJV4081-4097 Ancien R√©gime (to 1789)
 KKK Macedonia (Republic)
 KL-KWX4 1834 Noncontentious (ex parte) jurisdiction
 KL-KWX4 685 Concepts of customary (native) land rights
@@ -41,8 +41,8 @@ KL-KWX7 254 Native (customary) land
 KL-KWX7 Common Law (500 numbers)
 KL-KWX9 Cities, etc. (One number)
 KL-KWX9a Cities, etc. (Cutter number)
-KMY1-489 Yeman (Peopleís Democratic Republic) (to 1990)
-KNQ1-9665 China (Peopleís Republic, 1949- )
+KMY1-489 Yeman (People‚Äôs Democratic Republic) (to 1990)
+KNQ1-9665 China (People‚Äôs Republic, 1949- )
 PR251-369 Medieval. Middle English (1066-1500)
 D274.5-6 Anglo-French War, 1666-1667
 D545.9 Local history and description
@@ -101,15 +101,15 @@ BX7990.H6-.H69 Holiness churches
 CB156 Terrestrial evidence of interplanetary voyages
 CT3200-9999 Biography. By subject
 DA600-667 Description and travel. Guidebooks
-DB929-929.8 ¡rp·d dynasty, 896-1301
+DB929-929.8 √Årp√°d dynasty, 896-1301
 DF901 Regions, provinces, islands, etc., A-Z
 DF901.C78-C88 Crete
 DG59 Regions outside of Italy, A-Z
 DJ411.A5-A59 Amsterdam
-DL721-743 Zweibr¸cken dynasty, 1654-1718
-DP100-123 Moors in Spain. CÛrdoba. Kingdom of Granada
+DL721-743 Zweibr√ºcken dynasty, 1654-1718
+DP100-123 Moors in Spain. C√≥rdoba. Kingdom of Granada
 DP350-374 Madrid
-DR997 TiranÎ
+DR997 Tiran√´
 DS133-151 Jews outside of Palestine
 DS41-66 Middle East. Southwestern Asia. Ancient Orient.
 DS518.15-518.9 Relation of individual countries to East Asia
@@ -121,7 +121,7 @@ DT469.M39 Mascarene Islands
 DT469.M4975 Mayotte
 DT469.R3-.R5 Reunion
 DT469.S4-.S49 Seychelles
-DT545-545.9 CÙte d'Ivoire. Ivory Coast
+DT545-545.9 C√¥te d'Ivoire. Ivory Coast
 DT63-63.5 Pyramids
 DT671.C2 Cape Verde
 GB561-649 Other natural landforms: Floodplains, caves,
@@ -602,7 +602,7 @@ KF5540-5541 Bridges
 KFA-KFW Laws of the states
 KG3001-KGH9499 Mexico and Central America
 KGJ1-KGZ499 West Indies. Caribbean Area
-KGP1-499 CuraÁao
+KGP1-499 Cura√ßao
 KGX1-499 Trinidad and Tobago
 KJA1345 Individual constitutiones
 KJA1475 Individual constitutiones
@@ -1066,9 +1066,9 @@ KJS Estonia
 KJT Finland
 KJV1227-1231.5 Rights incident to ownership of land
 KJV1791-1970 Individual contracts and obligations
-KJV3160 SociÈtÈs anonymes
+KJV3160 Soci√©t√©s anonymes
 KJV323-333 Works on diverse aspects of a special subject
-KJV3730 MinistËre de la justice
+KJV3730 Minist√®re de la justice
 KJV4182-4230 Individual and state
 KJV4196-4198 Control of individuals
 KJV4350-4357 Head of state. President of the republic
@@ -1599,7 +1599,7 @@ KL-KWX6 1368 Protection of labor
 KL-KWX6 1400 Practice and procedure. Courts
 KL-KWX6 1410 Social insurance. Social security
 KL-KWX6 1430 Health insurance
-KL-KWX6 1440 Workersí compensation
+KL-KWX6 1440 Workers‚Äô compensation
 KL-KWX6 1446 Old age, survivors and disability insurance
 KL-KWX6 1451 Unemployment insurance
 KL-KWX6 1456 Social services. Public welfare
@@ -1980,11 +1980,11 @@ KNN China
 KNS-KNU India
 KNT1-KNU9665 States, cities, etc.
 KNX-KNY Japan
-KPC1-4990 Democratic Peopleís Republic of Korea. North Korea
+KPC1-4990 Democratic People‚Äôs Republic of Korea. North Korea
 KPG1-KPH4999.9 Malaysia
 KQ-KTZ Africa
-KSH0-4990 CÙte díIvoire
-KTC1-489 RÈunion
+KSH0-4990 C√¥te d‚ÄôIvoire
+KTC1-489 R√©union
 KU1-KUN3050 Australia
 KU-KWW Pacific Area
 KVB1-KVC999 Regional comparative and uniform law
@@ -2022,7 +2022,7 @@ PG3515-3550 Outside the Russian Federation
 PJ5050-5055.51 Individual authors and works
 PJ5111-5192 Yiddish
 PJ7695.8-7976 Individual authors or works
-PK1421-1429.5 Apabhram. s¥a
+PK1421-1429.5 Apabhram. s¬¥a
 PK1471-1490 Middle Indo-Aryan dialects
 PK2261-2270.9 Lahnda
 PK3791-3799 Individual authors and works
@@ -2034,7 +2034,7 @@ PK6475 Ibn Yam_i n, Fakhr al-D_i n Mah.mud
 PK6478-6482 Jalal al-D_i n Rum_i Maulana
 PK6490 Jam_i
 PK6501 Niz.am_i Ganjav_i
-PK6540-6546 Saë d_i
+PK6540-6546 Sa‚Äò d_i
 PL2661-2979 Individual authors and works
 PL4601-4797.95 Dravidian languages
 PL784-866 Individual authors and works
@@ -2075,12 +2075,12 @@ PT7326-7338 Individual authors or works before 1540
 PT7500-7511 Individual authors or works
 PT7598-7599 Individual authors or works
 PT8050-8177.36 Individual authors or works
-PT8145-8157 Oehlenschl‰ger, Adam Gottlob
+PT8145-8157 Oehlenschl√§ger, Adam Gottlob
 PT8750-8952.36 Individual authors or works
 PT9064-9094 Individual authors
 PT9650-9877.36 Individual authors or works
-PT9759-9771 Lagerlˆf, Selma
-PT9820-9838 TegnÈr, Esaias
+PT9759-9771 Lagerl√∂f, Selma
+PT9820-9838 Tegn√©r, Esaias
 QC 1-75 General
 QC770-798 Nuclear and particle physics. Atomic energy.
 RA648.5-767 Epidemics. Epidemiology. Quarantine. Disinfection

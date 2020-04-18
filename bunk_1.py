@@ -17,4 +17,4 @@ with open("bunk_1.txt") as in_file:
             s += " " + line  # Add to existing string
 if key:  # If we have any data to save
     data[key] = s.rstrip(":")  # Add data to dict
-print(json.dumps(data, indent=2))
+print(json.dumps(data, indent=2, sort_keys=True))

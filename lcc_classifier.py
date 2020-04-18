@@ -74,7 +74,7 @@ def parse_lcc(lcc):
         if char in string.ascii_uppercase:
             chars += char
         else:
-            return chars, int(lcc[i:])
+            return chars, lcc[i:]  # int(lcc[i:])
     return chars, 0
 
 

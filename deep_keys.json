@@ -1,0 +1,4672 @@
+{
+  "B": [
+    {
+      "id": "B108-5802",
+      "parents": [],
+      "prefix": "B",
+      "start": 108.0,
+      "stop": 5802.0,
+      "subject": "By period: Including individual philosophers and schools of philosophy"
+    }
+  ],
+  "BD": [
+    {
+      "id": "BD300-450",
+      "parents": [],
+      "prefix": "BD",
+      "start": 300.0,
+      "stop": 450.0,
+      "subject": "Ontology: Including being, the soul, life, death"
+    },
+    {
+      "id": "BD493-701",
+      "parents": [],
+      "prefix": "BD",
+      "start": 493.0,
+      "stop": 701.0,
+      "subject": "Cosmology: Including teleology, space and time, structure of matter, plurality of worlds"
+    }
+  ],
+  "BF": [
+    {
+      "id": "BF309-499",
+      "parents": [],
+      "prefix": "BF",
+      "start": 309.0,
+      "stop": 499.0,
+      "subject": "Consciousness. Cognition: Including learning, attention, comprehension, memory, imagination, genius, intelligence, thought and thinking, psycholinguistics, mental fatigue"
+    },
+    {
+      "id": "BF712-724.85",
+      "parents": [],
+      "prefix": "BF",
+      "start": 712.0,
+      "stop": 724.0,
+      "subject": "Developmental psychology: Including infant psychology, child psychology, adolescence, adulthood"
+    },
+    {
+      "id": "BF1228-1389",
+      "parents": [],
+      "prefix": "BF",
+      "start": 1228.0,
+      "stop": 1389.0,
+      "subject": "Spiritualism: Including mediumship, spirit messages, clairvoyance"
+    },
+    {
+      "id": "BF2050-2055",
+      "parents": [],
+      "prefix": "BF",
+      "start": 2050.0,
+      "stop": 2055.0,
+      "subject": "Human-alien encounters. Contact between humans and: extraterrestrials"
+    }
+  ],
+  "BJ": [
+    {
+      "id": "BJ71-1185",
+      "parents": [],
+      "prefix": "BJ",
+      "start": 71.0,
+      "stop": 1185.0,
+      "subject": "History and general works: Including individual ethical philosophers"
+    },
+    {
+      "id": "BJ1518-1697",
+      "parents": [],
+      "prefix": "BJ",
+      "start": 1518.0,
+      "stop": 1697.0,
+      "subject": "Individual ethics. Character. Virtue: Including practical and applied ethics, conduct of life, vices, success, ethics for children"
+    }
+  ],
+  "BL": [
+    {
+      "id": "BL51-65",
+      "parents": [],
+      "prefix": "BL",
+      "start": 51.0,
+      "stop": 65.0,
+      "subject": "Philosophy of religion. Psychology of religion. Religion: in relation to other subjects"
+    },
+    {
+      "id": "BL1650",
+      "parents": [],
+      "prefix": "BL",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Hebrew: For Judaism, see subclass BM"
+    },
+    {
+      "id": "BL1660-1665",
+      "parents": [],
+      "prefix": "BL",
+      "start": 1660.0,
+      "stop": 1665.0,
+      "subject": "Phoenician. Carthaginian, etc."
+    },
+    {
+      "id": "BL2500-2592",
+      "parents": [],
+      "prefix": "BL",
+      "start": 2500.0,
+      "stop": 2592.0,
+      "subject": "American: For American Indians, see classes E-F"
+    }
+  ],
+  "BM": [
+    {
+      "id": "BM723-729",
+      "parents": [],
+      "prefix": "BM",
+      "start": 723.0,
+      "stop": 729.0,
+      "subject": "Jewish way of life. Spiritual life. Mysticism. Personal: religion. Moral theology"
+    }
+  ],
+  "BP": [
+    {
+      "id": "BP186-186.97",
+      "parents": [],
+      "prefix": "BP",
+      "start": 186.0,
+      "stop": 186.0,
+      "subject": "Special days and seasons, fasts, feasts,: festivals, etc. Relics"
+    }
+  ],
+  "BS": [
+    {
+      "id": "BS546-558",
+      "parents": [],
+      "prefix": "BS",
+      "start": 546.0,
+      "stop": 558.0,
+      "subject": "Bible stories. Paraphrases of Bible stories.: The Bible story"
+    }
+  ],
+  "BT": [
+    {
+      "id": "BT580",
+      "parents": [],
+      "prefix": "BT",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Miracles. Apparitions. Shrines, sanctuaries,: images, processions, etc."
+    },
+    {
+      "id": "BT650-660",
+      "parents": [],
+      "prefix": "BT",
+      "start": 650.0,
+      "stop": 660.0,
+      "subject": "Miracles. Apparitions. Shrines, sanctuaries,: images, processions, etc."
+    },
+    {
+      "id": "BT1313-1480",
+      "parents": [],
+      "prefix": "BT",
+      "start": 1313.0,
+      "stop": 1480.0,
+      "subject": "History of specific doctrines and movements.: Heresies and schisms"
+    }
+  ],
+  "BV": [
+    {
+      "id": "BV360-465",
+      "parents": [],
+      "prefix": "BV",
+      "start": 360.0,
+      "stop": 465.0,
+      "subject": "Denominational and special types of: hymnbooks in English"
+    }
+  ],
+  "BX": [
+    {
+      "id": "BX1-9.5",
+      "parents": [],
+      "prefix": "BX",
+      "start": 1.0,
+      "stop": 9.0,
+      "subject": "Church unity. Ecumenical movement.: Interdenominational cooperation"
+    },
+    {
+      "id": "BX160-169",
+      "parents": [],
+      "prefix": "BX",
+      "start": 160.0,
+      "stop": 169.0,
+      "subject": "St. Thomas Christians. Malabar Christians.: Mar Thoma Syrian Church"
+    },
+    {
+      "id": "BX940-1745",
+      "parents": [],
+      "prefix": "BX",
+      "start": 940.0,
+      "stop": 1745.0,
+      "subject": "History: Including lives of popes"
+    },
+    {
+      "id": "BX4710.1-4715.95",
+      "parents": [],
+      "prefix": "BX",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Eastern churches in communion with Rome.: Catholics of the Oriental rites. Uniats"
+    },
+    {
+      "id": "BX5183-5187",
+      "parents": [],
+      "prefix": "BX",
+      "start": 5183.0,
+      "stop": 5187.0,
+      "subject": "Religious communities. Conventual life.: Religious societies"
+    },
+    {
+      "id": "BX5800-5995",
+      "parents": [],
+      "prefix": "BX",
+      "start": 5800.0,
+      "stop": 5995.0,
+      "subject": "Protestant Episcopal Church in the United States: of America"
+    },
+    {
+      "id": "BX6101-9999",
+      "parents": [],
+      "prefix": "BX",
+      "start": 6101.0,
+      "stop": 9999.0,
+      "subject": "Other Protestant denominations: Alphabetical; only larger denominations listed The subarrangement is essentially the same for each sect, the primary features being indicated by way of example under Baptists"
+    },
+    {
+      "id": "BX6751-6793",
+      "parents": [],
+      "prefix": "BX",
+      "start": 6751.0,
+      "stop": 6793.0,
+      "subject": "Christian Church: See also Disciples of Christ"
+    },
+    {
+      "id": "BX7801-7843",
+      "parents": [],
+      "prefix": "BX",
+      "start": 7801.0,
+      "stop": 7843.0,
+      "subject": "German Baptist Brethren. Church of the Brethren.: Dunkards"
+    },
+    {
+      "id": "BX7850-7865",
+      "parents": [],
+      "prefix": "BX",
+      "start": 7850.0,
+      "stop": 7865.0,
+      "subject": "German Evangelical Protestant Church of North: America. Evangelical Protestant Church of North America"
+    },
+    {
+      "id": "BX8551-8593",
+      "parents": [],
+      "prefix": "BX",
+      "start": 8551.0,
+      "stop": 8593.0,
+      "subject": "Moravian Church. United Brethren. Unitas: Fratrum. Herrnhuters"
+    },
+    {
+      "id": "BX8701-8749",
+      "parents": [],
+      "prefix": "BX",
+      "start": 8701.0,
+      "stop": 8749.0,
+      "subject": "New Jerusalem Church. New Church.: Swedenborgianism"
+    },
+    {
+      "id": "BX9875-9877.1",
+      "parents": [],
+      "prefix": "BX",
+      "start": 9875.0,
+      "stop": 9877.0,
+      "subject": "United Brethren in Christ. Church of the United: Brethren in Christ"
+    }
+  ],
+  "CC": [
+    {
+      "id": "CC135-137",
+      "parents": [],
+      "prefix": "CC",
+      "start": 135.0,
+      "stop": 137.0,
+      "subject": "Preservation, restoration, and conservation of: antiquities. Antiquities and state"
+    }
+  ],
+  "CS": [
+    {
+      "id": "CS23-35",
+      "parents": [],
+      "prefix": "CS",
+      "start": 23.0,
+      "stop": 35.0,
+      "subject": "Genealogical lists, etc., covering more than one country: or continent"
+    }
+  ],
+  "CT": [
+    {
+      "id": "CT9960-9998",
+      "parents": [],
+      "prefix": "CT",
+      "start": 9960.0,
+      "stop": 9998.0,
+      "subject": "Other miscellaneous groups: Including adventurers, eccentrics, misers, etc."
+    }
+  ],
+  "DA": [
+    {
+      "id": "DA10-18.2",
+      "parents": [],
+      "prefix": "DA",
+      "start": 10.0,
+      "stop": 18.0,
+      "subject": "British Empire. Commonwealth of Nations. The: Commonwealth"
+    },
+    {
+      "id": "DA40-89.6",
+      "parents": [],
+      "prefix": "DA",
+      "start": 40.0,
+      "stop": 89.0,
+      "subject": "Political, military, naval, and Air Force history.: Foreign relations"
+    },
+    {
+      "id": "DA200-260",
+      "parents": [],
+      "prefix": "DA",
+      "start": 200.0,
+      "stop": 260.0,
+      "subject": "1154-1485. Angevins. Plantagenets.: Lancaster-York"
+    }
+  ],
+  "DB": [
+    {
+      "id": "DB99-99.1",
+      "parents": [],
+      "prefix": "DB",
+      "start": 99.0,
+      "stop": 99.0,
+      "subject": "1938-1955. German annexation.: Allied occupation"
+    },
+    {
+      "id": "DB2000-2035",
+      "parents": [],
+      "prefix": "DB",
+      "start": 2000.0,
+      "stop": 2035.0,
+      "subject": "General. Description and travel. Antiquities. Social: life and customs"
+    }
+  ],
+  "DC": [
+    {
+      "id": "DC281-326.5",
+      "parents": [],
+      "prefix": "DC",
+      "start": 281.0,
+      "stop": 326.0,
+      "subject": "Franco-German or Franco-Prussian War,: 1870-1871"
+    }
+  ],
+  "DD": [
+    {
+      "id": "DD190-199",
+      "parents": [],
+      "prefix": "DD",
+      "start": 190.0,
+      "stop": 199.0,
+      "subject": "1648-1815. 18th century. French Revolutionary: and Napoleonic period"
+    }
+  ],
+  "DG": [
+    {
+      "id": "DG242-249.4",
+      "parents": [],
+      "prefix": "DG",
+      "start": 242.0,
+      "stop": 249.0,
+      "subject": "First and Second Punic Wars. Illyrian: wars. 264-201"
+    },
+    {
+      "id": "DG250-253",
+      "parents": [],
+      "prefix": "DG",
+      "start": 250.0,
+      "stop": 253.0,
+      "subject": "Wars in the East and in the West.: 200-133"
+    },
+    {
+      "id": "DG253.5-269",
+      "parents": [],
+      "prefix": "DG",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Fall of the Republic and establishment: of the Empire. 133-27"
+    },
+    {
+      "id": "DG256-260",
+      "parents": [],
+      "prefix": "DG",
+      "start": 256.0,
+      "stop": 260.0,
+      "subject": "Period of Marius and Sulla (Pompey).: 111-78"
+    },
+    {
+      "id": "DG506-514.7",
+      "parents": [],
+      "prefix": "DG",
+      "start": 506.0,
+      "stop": 514.0,
+      "subject": "489-774. Gothic and Lombard kingdoms.: Byzantine exarchate, 553-568"
+    },
+    {
+      "id": "DG791-800",
+      "parents": [],
+      "prefix": "DG",
+      "start": 791.0,
+      "stop": 800.0,
+      "subject": "Papal States (States of the Church). Holy See. Vatican: City"
+    }
+  ],
+  "DK": [
+    {
+      "id": "DK670-679.5",
+      "parents": [],
+      "prefix": "DK",
+      "start": 670.0,
+      "stop": 679.0,
+      "subject": "Georgia (Republic). Georgian S.S.R. Georgian: Sakartvelo"
+    }
+  ],
+  "DL": [
+    {
+      "id": "DL61-65",
+      "parents": [],
+      "prefix": "DL",
+      "start": 61.0,
+      "stop": 65.0,
+      "subject": "Earliest to 1387. Scandinavian Empire. Northmen.: Vikings"
+    },
+    {
+      "id": "DL701-719.9",
+      "parents": [],
+      "prefix": "DL",
+      "start": 701.0,
+      "stop": 719.0,
+      "subject": "Vasa dynasty, 1523-1654. Gustaf II Adolf,: 1611-1632"
+    }
+  ],
+  "DS": [
+    {
+      "id": "DS41-66",
+      "parents": [],
+      "prefix": "DS",
+      "start": 41.0,
+      "stop": 66.0,
+      "subject": "Middle East. Southwestern Asia. Ancient Orient.: Arab East. Near East"
+    }
+  ],
+  "DT": [
+    {
+      "id": "DT411-411.9",
+      "parents": [],
+      "prefix": "DT",
+      "start": 411.0,
+      "stop": 411.0,
+      "subject": "Djibouti. French Territory of the Afars and Issas.: French Somaliland"
+    },
+    {
+      "id": "DT521-555.9",
+      "parents": [],
+      "prefix": "DT",
+      "start": 521.0,
+      "stop": 555.0,
+      "subject": "French West Africa. French Sahara. West Sahara.: Sahel"
+    },
+    {
+      "id": "DT546.3-546.39",
+      "parents": [],
+      "prefix": "DT",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Central African Republic. Central African Empire.: Ubangi-Shari"
+    },
+    {
+      "id": "DT551-551.9",
+      "parents": [],
+      "prefix": "DT",
+      "start": 551.0,
+      "stop": 551.0,
+      "subject": "Mali. Mali Federation. Sudanese Republic.: French Sudan"
+    },
+    {
+      "id": "DT2831-2864",
+      "parents": [],
+      "prefix": "DT",
+      "start": 2831.0,
+      "stop": 2864.0,
+      "subject": "British Central Africa. Federation of Rhodesia: and Nyasaland"
+    }
+  ],
+  "E": [
+    {
+      "id": "E310.7",
+      "parents": [],
+      "prefix": "E",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Diplomatic history. Foreign and general: relations"
+    },
+    {
+      "id": "E391-392",
+      "parents": [],
+      "prefix": "E",
+      "start": 391.0,
+      "stop": 392.0,
+      "subject": "William H. Harrison's administration, March 4-: April 4, 1841"
+    },
+    {
+      "id": "E440.5",
+      "parents": [],
+      "prefix": "E",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "State of the country, November 1860-: March 4, 1861"
+    },
+    {
+      "id": "E441-453",
+      "parents": [],
+      "prefix": "E",
+      "start": 441.0,
+      "stop": 453.0,
+      "subject": "Slavery in the United States. Antislavery: movements"
+    },
+    {
+      "id": "E661.7",
+      "parents": [],
+      "prefix": "E",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Diplomatic history. Foreign and general: relations"
+    },
+    {
+      "id": "E686-687.9",
+      "parents": [],
+      "prefix": "E",
+      "start": 686.0,
+      "stop": 687.0,
+      "subject": "Garfield's administration, March 4-September: 19, 1881"
+    },
+    {
+      "id": "E713",
+      "parents": [],
+      "prefix": "E",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Annexation in 1898 of Hawaii, the Philippines,: and Puerto Rico"
+    },
+    {
+      "id": "E744-744.5",
+      "parents": [],
+      "prefix": "E",
+      "start": 744.0,
+      "stop": 744.0,
+      "subject": "Diplomatic history. Foreign and general: relations"
+    },
+    {
+      "id": "E751",
+      "parents": [],
+      "prefix": "E",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "McKinley's second administration, March 4-: 14-Sep-01"
+    },
+    {
+      "id": "E756-760",
+      "parents": [],
+      "prefix": "E",
+      "start": 756.0,
+      "stop": 760.0,
+      "subject": "Theodore Roosevelt's administrations,: September 14, 1901-1909"
+    },
+    {
+      "id": "E768",
+      "parents": [],
+      "prefix": "E",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Purchase of Danish West Indies (Virgin: Islands), 1917"
+    },
+    {
+      "id": "E784-805",
+      "parents": [],
+      "prefix": "E",
+      "start": 784.0,
+      "stop": 805.0,
+      "subject": "1919-1933. Harding-Coolidge-Hoover era. \"The: twenties\""
+    },
+    {
+      "id": "E806-812",
+      "parents": [],
+      "prefix": "E",
+      "start": 806.0,
+      "stop": 812.0,
+      "subject": "Franklin Delano Roosevelt's administrations,: 1933-April 12, 1945"
+    },
+    {
+      "id": "E840-840.2",
+      "parents": [],
+      "prefix": "E",
+      "start": 840.0,
+      "stop": 840.0,
+      "subject": "Diplomatic history. Foreign and general: relations"
+    }
+  ],
+  "F": [
+    {
+      "id": "F852-854",
+      "parents": [],
+      "prefix": "F",
+      "start": 852.0,
+      "stop": 854.0,
+      "subject": "Pacific Northwest. Columbia River and Valley.: Northwest boundary since 1846"
+    },
+    {
+      "id": "F951",
+      "parents": [],
+      "prefix": "F",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Bering Sea and Aleutian Islands: Hawaii, see DU620+"
+    },
+    {
+      "id": "F965",
+      "parents": [],
+      "prefix": "F",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "The territories of the United States (General): United States local history - Continued"
+    },
+    {
+      "id": "F1141-1145.2",
+      "parents": [],
+      "prefix": "F",
+      "start": 1141.0,
+      "stop": 1145.0,
+      "subject": "Nunavut: Other than Canada Bahamas, see F1650+ Bermudas, see F1630+ British East and West Florida, 1763-1783, see F301, F314 British Guiana, see F2361+ British Honduras (Belize), see F1441+ British West Indies, see F2131+ Falkland Islands, see F3031+ Thirteen North American Colonies before 1776, see E186+ Dutch America Colony in Brazil, 1625-1661, see F2532 Dutch Guinea, see F2401+ Dutch West Indies, see F2141 New Netherlands to 1664, see F122.1 New Sweden (Dutch possession, 1655-1664), see F167 French America"
+    },
+    {
+      "id": "F1170",
+      "parents": [],
+      "prefix": "F",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Saint Pierre and Miquelon: Other French America Colony in Brazil, 1555-1567, see F2529 Colony in Florida, 1562-1565, see F314 French Guiana, see F2441+ French West Indies, see F2151 Louisiana, 1698-1803, see F372 New France and Acadia, 1600-1763, see F1030, F1038"
+    },
+    {
+      "id": "F2001-2151",
+      "parents": [],
+      "prefix": "F",
+      "start": 2001.0,
+      "stop": 2151.0,
+      "subject": "Lesser Antilles: Groups of islands, by geographical distribution"
+    },
+    {
+      "id": "F2033-2129",
+      "parents": [],
+      "prefix": "F",
+      "start": 2033.0,
+      "stop": 2129.0,
+      "subject": "Individual islands: Groups of islands, by political allegiance"
+    }
+  ],
+  "G": [
+    {
+      "id": "G100.5-108.5",
+      "parents": [],
+      "prefix": "G",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Toponymy: Including gazetteers, geographic names and terms"
+    },
+    {
+      "id": "G2110-2196",
+      "parents": [],
+      "prefix": "G",
+      "start": 2110.0,
+      "stop": 2196.0,
+      "subject": "Former Soviet republics. Union of Soviet Socialist: Republics (U.S.S.R.). Russia (Empire)"
+    },
+    {
+      "id": "G3122",
+      "parents": [],
+      "prefix": "G",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Atlases of imaginary, literary, and mythological: regions, etc., A-Z"
+    },
+    {
+      "id": "G7000-7342",
+      "parents": [],
+      "prefix": "G",
+      "start": 7000.0,
+      "stop": 7342.0,
+      "subject": "Former Soviet republics. Union of Soviet Socialist: Republics (U.S.S.R.). Russia (Empire)"
+    }
+  ],
+  "GA": [
+    {
+      "id": "GA109",
+      "parents": [],
+      "prefix": "GA",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Aerial cartography: Mathematical geography. Cartography Cartography - Continued"
+    }
+  ],
+  "GB": [
+    {
+      "id": "GB561-649",
+      "parents": [],
+      "prefix": "GB",
+      "start": 561.0,
+      "stop": 649.0,
+      "subject": "Other natural landforms: Floodplains, caves,: deserts, dunes, etc."
+    }
+  ],
+  "GC": [
+    {
+      "id": "GC160-177",
+      "parents": [],
+      "prefix": "GC",
+      "start": 160.0,
+      "stop": 177.0,
+      "subject": "Temperature: Oceanography Physical oceanography - Continued"
+    }
+  ],
+  "GN": [
+    {
+      "id": "GN62.8-265",
+      "parents": [],
+      "prefix": "GN",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Human variation: Including growth, physical form, skeleton, nervous system, skin, etc."
+    },
+    {
+      "id": "GN357-367",
+      "parents": [],
+      "prefix": "GN",
+      "start": 357.0,
+      "stop": 367.0,
+      "subject": "Culture and cultural processes: Including social change, structuralism, diffusion, etc. Anthropology - Continued Ethnology. Social and cultural anthropology - Continued"
+    },
+    {
+      "id": "GN406-442",
+      "parents": [],
+      "prefix": "GN",
+      "start": 406.0,
+      "stop": 442.0,
+      "subject": "Technology. Material culture: Including food, shelter, fire, tools, etc."
+    },
+    {
+      "id": "GN451-477.7",
+      "parents": [],
+      "prefix": "GN",
+      "start": 451.0,
+      "stop": 477.0,
+      "subject": "Intellectual life: Including communication, recreation, philosophy, religion, knowledge, etc."
+    }
+  ],
+  "GR": [
+    {
+      "id": "GR72-79",
+      "parents": [],
+      "prefix": "GR",
+      "start": 72.0,
+      "stop": 79.0,
+      "subject": "Folk literature (General): Including folktales, legends"
+    },
+    {
+      "id": "GR430-488",
+      "parents": [],
+      "prefix": "GR",
+      "start": 430.0,
+      "stop": 488.0,
+      "subject": "Folklore relating to private life: Including dreams, love, children, nursery rhymes, etc."
+    },
+    {
+      "id": "GR500-615",
+      "parents": [],
+      "prefix": "GR",
+      "start": 500.0,
+      "stop": 615.0,
+      "subject": "Supernatural beings, demonology, fairies, ghosts,: charms, etc."
+    }
+  ],
+  "GT": [
+    {
+      "id": "GT485",
+      "parents": [],
+      "prefix": "GT",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Churches and church going: Manners and customs (General) - Continued"
+    },
+    {
+      "id": "GT2400-3390.5",
+      "parents": [],
+      "prefix": "GT",
+      "start": 2400.0,
+      "stop": 3390.0,
+      "subject": "Customs relative to private life: Including children, marriage, eating and drinking, funeral customs, etc."
+    },
+    {
+      "id": "GT3400-5090",
+      "parents": [],
+      "prefix": "GT",
+      "start": 3400.0,
+      "stop": 5090.0,
+      "subject": "Customs relative to public and social life: Including town life, court life, festivals, holidays, ceremonies of royalty, etc."
+    }
+  ],
+  "GV": [
+    {
+      "id": "GV346-351.5",
+      "parents": [],
+      "prefix": "GV",
+      "start": 346.0,
+      "stop": 351.0,
+      "subject": "School and college athletics. Intramural: and interscholastic athletics"
+    },
+    {
+      "id": "GV401-433",
+      "parents": [],
+      "prefix": "GV",
+      "start": 401.0,
+      "stop": 433.0,
+      "subject": "Physical education facilities. Sports facilities: Including gymnasiums, athletic fields, playgrounds, etc."
+    },
+    {
+      "id": "GV460-555",
+      "parents": [],
+      "prefix": "GV",
+      "start": 460.0,
+      "stop": 555.0,
+      "subject": "Gymnastics. Gymnastic exercises: Including calisthenics, heavy exercises, acrobatics, etc."
+    },
+    {
+      "id": "GV750-770.27",
+      "parents": [],
+      "prefix": "GV",
+      "start": 750.0,
+      "stop": 770.0,
+      "subject": "Air sports: Airplane flying, kiteflying, bungee jumping, etc.: Recreation. Leisure Sports - Continued"
+    },
+    {
+      "id": "GV770.3-840",
+      "parents": [],
+      "prefix": "GV",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Water sports: Canoeing, sailing, yachting, scuba: diving, etc."
+    },
+    {
+      "id": "GV840.7-857",
+      "parents": [],
+      "prefix": "GV",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Winter sports: Ice hockey, skiing, bobsledding,: snowmobiling, etc."
+    },
+    {
+      "id": "GV1800-1860",
+      "parents": [],
+      "prefix": "GV",
+      "start": 1800.0,
+      "stop": 1860.0,
+      "subject": "Circuses, spectacles, etc.: Including rodeos, waxworks, amusement parks, etc."
+    }
+  ],
+  "HA": [
+    {
+      "id": "HA38-39",
+      "parents": [],
+      "prefix": "HA",
+      "start": 38.0,
+      "stop": 39.0,
+      "subject": "Registration of vital events. Vital: records"
+    }
+  ],
+  "HB": [
+    {
+      "id": "HB71-74",
+      "parents": [],
+      "prefix": "HB",
+      "start": 71.0,
+      "stop": 74.0,
+      "subject": "Economics as a science. Relation to other: subjects"
+    },
+    {
+      "id": "HB75-130",
+      "parents": [],
+      "prefix": "HB",
+      "start": 75.0,
+      "stop": 130.0,
+      "subject": "History of economics. History of economic: theory Including special economic schools"
+    },
+    {
+      "id": "HB135-147",
+      "parents": [],
+      "prefix": "HB",
+      "start": 135.0,
+      "stop": 147.0,
+      "subject": "Mathematical economics. Quantitative methods: Including econometrics, input-output analysis, game theory"
+    },
+    {
+      "id": "HB615-715",
+      "parents": [],
+      "prefix": "HB",
+      "start": 615.0,
+      "stop": 715.0,
+      "subject": "Entrepreneurship. Risk and uncertainty.: Property"
+    }
+  ],
+  "HC": [
+    {
+      "id": "HC79",
+      "parents": [],
+      "prefix": "HC",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Special topics: Including air pollution, automation, consumer demand, famines, flow of funds, etc."
+    }
+  ],
+  "HD": [
+    {
+      "id": "HD49-49.5",
+      "parents": [],
+      "prefix": "HD",
+      "start": 49.0,
+      "stop": 49.0,
+      "subject": "Crisis management. Emergency management.: Inflation"
+    },
+    {
+      "id": "HD50-50.5",
+      "parents": [],
+      "prefix": "HD",
+      "start": 50.0,
+      "stop": 50.0,
+      "subject": "Delegation of authority. Decentralization.: Span of control"
+    },
+    {
+      "id": "HD58.7-58.95",
+      "parents": [],
+      "prefix": "HD",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Organizational behavior, change and: effectiveness. Corporate culture"
+    },
+    {
+      "id": "HD66-66.2",
+      "parents": [],
+      "prefix": "HD",
+      "start": 66.0,
+      "stop": 66.0,
+      "subject": "Work groups. Team work in industry.: Quality circles"
+    },
+    {
+      "id": "HD69",
+      "parents": [],
+      "prefix": "HD",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Other: Including business consultants, capacity, size of industries, etc."
+    },
+    {
+      "id": "HD101-1395.5",
+      "parents": [],
+      "prefix": "HD",
+      "start": 101.0,
+      "stop": 1395.0,
+      "subject": "Land use: Land tenure"
+    },
+    {
+      "id": "HD1336-1339",
+      "parents": [],
+      "prefix": "HD",
+      "start": 1336.0,
+      "stop": 1339.0,
+      "subject": "Small holdings. Peasant proprietors.: Parcellation"
+    },
+    {
+      "id": "HD1493-1493.5",
+      "parents": [],
+      "prefix": "HD",
+      "start": 1493.0,
+      "stop": 1493.0,
+      "subject": "Government owned and operated farms. State: farms. Sovkhozes"
+    },
+    {
+      "id": "HD1501-1542",
+      "parents": [],
+      "prefix": "HD",
+      "start": 1501.0,
+      "stop": 1542.0,
+      "subject": "Agricultural classes: Including farm tenancy, agricultural laborers"
+    },
+    {
+      "id": "HD1635-1702",
+      "parents": [],
+      "prefix": "HD",
+      "start": 1635.0,
+      "stop": 1702.0,
+      "subject": "Utilization and culture of special classes of: lands Including pasture lands, water resources development"
+    },
+    {
+      "id": "HD2340.8-2346.5",
+      "parents": [],
+      "prefix": "HD",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Small and medium-sized businesses, artisans,: handicrafts, trades"
+    },
+    {
+      "id": "HD2709-2930.7",
+      "parents": [],
+      "prefix": "HD",
+      "start": 2709.0,
+      "stop": 2930.0,
+      "subject": "Corporations: Including international business enterprises, diversification, industrial concentration, public utilites"
+    },
+    {
+      "id": "HD3611-4730.9",
+      "parents": [],
+      "prefix": "HD",
+      "start": 3611.0,
+      "stop": 4730.0,
+      "subject": "Industrial policy. The state and industrial: organization Including licensing of occupations and professions, subsidies, inspection, government ownership, municipal services"
+    },
+    {
+      "id": "HD5106-5267",
+      "parents": [],
+      "prefix": "HD",
+      "start": 5106.0,
+      "stop": 5267.0,
+      "subject": "Hours of labor: Including overtime, shift work, sick leave, vacations"
+    },
+    {
+      "id": "HD5481-5630.7",
+      "parents": [],
+      "prefix": "HD",
+      "start": 5481.0,
+      "stop": 5630.0,
+      "subject": "Industrial arbitration. Mediation and: conciliation"
+    },
+    {
+      "id": "HD5650-5660",
+      "parents": [],
+      "prefix": "HD",
+      "start": 5650.0,
+      "stop": 5660.0,
+      "subject": "Employee participation in management.: Employee ownership. Industrial democracy. Works councils"
+    },
+    {
+      "id": "HD5701-6000.9",
+      "parents": [],
+      "prefix": "HD",
+      "start": 5701.0,
+      "stop": 6000.0,
+      "subject": "Labor market. Labor supply. Labor demand: Including unemployment, manpower policy, occupational training, employment agencies"
+    },
+    {
+      "id": "HD6050-6305",
+      "parents": [],
+      "prefix": "HD",
+      "start": 6050.0,
+      "stop": 6305.0,
+      "subject": "Classes of labor: Including women, children, students, middle-aged and older persons, minorities"
+    },
+    {
+      "id": "HD6350-6940.7",
+      "parents": [],
+      "prefix": "HD",
+      "start": 6350.0,
+      "stop": 6940.0,
+      "subject": "Trade unions. Labor unions. Workers': associations"
+    },
+    {
+      "id": "HD6951-6957",
+      "parents": [],
+      "prefix": "HD",
+      "start": 6951.0,
+      "stop": 6957.0,
+      "subject": "Industrial sociology. Social conditions of: labor"
+    },
+    {
+      "id": "HD7255-7256",
+      "parents": [],
+      "prefix": "HD",
+      "start": 7255.0,
+      "stop": 7256.0,
+      "subject": "Vocational rehabilitation. Employment of: people with disabilities"
+    },
+    {
+      "id": "HD8031",
+      "parents": [],
+      "prefix": "HD",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Labor in politics. Political activity of the: working class"
+    },
+    {
+      "id": "HD9680-9714",
+      "parents": [],
+      "prefix": "HD",
+      "start": 9680.0,
+      "stop": 9714.0,
+      "subject": "Mechanical industries: Including electric utilities, electronic industries, and machinery"
+    }
+  ],
+  "HE": [
+    {
+      "id": "HE331-380",
+      "parents": [],
+      "prefix": "HE",
+      "start": 331.0,
+      "stop": 380.0,
+      "subject": "Traffic engineering. Roads and highways.: Streets"
+    },
+    {
+      "id": "HE730-943",
+      "parents": [],
+      "prefix": "HE",
+      "start": 730.0,
+      "stop": 943.0,
+      "subject": "Merchant marine. Ocean shipping. Coastwise: shipping"
+    },
+    {
+      "id": "HE5601-5725",
+      "parents": [],
+      "prefix": "HE",
+      "start": 5601.0,
+      "stop": 5725.0,
+      "subject": "Automotive transportation: Including trucking, bus lines, and taxicab service"
+    },
+    {
+      "id": "HE9713-9715",
+      "parents": [],
+      "prefix": "HE",
+      "start": 9713.0,
+      "stop": 9715.0,
+      "subject": "Cellular telephone services industry. Wireless: telephone industry"
+    }
+  ],
+  "HF": [
+    {
+      "id": "HF294-343",
+      "parents": [],
+      "prefix": "HF",
+      "start": 294.0,
+      "stop": 343.0,
+      "subject": "Boards of trade. Chambers of commerce.: Merchants' associations"
+    },
+    {
+      "id": "HF5437-5444",
+      "parents": [],
+      "prefix": "HF",
+      "start": 5437.0,
+      "stop": 5444.0,
+      "subject": "Purchasing. Selling. Sales personnel. Sales: executives"
+    },
+    {
+      "id": "HF5460-5469.5",
+      "parents": [],
+      "prefix": "HF",
+      "start": 5460.0,
+      "stop": 5469.0,
+      "subject": "Department stores. Mail order business.: Supermarkets. Convenience stores"
+    },
+    {
+      "id": "HF5549-5549.5",
+      "parents": [],
+      "prefix": "HF",
+      "start": 5549.0,
+      "stop": 5549.0,
+      "subject": "Personnel management. Employment: management"
+    },
+    {
+      "id": "HF5691-5716",
+      "parents": [],
+      "prefix": "HF",
+      "start": 5691.0,
+      "stop": 5716.0,
+      "subject": "Business mathematics. Commercial arithmetic: Including tables, etc."
+    },
+    {
+      "id": "HF5717-5734.7",
+      "parents": [],
+      "prefix": "HF",
+      "start": 5717.0,
+      "stop": 5734.0,
+      "subject": "Business communication: Including business report writing, business correspondence"
+    }
+  ],
+  "HG": [
+    {
+      "id": "HG1656",
+      "parents": [],
+      "prefix": "HG",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Bank reserves. Bank liquidity. Loan loss: reserves"
+    },
+    {
+      "id": "HG1660",
+      "parents": [],
+      "prefix": "HG",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Bank accounts. Bank deposits. Deposit: banking"
+    },
+    {
+      "id": "HG1725-1778",
+      "parents": [],
+      "prefix": "HG",
+      "start": 1725.0,
+      "stop": 1778.0,
+      "subject": "Banks and the state. State supervision of: banks"
+    },
+    {
+      "id": "HG1811-2351",
+      "parents": [],
+      "prefix": "HG",
+      "start": 1811.0,
+      "stop": 2351.0,
+      "subject": "Special classes of banks and financial: institutions"
+    },
+    {
+      "id": "HG3691-3769",
+      "parents": [],
+      "prefix": "HG",
+      "start": 3691.0,
+      "stop": 3769.0,
+      "subject": "Credit. Debt. Loans: Including credit institutions, credit instruments, consumer credit, bankruptcy"
+    },
+    {
+      "id": "HG3810-4000",
+      "parents": [],
+      "prefix": "HG",
+      "start": 3810.0,
+      "stop": 4000.0,
+      "subject": "Foreign exchange. International finance.: International monetary system"
+    },
+    {
+      "id": "HG4001-4285",
+      "parents": [],
+      "prefix": "HG",
+      "start": 4001.0,
+      "stop": 4285.0,
+      "subject": "Finance management. Business finance.: Corporation finance"
+    },
+    {
+      "id": "HG4530",
+      "parents": [],
+      "prefix": "HG",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Investment companies. Investment trusts.: Mutual funds"
+    },
+    {
+      "id": "HG4621",
+      "parents": [],
+      "prefix": "HG",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Stockbrokers. Security dealers. Investment: advisers"
+    },
+    {
+      "id": "HG4701-4751",
+      "parents": [],
+      "prefix": "HG",
+      "start": 4701.0,
+      "stop": 4751.0,
+      "subject": "Government securities. Industrial securities.: Venture capital"
+    },
+    {
+      "id": "HG8053.5-8054.45",
+      "parents": [],
+      "prefix": "HG",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Insurance for professions. Malpractice: insurance. Professional liability insurance"
+    },
+    {
+      "id": "HG8779-8793",
+      "parents": [],
+      "prefix": "HG",
+      "start": 8779.0,
+      "stop": 8793.0,
+      "subject": "Actuarial science. Statistical theory and: methodology applied to insurance"
+    },
+    {
+      "id": "HG9201-9245",
+      "parents": [],
+      "prefix": "HG",
+      "start": 9201.0,
+      "stop": 9245.0,
+      "subject": "Mutual life insurance. Assessment life: insurance. Fraternal life insurance"
+    },
+    {
+      "id": "HG9271",
+      "parents": [],
+      "prefix": "HG",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Child insurance. Life insurance for: children"
+    },
+    {
+      "id": "HG9969.5-9999",
+      "parents": [],
+      "prefix": "HG",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Other insurance: Including automobile, burglary, credit, disaster, title insurance"
+    }
+  ],
+  "HJ": [
+    {
+      "id": "HJ5309-5510",
+      "parents": [],
+      "prefix": "HJ",
+      "start": 5309.0,
+      "stop": 5510.0,
+      "subject": "Administrative fees. User charges.: License fees"
+    },
+    {
+      "id": "HJ9103-9695",
+      "parents": [],
+      "prefix": "HJ",
+      "start": 9103.0,
+      "stop": 9695.0,
+      "subject": "Local finance. Municipal finance: Including the revenue, budget, expenditure, etc. of counties, boroughs, communes, municipalities, etc."
+    }
+  ],
+  "HM": [
+    {
+      "id": "HM435-477",
+      "parents": [],
+      "prefix": "HM",
+      "start": 435.0,
+      "stop": 477.0,
+      "subject": "History of sociology. History of sociological: theory"
+    },
+    {
+      "id": "HM1041-1101",
+      "parents": [],
+      "prefix": "HM",
+      "start": 1041.0,
+      "stop": 1101.0,
+      "subject": "Social perception. Social cognition: Including perception of the self and others, prejudices, stereotype"
+    }
+  ],
+  "HN": [
+    {
+      "id": "HN1-995",
+      "parents": [],
+      "prefix": "HN",
+      "start": 1.0,
+      "stop": 995.0,
+      "subject": "Social history and conditions. Social problems.: Social reform"
+    }
+  ],
+  "HQ": [
+    {
+      "id": "HQ755.7-759.92",
+      "parents": [],
+      "prefix": "HQ",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Parents. Parenthood: Including parent and child, husbands, fathers, wives, mothers"
+    },
+    {
+      "id": "HQ767.8-792.2",
+      "parents": [],
+      "prefix": "HQ",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Children. Child development: Including child rearing, child life, play, socialization, children's rights"
+    },
+    {
+      "id": "HQ803",
+      "parents": [],
+      "prefix": "HQ",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Temporary marriage. Trial marriage.: Companionate marriage"
+    },
+    {
+      "id": "HQ1060-1064",
+      "parents": [],
+      "prefix": "HQ",
+      "start": 1060.0,
+      "stop": 1064.0,
+      "subject": "Aged. Gerontology (Social aspects).: Retirement"
+    },
+    {
+      "id": "HQ2035-2039",
+      "parents": [],
+      "prefix": "HQ",
+      "start": 2035.0,
+      "stop": 2039.0,
+      "subject": "Life skills. Coping skills. Everyday living: skills"
+    }
+  ],
+  "HS": [
+    {
+      "id": "HS1501-1510",
+      "parents": [],
+      "prefix": "HS",
+      "start": 1501.0,
+      "stop": 1510.0,
+      "subject": "Benevolent and \"friendly\" societies and: mutual assessment fraternities"
+    },
+    {
+      "id": "HS2501-3371",
+      "parents": [],
+      "prefix": "HS",
+      "start": 2501.0,
+      "stop": 3371.0,
+      "subject": "Clubs. Clubs and societies for special classes: Including boys' societies, Boy scouts, girls' societies"
+    }
+  ],
+  "HT": [
+    {
+      "id": "HT201-221",
+      "parents": [],
+      "prefix": "HT",
+      "start": 201.0,
+      "stop": 221.0,
+      "subject": "City population: Including children in cities, immigration"
+    },
+    {
+      "id": "HT321-325",
+      "parents": [],
+      "prefix": "HT",
+      "start": 321.0,
+      "stop": 325.0,
+      "subject": "The city as an economic factor. City: promotion"
+    },
+    {
+      "id": "HT641-657",
+      "parents": [],
+      "prefix": "HT",
+      "start": 641.0,
+      "stop": 657.0,
+      "subject": "Classes arising from birth: Including royalty, nobility, commons"
+    },
+    {
+      "id": "HT1501-1595",
+      "parents": [],
+      "prefix": "HT",
+      "start": 1501.0,
+      "stop": 1595.0,
+      "subject": "Races: Including race as a social group and race relations in general"
+    }
+  ],
+  "HV": [
+    {
+      "id": "HV1-9960",
+      "parents": [],
+      "prefix": "HV",
+      "start": 1.0,
+      "stop": 9960.0,
+      "subject": "Social pathology. Social and public welfare.: Criminology"
+    },
+    {
+      "id": "HV40-69",
+      "parents": [],
+      "prefix": "HV",
+      "start": 40.0,
+      "stop": 69.0,
+      "subject": "Social service. Social work. Charity: organization and practice Including social case work, private and public relief, institutional care, rural social work, work relief"
+    },
+    {
+      "id": "HV680-696",
+      "parents": [],
+      "prefix": "HV",
+      "start": 680.0,
+      "stop": 696.0,
+      "subject": "Free professional services: Including medical charities"
+    },
+    {
+      "id": "HV873-887",
+      "parents": [],
+      "prefix": "HV",
+      "start": 873.0,
+      "stop": 887.0,
+      "subject": "Destitute, neglected, and abandoned: children. Street children"
+    },
+    {
+      "id": "HV1551-3024",
+      "parents": [],
+      "prefix": "HV",
+      "start": 1551.0,
+      "stop": 3024.0,
+      "subject": "People with disabilities: Including blind, deaf, people with physical and mental disabilities"
+    },
+    {
+      "id": "HV4480-4630",
+      "parents": [],
+      "prefix": "HV",
+      "start": 4480.0,
+      "stop": 4630.0,
+      "subject": "Mendicancy. Vagabondism. Tramps.: Homelessness"
+    },
+    {
+      "id": "HV4701-4890.9",
+      "parents": [],
+      "prefix": "HV",
+      "start": 4701.0,
+      "stop": 4890.0,
+      "subject": "Protection of animals. Animal rights. Animal: welfare"
+    },
+    {
+      "id": "HV6035-6197",
+      "parents": [],
+      "prefix": "HV",
+      "start": 6035.0,
+      "stop": 6197.0,
+      "subject": "Criminal anthropology: Including criminal types, criminal psychology, prison psychology, causes of crime"
+    },
+    {
+      "id": "HV8035-8069",
+      "parents": [],
+      "prefix": "HV",
+      "start": 8035.0,
+      "stop": 8069.0,
+      "subject": "Special classes of crimes, offenses: and criminals"
+    },
+    {
+      "id": "HV8073-8079.35",
+      "parents": [],
+      "prefix": "HV",
+      "start": 8073.0,
+      "stop": 8079.0,
+      "subject": "Investigation of crimes. Examination: and identification of prisoners"
+    },
+    {
+      "id": "HV8079.5-8079.55",
+      "parents": [],
+      "prefix": "HV",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Traffic control. Traffic accident: investigation"
+    },
+    {
+      "id": "HV9051-9230.7",
+      "parents": [],
+      "prefix": "HV",
+      "start": 9051.0,
+      "stop": 9230.0,
+      "subject": "The juvenile offender. Juvenile delinquency.: Reform schools, etc."
+    },
+    {
+      "id": "HV9261-9430.7",
+      "parents": [],
+      "prefix": "HV",
+      "start": 9261.0,
+      "stop": 9430.0,
+      "subject": "Reformation and reclamation of adult: prisoners"
+    }
+  ],
+  "HX": [
+    {
+      "id": "HX519-550",
+      "parents": [],
+      "prefix": "HX",
+      "start": 519.0,
+      "stop": 550.0,
+      "subject": "Communism/socialism in relation to special: topics"
+    },
+    {
+      "id": "HX626-696",
+      "parents": [],
+      "prefix": "HX",
+      "start": 626.0,
+      "stop": 696.0,
+      "subject": "Communism: Utopian socialism, collective: settlements"
+    }
+  ],
+  "J": [
+    {
+      "id": "J80-82",
+      "parents": [],
+      "prefix": "J",
+      "start": 80.0,
+      "stop": 82.0,
+      "subject": "Presidents' messages and other executive: papers"
+    }
+  ],
+  "JJ": [
+    {
+      "id": "JJ1000-1019",
+      "parents": [],
+      "prefix": "JJ",
+      "start": 1000.0,
+      "stop": 1019.0,
+      "subject": "Political institutions and public administration: (North America)"
+    }
+  ],
+  "JK": [
+    {
+      "id": "JK1-9993",
+      "parents": [],
+      "prefix": "JK",
+      "start": 1.0,
+      "stop": 9993.0,
+      "subject": "Political institutions and public administration: (United States)"
+    },
+    {
+      "id": "JK1606-1683",
+      "parents": [],
+      "prefix": "JK",
+      "start": 1606.0,
+      "stop": 1683.0,
+      "subject": "Capital. Public buildings. Government: property. Government purchasing"
+    }
+  ],
+  "JL": [
+    {
+      "id": "JL1-3899",
+      "parents": [],
+      "prefix": "JL",
+      "start": 1.0,
+      "stop": 3899.0,
+      "subject": "Political institutions and public administration: (Canada, Latin America, etc.)"
+    }
+  ],
+  "JQ": [
+    {
+      "id": "JQ21-6651",
+      "parents": [],
+      "prefix": "JQ",
+      "start": 21.0,
+      "stop": 6651.0,
+      "subject": "Political institutions and public administration (Asia,: Africa, Australia, Pacific Area, etc.)"
+    },
+    {
+      "id": "JQ1070-1199",
+      "parents": [],
+      "prefix": "JQ",
+      "start": 1070.0,
+      "stop": 1199.0,
+      "subject": "Central Asia: Including former republics of the Soviet Union"
+    },
+    {
+      "id": "JQ1499-1749",
+      "parents": [],
+      "prefix": "JQ",
+      "start": 1499.0,
+      "stop": 1749.0,
+      "subject": "East Asia: Including China, Japan, Korea"
+    },
+    {
+      "id": "JQ1758-1852",
+      "parents": [],
+      "prefix": "JQ",
+      "start": 1758.0,
+      "stop": 1852.0,
+      "subject": "Middle East: Including Turkey, Iran, Israel, Arabian Peninsula"
+    }
+  ],
+  "JV": [
+    {
+      "id": "JV1-9480",
+      "parents": [],
+      "prefix": "JV",
+      "start": 1.0,
+      "stop": 9480.0,
+      "subject": "Colonies and colonization. Emigration and: immigration. International migration"
+    },
+    {
+      "id": "JV6001-9480",
+      "parents": [],
+      "prefix": "JV",
+      "start": 6001.0,
+      "stop": 9480.0,
+      "subject": "Emigration and immigration. International: migration"
+    }
+  ],
+  "JZ": [
+    {
+      "id": "JZ24-38",
+      "parents": [],
+      "prefix": "JZ",
+      "start": 24.0,
+      "stop": 38.0,
+      "subject": "Societies, associations, academies, institutes, etc.,: for the study of international relations"
+    },
+    {
+      "id": "JZ1305-2060",
+      "parents": [],
+      "prefix": "JZ",
+      "start": 1305.0,
+      "stop": 2060.0,
+      "subject": "Scope of international relations. Political theory.: Diplomacy"
+    },
+    {
+      "id": "JZ1464-2060",
+      "parents": [],
+      "prefix": "JZ",
+      "start": 1464.0,
+      "stop": 2060.0,
+      "subject": "Scope of international relations with regard to: countries, territories, regions, etc."
+    },
+    {
+      "id": "JZ4841-4848",
+      "parents": [],
+      "prefix": "JZ",
+      "start": 4841.0,
+      "stop": 4848.0,
+      "subject": "Political non-governmental organizations.: NGOs"
+    },
+    {
+      "id": "JZ5514-5526",
+      "parents": [],
+      "prefix": "JZ",
+      "start": 5514.0,
+      "stop": 5526.0,
+      "subject": "Societies, associations, academies, institutes, etc.,: for peace promotion, research and education"
+    },
+    {
+      "id": "JZ6422-6422.5",
+      "parents": [],
+      "prefix": "JZ",
+      "start": 6422.0,
+      "stop": 6422.0,
+      "subject": "Neutrality. Non-participation in wars. Norms of: neutrality"
+    }
+  ],
+  "K": [
+    {
+      "id": "K288-296",
+      "parents": [],
+      "prefix": "K",
+      "start": 288.0,
+      "stop": 296.0,
+      "subject": "Interpretation and construction of law. Lacunae: in law"
+    },
+    {
+      "id": "K592-597",
+      "parents": [],
+      "prefix": "K",
+      "start": 592.0,
+      "stop": 597.0,
+      "subject": "Regional divisions. Interregional comparative: law"
+    },
+    {
+      "id": "K920",
+      "parents": [],
+      "prefix": "K",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Restitution. Quasi contracts. Unjust: enrichment"
+    },
+    {
+      "id": "K3440-3460",
+      "parents": [],
+      "prefix": "K",
+      "start": 3440.0,
+      "stop": 3460.0,
+      "subject": "Civil service. Government officials and: employees"
+    },
+    {
+      "id": "K3476-3560",
+      "parents": [],
+      "prefix": "K",
+      "start": 3476.0,
+      "stop": 3560.0,
+      "subject": "Public property. Public restraint on private: property"
+    },
+    {
+      "id": "K3615-3622",
+      "parents": [],
+      "prefix": "K",
+      "start": 3615.0,
+      "stop": 3622.0,
+      "subject": "Veterinary laws. Veterinary medicine and: hygiene. Prevention of cruelty to animals"
+    },
+    {
+      "id": "K3820-3836",
+      "parents": [],
+      "prefix": "K",
+      "start": 3820.0,
+      "stop": 3836.0,
+      "subject": "Economic constitution, policy, planning, and: Development"
+    },
+    {
+      "id": "K3840-4375",
+      "parents": [],
+      "prefix": "K",
+      "start": 3840.0,
+      "stop": 4375.0,
+      "subject": "Regulation of industry, trade, and commerce.: Occupational law"
+    },
+    {
+      "id": "K4700-4705",
+      "parents": [],
+      "prefix": "K",
+      "start": 4700.0,
+      "stop": 4705.0,
+      "subject": "Government measures in time of war, national: emergency, or economic crisis"
+    },
+    {
+      "id": "K7051-7054",
+      "parents": [],
+      "prefix": "K",
+      "start": 7051.0,
+      "stop": 7054.0,
+      "subject": "International unification, approximation, and: harmonization"
+    },
+    {
+      "id": "K7310",
+      "parents": [],
+      "prefix": "K",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Restitution. Quasi contracts. Unjust: enrichment"
+    }
+  ],
+  "KB": [
+    {
+      "id": "KB1-4855",
+      "parents": [],
+      "prefix": "KB",
+      "start": 1.0,
+      "stop": 4855.0,
+      "subject": "Religious law in general. Comparative religious law.: Jurisprudence"
+    },
+    {
+      "id": "KB90.A-Z",
+      "parents": [],
+      "prefix": "KB",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Encyclopedias. Law dictionaries. Terms and phrases.: Vocabularies. By author or title, A-Z"
+    },
+    {
+      "id": "KB100.A-Z",
+      "parents": [],
+      "prefix": "KB",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Proverbia. Legal maxims. Brocardica juris. Regulae juris.: By author or title, A-Z"
+    },
+    {
+      "id": "KB130",
+      "parents": [],
+      "prefix": "KB",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Legal research. Legal bibliography. Methods of: bibliographic research"
+    },
+    {
+      "id": "KB2101-2862",
+      "parents": [],
+      "prefix": "KB",
+      "start": 2101.0,
+      "stop": 2862.0,
+      "subject": "Constitutions and religion. Constitutional and: administrative law"
+    },
+    {
+      "id": "KB2870",
+      "parents": [],
+      "prefix": "KB",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Civil service. Employees of state, communal agencies,: and religious corporations"
+    },
+    {
+      "id": "KB3709-3726",
+      "parents": [],
+      "prefix": "KB",
+      "start": 3709.0,
+      "stop": 3726.0,
+      "subject": "Government measures in time of war, national emergency,: or economic crisis"
+    }
+  ],
+  "KBM": [
+    {
+      "id": "KBM1-4855",
+      "parents": [],
+      "prefix": "KBM",
+      "start": 1.0,
+      "stop": 4855.0,
+      "subject": "Jewish law. Halakah: Halakah"
+    },
+    {
+      "id": "KBM2070-2614",
+      "parents": [],
+      "prefix": "KBM",
+      "start": 2070.0,
+      "stop": 2614.0,
+      "subject": "Constitutional law. Constitutional principles of the Jewish: community"
+    },
+    {
+      "id": "KBM3040.5-3073",
+      "parents": [],
+      "prefix": "KBM",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Public property. Communal property. Restraints on private: property"
+    },
+    {
+      "id": "KBM3709-3729",
+      "parents": [],
+      "prefix": "KBM",
+      "start": 3709.0,
+      "stop": 3729.0,
+      "subject": "Measures in time of war, national emergency, or economic: crisis"
+    }
+  ],
+  "KBP": [
+    {
+      "id": "KBP425-466.3",
+      "parents": [],
+      "prefix": "KBP",
+      "start": 425.0,
+      "stop": 466.0,
+      "subject": "Us.ul al-fiqh. Jurisprudence and theory of law. Science of: legal reasoning"
+    },
+    {
+      "id": "KBP2730-2968",
+      "parents": [],
+      "prefix": "KBP",
+      "start": 2730.0,
+      "stop": 2968.0,
+      "subject": "Government and administration. Siyasah. Administrative: process"
+    },
+    {
+      "id": "KBP3709-3727",
+      "parents": [],
+      "prefix": "KBP",
+      "start": 3709.0,
+      "stop": 3727.0,
+      "subject": "Government measures in time of war, national emergency,: or economic crisis"
+    }
+  ],
+  "KBR": [
+    {
+      "id": "KBR42-54.5",
+      "parents": [],
+      "prefix": "KBR",
+      "start": 42.0,
+      "stop": 54.0,
+      "subject": "Decisions of ecclesiastical tribunals and courts, and related: materials"
+    },
+    {
+      "id": "KBR56",
+      "parents": [],
+      "prefix": "KBR",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Encyclopedias. Law dictionaries. Terms and phrases.: Vocabularia"
+    },
+    {
+      "id": "KBR130-132",
+      "parents": [],
+      "prefix": "KBR",
+      "start": 130.0,
+      "stop": 132.0,
+      "subject": "Legal research. Legal bibliography. Methods of bibliographic: research"
+    },
+    {
+      "id": "KBR3040-3070",
+      "parents": [],
+      "prefix": "KBR",
+      "start": 3040.0,
+      "stop": 3070.0,
+      "subject": "The teaching office of the church. Magisterium. De ecclesiae: munere docendi"
+    },
+    {
+      "id": "KBR3077-3165",
+      "parents": [],
+      "prefix": "KBR",
+      "start": 3077.0,
+      "stop": 3165.0,
+      "subject": "Sacraments. Administration of sacraments. De sacramentis: et administratione"
+    },
+    {
+      "id": "KBR3320-3460",
+      "parents": [],
+      "prefix": "KBR",
+      "start": 3320.0,
+      "stop": 3460.0,
+      "subject": "Church property. Church economics and finance.: Administration"
+    },
+    {
+      "id": "KBR3780-3983",
+      "parents": [],
+      "prefix": "KBR",
+      "start": 3780.0,
+      "stop": 3983.0,
+      "subject": "Judiciary. Ecclesiastical courts and procedure. De: processibus"
+    },
+    {
+      "id": "KBR4000-4090",
+      "parents": [],
+      "prefix": "KBR",
+      "start": 4000.0,
+      "stop": 4090.0,
+      "subject": "Church and state relationships. De relationibus inter: ecclesiam et status. Ius publicum ecclesiae"
+    }
+  ],
+  "KBS": [
+    {
+      "id": "KBS110",
+      "parents": [],
+      "prefix": "KBS",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Legal research. Legal bibliography. Methods of bibliographic: research"
+    },
+    {
+      "id": "KBS125",
+      "parents": [],
+      "prefix": "KBS",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Canon law of Eastern churches and other disciplines or: subjects (not A-Z)"
+    }
+  ],
+  "KBT": [
+    {
+      "id": "KBT3-4300",
+      "parents": [],
+      "prefix": "KBT",
+      "start": 3.0,
+      "stop": 4300.0,
+      "subject": "Canon law of Eastern Rite Churches in Communion with the: Holy See of Rome"
+    },
+    {
+      "id": "KBT125",
+      "parents": [],
+      "prefix": "KBT",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Canon law of Eastern churches and other disciplines or: subjects (not A-Z)"
+    }
+  ],
+  "KBU": [
+    {
+      "id": "KBU42-54.5",
+      "parents": [],
+      "prefix": "KBU",
+      "start": 42.0,
+      "stop": 54.0,
+      "subject": "Decisions of ecclesiastical tribunals and courts, and related: materials"
+    },
+    {
+      "id": "KBU130-132",
+      "parents": [],
+      "prefix": "KBU",
+      "start": 130.0,
+      "stop": 132.0,
+      "subject": "Legal research. Legal bibliography. Methods of bibliographic: research"
+    },
+    {
+      "id": "KBU180.A-Z",
+      "parents": [],
+      "prefix": "KBU",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Works on diverse aspects of a particular subject and falling: within several branches of the law. By subject, A-Z"
+    },
+    {
+      "id": "KBU3040-3070",
+      "parents": [],
+      "prefix": "KBU",
+      "start": 3040.0,
+      "stop": 3070.0,
+      "subject": "The teaching office of the Church. Magisterium. De: ecclesiae munere docendi"
+    },
+    {
+      "id": "KBU3075-3165",
+      "parents": [],
+      "prefix": "KBU",
+      "start": 3075.0,
+      "stop": 3165.0,
+      "subject": "Sacraments. Administration of sacraments. De sacramentis: et administratione"
+    },
+    {
+      "id": "KBU3500-3774",
+      "parents": [],
+      "prefix": "KBU",
+      "start": 3500.0,
+      "stop": 3774.0,
+      "subject": "Sanctions in the Church. Criminal law. De sanctionibus in: Ecclesia. De lege poenali"
+    },
+    {
+      "id": "KBU4000-4097",
+      "parents": [],
+      "prefix": "KBU",
+      "start": 4000.0,
+      "stop": 4097.0,
+      "subject": "Church and state relationships. De relationibus inter: ecclesiam et status. Ius publicum ecclesiae"
+    }
+  ],
+  "KD": [
+    {
+      "id": "KD654",
+      "parents": [],
+      "prefix": "KD",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Criticism. Legal reform. General administration: of justice"
+    },
+    {
+      "id": "KD833-1020.6",
+      "parents": [],
+      "prefix": "KD",
+      "start": 833.0,
+      "stop": 1020.0,
+      "subject": "Land tenure. Transfer of rights in land.: Real estate management"
+    },
+    {
+      "id": "KD1034-1195",
+      "parents": [],
+      "prefix": "KD",
+      "start": 1034.0,
+      "stop": 1195.0,
+      "subject": "Public property. Public restraints on: private property"
+    },
+    {
+      "id": "KD1125-1162",
+      "parents": [],
+      "prefix": "KD",
+      "start": 1125.0,
+      "stop": 1162.0,
+      "subject": "Regional and city planning. Zoning.: Building"
+    },
+    {
+      "id": "KD1171-1184",
+      "parents": [],
+      "prefix": "KD",
+      "start": 1171.0,
+      "stop": 1184.0,
+      "subject": "Housing. Slum clearance. City: redevelopment"
+    },
+    {
+      "id": "KD1450",
+      "parents": [],
+      "prefix": "KD",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Goodwill. Business names. Registration: and transfer of business names"
+    },
+    {
+      "id": "KD1610-1616",
+      "parents": [],
+      "prefix": "KD",
+      "start": 1610.0,
+      "stop": 1616.0,
+      "subject": "Government contracts. Public contracts.: Purchasing and procurement"
+    },
+    {
+      "id": "KD1621-1630",
+      "parents": [],
+      "prefix": "KD",
+      "start": 1621.0,
+      "stop": 1630.0,
+      "subject": "Comprehensive. Mercantile law.: Commercial law"
+    },
+    {
+      "id": "KD1638-1642",
+      "parents": [],
+      "prefix": "KD",
+      "start": 1638.0,
+      "stop": 1642.0,
+      "subject": "Contract for work and labor (Contract for services).: Independent contractors"
+    },
+    {
+      "id": "KD1774-1787",
+      "parents": [],
+      "prefix": "KD",
+      "start": 1774.0,
+      "stop": 1787.0,
+      "subject": "Marketing of securities. Investments. Stock exchange: transactions"
+    },
+    {
+      "id": "KD1811-1834",
+      "parents": [],
+      "prefix": "KD",
+      "start": 1811.0,
+      "stop": 1834.0,
+      "subject": "Carriage by sea. Maritime (Commercial) law.: Admiralty"
+    },
+    {
+      "id": "KD2200-2990",
+      "parents": [],
+      "prefix": "KD",
+      "start": 2200.0,
+      "stop": 2990.0,
+      "subject": "Regulation of industry, trade, and commerce.: Occupational law"
+    },
+    {
+      "id": "KD2241-2370",
+      "parents": [],
+      "prefix": "KD",
+      "start": 2241.0,
+      "stop": 2370.0,
+      "subject": "Primary production. Extractive industries.: Conservation of natural resources"
+    },
+    {
+      "id": "KD2405-2430",
+      "parents": [],
+      "prefix": "KD",
+      "start": 2405.0,
+      "stop": 2430.0,
+      "subject": "Food processing industries. Agricultural: products"
+    },
+    {
+      "id": "KD3527",
+      "parents": [],
+      "prefix": "KD",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Lotteries. Games of chance. Betting: and gambling"
+    },
+    {
+      "id": "KD4430-4531",
+      "parents": [],
+      "prefix": "KD",
+      "start": 4430.0,
+      "stop": 4531.0,
+      "subject": "The Crown and the Central Government: (Executive branch)"
+    },
+    {
+      "id": "KD4656-4657",
+      "parents": [],
+      "prefix": "KD",
+      "start": 4656.0,
+      "stop": 4657.0,
+      "subject": "Decorations of honor. Awards of honor.: Dignities"
+    },
+    {
+      "id": "KD5110-5133",
+      "parents": [],
+      "prefix": "KD",
+      "start": 5110.0,
+      "stop": 5133.0,
+      "subject": "Government measures in time of war, national emergency,: or economic crisis. Emergency economic legislation"
+    },
+    {
+      "id": "KD6335",
+      "parents": [],
+      "prefix": "KD",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Civil status of members of the Armed Forces and: auxiliary services. Civil law relating to soldiers, sailors, airmen, etc ."
+    },
+    {
+      "id": "KD6870-6992",
+      "parents": [],
+      "prefix": "KD",
+      "start": 6870.0,
+      "stop": 6992.0,
+      "subject": "Administration of justice. Courts and procedure: before the Judicature Act of 1873"
+    },
+    {
+      "id": "KD7000-7312",
+      "parents": [],
+      "prefix": "KD",
+      "start": 7000.0,
+      "stop": 7312.0,
+      "subject": "Administration of justice. Courts and procedure: since the Judicature Act of 1873"
+    },
+    {
+      "id": "KD8600-8790",
+      "parents": [],
+      "prefix": "KD",
+      "start": 8600.0,
+      "stop": 8790.0,
+      "subject": "Ecclesiastical law. Csanon law of the Church of: England. Church and state"
+    }
+  ],
+  "KDZ": [
+    {
+      "id": "KDZ-KH1",
+      "parents": [],
+      "prefix": "KDZ",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "986 Juvenile criminal law and procedure. Administration of: juvenile justice"
+    },
+    {
+      "id": "KDZ-KH2",
+      "parents": [],
+      "prefix": "KDZ",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "5936 Juvenile criminal law and procedure. Administration of: juvenile justice"
+    },
+    {
+      "id": "KDZ-KH3",
+      "parents": [],
+      "prefix": "KDZ",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "466 Juvenile criminal law and procedure. Administration of: juvenile justice"
+    },
+    {
+      "id": "KDZ-KH4",
+      "parents": [],
+      "prefix": "KDZ",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "95 Juvenile criminal law and procedure. Administration of: juvenile justice"
+    }
+  ],
+  "KE": [
+    {
+      "id": "KE359-372",
+      "parents": [],
+      "prefix": "KE",
+      "start": 359.0,
+      "stop": 372.0,
+      "subject": "The organized bar. Law societies. Bar: associations"
+    },
+    {
+      "id": "KE1570-1575",
+      "parents": [],
+      "prefix": "KE",
+      "start": 1570.0,
+      "stop": 1575.0,
+      "subject": "Economic policy. Economic planning. Economic: development"
+    },
+    {
+      "id": "KE1591-2742",
+      "parents": [],
+      "prefix": "KE",
+      "start": 1591.0,
+      "stop": 2742.0,
+      "subject": "Regulation of industry, trade, and commerce.: Occupational law"
+    },
+    {
+      "id": "KE1591-1660",
+      "parents": [],
+      "prefix": "KE",
+      "start": 1591.0,
+      "stop": 1660.0,
+      "subject": "Trade regulation. Control of trade practices.: Consumer protection"
+    },
+    {
+      "id": "KE1631-1655",
+      "parents": [],
+      "prefix": "KE",
+      "start": 1631.0,
+      "stop": 1655.0,
+      "subject": "Competition. Restraint of trade. Combines,: monopolies, mergers"
+    },
+    {
+      "id": "KE3575-3635",
+      "parents": [],
+      "prefix": "KE",
+      "start": 3575.0,
+      "stop": 3635.0,
+      "subject": "Public health. Sanitation. Environmental: pollution"
+    },
+    {
+      "id": "KE5460-5484",
+      "parents": [],
+      "prefix": "KE",
+      "start": 5460.0,
+      "stop": 5484.0,
+      "subject": "Government measures in time of war, national emergency,: or economic crisis KEA-KEN Law of Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Northwest Territories, Nova Scotia"
+    }
+  ],
+  "KEO": [
+    {
+      "id": "KEO430-618",
+      "parents": [],
+      "prefix": "KEO",
+      "start": 430.0,
+      "stop": 618.0,
+      "subject": "Regulation of industry, trade, and commerce.: Occupational law"
+    }
+  ],
+  "KEQ": [
+    {
+      "id": "KEQ443",
+      "parents": [],
+      "prefix": "KEQ",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Transaction. Negotiated settlement.: Compromise"
+    },
+    {
+      "id": "KEQ506-506.5",
+      "parents": [],
+      "prefix": "KEQ",
+      "start": 506.0,
+      "stop": 506.0,
+      "subject": "Economic policy. Economic planning. Economic: development"
+    },
+    {
+      "id": "KEQ510-519",
+      "parents": [],
+      "prefix": "KEQ",
+      "start": 510.0,
+      "stop": 519.0,
+      "subject": "Trade regulation. Control of trade practices.: Consumer protection"
+    },
+    {
+      "id": "KEQ1068",
+      "parents": [],
+      "prefix": "KEQ",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Administration of justice. Organization of the: judiciary"
+    }
+  ],
+  "KF": [
+    {
+      "id": "KF871-890",
+      "parents": [],
+      "prefix": "KF",
+      "start": 871.0,
+      "stop": 890.0,
+      "subject": "Comprehensive. Commercial law. Mercantile: transactions"
+    },
+    {
+      "id": "KF1066-1084",
+      "parents": [],
+      "prefix": "KF",
+      "start": 1066.0,
+      "stop": 1084.0,
+      "subject": "Marketing of securities. Investments. Stock exchange: transactions"
+    },
+    {
+      "id": "KF1096-1114",
+      "parents": [],
+      "prefix": "KF",
+      "start": 1096.0,
+      "stop": 1114.0,
+      "subject": "Carriage by sea. Maritime (Commercial) law.: Admiralty"
+    },
+    {
+      "id": "KF1480",
+      "parents": [],
+      "prefix": "KF",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Government-owned corporations and business: organizations"
+    },
+    {
+      "id": "KF1600-2940",
+      "parents": [],
+      "prefix": "KF",
+      "start": 1600.0,
+      "stop": 2940.0,
+      "subject": "Regulation of industry, trade, and commerce.: Occupational law"
+    },
+    {
+      "id": "KF1801-1873",
+      "parents": [],
+      "prefix": "KF",
+      "start": 1801.0,
+      "stop": 1873.0,
+      "subject": "Mining. Quarrying: Including petroleum, oil, and gas"
+    },
+    {
+      "id": "KF4600-4629",
+      "parents": [],
+      "prefix": "KF",
+      "start": 4600.0,
+      "stop": 4629.0,
+      "subject": "Structure of government. Federal and state: relations. Jurisdiction"
+    },
+    {
+      "id": "KF5150",
+      "parents": [],
+      "prefix": "KF",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "National emblem. Flag. Seal. Seat of government.: National anthem"
+    },
+    {
+      "id": "KF5551-5590",
+      "parents": [],
+      "prefix": "KF",
+      "start": 5551.0,
+      "stop": 5590.0,
+      "subject": "Water resources. Watersheds. Rivers. Lakes.: Water courses"
+    },
+    {
+      "id": "KF5900-6075.5",
+      "parents": [],
+      "prefix": "KF",
+      "start": 5900.0,
+      "stop": 6075.0,
+      "subject": "Government measures in time of war, national emergency,: or economic crisis. Emergency economic legislation KFZ Laws of the territories. Laws of the Confederate States of America"
+    }
+  ],
+  "KGS": [
+    {
+      "id": "KGS1-9000",
+      "parents": [],
+      "prefix": "KGS",
+      "start": 1.0,
+      "stop": 9000.0,
+      "subject": "Haiti: West Indies. Caribbean Area - Continued"
+    }
+  ],
+  "KJ": [
+    {
+      "id": "KJ-KKZ1",
+      "parents": [],
+      "prefix": "KJ",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "3709 Government measures in time of war, national: emergency, or economic crisis"
+    },
+    {
+      "id": "KJ-KKZ2",
+      "parents": [],
+      "prefix": "KJ",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "370.9 Government measures in time of war, national: emergency, or economic crisis"
+    },
+    {
+      "id": "KJ-KKZ3",
+      "parents": [],
+      "prefix": "KJ",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "88.3 Government measures in time of war, national: emergency, or economic crisis"
+    },
+    {
+      "id": "KJ-KKZ4",
+      "parents": [],
+      "prefix": "KJ",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "8.8 Government measures in time of war, national: emergency, or economic crisis"
+    }
+  ],
+  "KJA": [
+    {
+      "id": "KJA580-640",
+      "parents": [],
+      "prefix": "KJA",
+      "start": 580.0,
+      "stop": 640.0,
+      "subject": "Leges Romanae barbarorum. Roman law of the: Germanic nations"
+    },
+    {
+      "id": "KJA1570-1920",
+      "parents": [],
+      "prefix": "KJA",
+      "start": 1570.0,
+      "stop": 1920.0,
+      "subject": "6th to 15th centuries. Jus Romanum Medii: Aevi"
+    },
+    {
+      "id": "KJA1935-2138",
+      "parents": [],
+      "prefix": "KJA",
+      "start": 1935.0,
+      "stop": 2138.0,
+      "subject": "16th to 18th centuries. Common law in: Europe"
+    }
+  ],
+  "KJC": [
+    {
+      "id": "KJC2435-2446",
+      "parents": [],
+      "prefix": "KJC",
+      "start": 2435.0,
+      "stop": 2446.0,
+      "subject": "Personal companies. Unincorporated business: associations"
+    },
+    {
+      "id": "KJC2448-2553",
+      "parents": [],
+      "prefix": "KJC",
+      "start": 2448.0,
+      "stop": 2553.0,
+      "subject": "Stock companies. Incorporated business: associations"
+    },
+    {
+      "id": "KJC6068-6155",
+      "parents": [],
+      "prefix": "KJC",
+      "start": 6068.0,
+      "stop": 6155.0,
+      "subject": "Public property. Domaine public. Public restraint on: private property"
+    },
+    {
+      "id": "KJC7520-7521",
+      "parents": [],
+      "prefix": "KJC",
+      "start": 7520.0,
+      "stop": 7521.0,
+      "subject": "Government measures in time of war, national: emergency, or economic crisis"
+    }
+  ],
+  "KJE": [
+    {
+      "id": "KJE10-897",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 10.0,
+      "stop": 897.0,
+      "subject": "Regional organization other than the European: Community or European Union"
+    },
+    {
+      "id": "KJE822-822.7",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 822.0,
+      "stop": 822.0,
+      "subject": "Theory and methodology of socialist economic law: and integration"
+    },
+    {
+      "id": "KJE833-838.8",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 833.0,
+      "stop": 838.0,
+      "subject": "Organization law. Constitution of the Council of: Mutual Economic Assistance"
+    },
+    {
+      "id": "KJE833",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Treaties establishing and expanding the: organization"
+    },
+    {
+      "id": "KJE846-847.5",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 846.0,
+      "stop": 847.0,
+      "subject": "Socialist public property. Public restraint on private: property"
+    },
+    {
+      "id": "KJE887",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "External trade. Trade with non-member: states"
+    },
+    {
+      "id": "KJE960-(974)",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Theory and methodology of uniform law: development. Integration of law"
+    },
+    {
+      "id": "KJE4441-5520",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 4441.0,
+      "stop": 5520.0,
+      "subject": "Organization law. Constitution of the European: Communities"
+    },
+    {
+      "id": "KJE4442-4443.4",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 4442.0,
+      "stop": 4443.0,
+      "subject": "Treaties establishing and expanding the: communities"
+    },
+    {
+      "id": "KJE5075-5094",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 5075.0,
+      "stop": 5094.0,
+      "subject": "Intergovernmental (Internal) relations.: Community and member nations"
+    },
+    {
+      "id": "KJE5078-5086",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 5078.0,
+      "stop": 5086.0,
+      "subject": "Sovereignty. Jurisdiction and concurring: jurisdictions"
+    },
+    {
+      "id": "KJE5105-5113",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 5105.0,
+      "stop": 5113.0,
+      "subject": "Foreign (External) relations. International: cooperation"
+    },
+    {
+      "id": "KJE5174",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Right of establishment and freedom to: provide services"
+    },
+    {
+      "id": "KJE5175-5177",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 5175.0,
+      "stop": 5177.0,
+      "subject": "Free movement of capital. Free movement: of goods"
+    },
+    {
+      "id": "KJE6245",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Environmental planning and protection.: Conservation of natural resources"
+    },
+    {
+      "id": "KJE6456-6533",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 6456.0,
+      "stop": 6533.0,
+      "subject": "Control of contracts and combinations in: restraint of trade. Competition rules"
+    },
+    {
+      "id": "KJE6927-6939",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 6927.0,
+      "stop": 6939.0,
+      "subject": "Water transportation. Coastwise and inland: shipping. Navigation"
+    },
+    {
+      "id": "KJE6950-6970.5",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 6950.0,
+      "stop": 6970.0,
+      "subject": "Postal services. Telecommunication. Data: transmission systems"
+    },
+    {
+      "id": "KJE7520",
+      "parents": [],
+      "prefix": "KJE",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Community measures in time of war, emergency, or: economic crisis KJJ Austria Belarus, see KLF KJM Bulgaria Corsica, see KJW KJT Finland France, see KJV-KJW Germany. West Germany. East Germany, see KK-KKC Gibraltar, see KRY Great Britain. United Kingdom, see KD KKG Iceland Ireland, see KDK KKK Malta Moldova, see KLM KKR Romania Russia, see KLA KKS Serbia Slovakia, see KJQ KKS Slovenia Soviet Union, see KLA KKY Ukraine Vatican City, see KB"
+    }
+  ],
+  "KJV": [
+    {
+      "id": "KJV323-333",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 323.0,
+      "stop": 333.0,
+      "subject": "Works on diverse aspects of a special subject: and falling within several branches of the law"
+    },
+    {
+      "id": "KJV811-856",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 811.0,
+      "stop": 856.0,
+      "subject": "Dissolution and disintegration of: marriage"
+    },
+    {
+      "id": "KJV870-927",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 870.0,
+      "stop": 927.0,
+      "subject": "Consanguinity and affinity. Parent and: child"
+    },
+    {
+      "id": "KJV1170-1172",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 1170.0,
+      "stop": 1172.0,
+      "subject": "Rights in rem upon another's property.: Usufruct"
+    },
+    {
+      "id": "KJV1283-1287",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 1283.0,
+      "stop": 1287.0,
+      "subject": "Land register. Registration of rights: upon real property"
+    },
+    {
+      "id": "KJV1290-1294",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 1290.0,
+      "stop": 1294.0,
+      "subject": "Personal property: Including tangible property"
+    },
+    {
+      "id": "KJV1372-1376.3",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 1372.0,
+      "stop": 1376.0,
+      "subject": "Legitime and disposable portion of an: estate. Freedom of testation"
+    },
+    {
+      "id": "KJV2059-2071",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 2059.0,
+      "stop": 2071.0,
+      "subject": "Presumption of fault. Liability without: fault. Strict liability"
+    },
+    {
+      "id": "KJV2134-2143",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 2134.0,
+      "stop": 2143.0,
+      "subject": "Rights in rem upon debtor's personal: property. Pledges"
+    },
+    {
+      "id": "KJV2456-2464",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 2456.0,
+      "stop": 2464.0,
+      "subject": "Credit. Documentary credit. Advances: on goods"
+    },
+    {
+      "id": "KJV2491-2530",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 2491.0,
+      "stop": 2530.0,
+      "subject": "Marketing of securities. Stock exchange: transactions. Investments"
+    },
+    {
+      "id": "KJV2541-2720",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 2541.0,
+      "stop": 2720.0,
+      "subject": "Contract of carriage of goods and: passengers"
+    },
+    {
+      "id": "KJV3190-3192.2",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 3190.0,
+      "stop": 3192.0,
+      "subject": "Groupings for economic advantage.: Combinations. Industrial trusts"
+    },
+    {
+      "id": "KJV3992-3994",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 3992.0,
+      "stop": 3994.0,
+      "subject": "Non-contentious jurisdiction. Ex parte: jurisdiction"
+    },
+    {
+      "id": "KJV4692-4765",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 4692.0,
+      "stop": 4765.0,
+      "subject": "Administrative process. Administrative acts.: Administrrative contracts"
+    },
+    {
+      "id": "KJV4880-5026",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 4880.0,
+      "stop": 5026.0,
+      "subject": "Administrative organization. Administrative: power"
+    },
+    {
+      "id": "KJV4910-4950",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 4910.0,
+      "stop": 4950.0,
+      "subject": "Local government. Administration departments: and divisions of the state. Regions. Departments. Cantons"
+    },
+    {
+      "id": "KJV5004",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Supra-municipal corporations and: cooperation"
+    },
+    {
+      "id": "KJV5090-5199",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 5090.0,
+      "stop": 5199.0,
+      "subject": "Public property. Public restraint on: private property"
+    },
+    {
+      "id": "KJV5190-5199",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 5190.0,
+      "stop": 5199.0,
+      "subject": "Eminent domain. Expropriation.: Nationalization"
+    },
+    {
+      "id": "KJV5200-5232",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 5200.0,
+      "stop": 5232.0,
+      "subject": "Regional planning. City planning and: redevelopment. Building and construction"
+    },
+    {
+      "id": "KJV5338-5365",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 5338.0,
+      "stop": 5365.0,
+      "subject": "The health professions. Hospitals, medical: institutions or services"
+    },
+    {
+      "id": "KJV5470-5528",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 5470.0,
+      "stop": 5528.0,
+      "subject": "Science and the arts. Public collections.: Historic buildings"
+    },
+    {
+      "id": "KJV5530",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Educational, scientific, and cultural: exchange"
+    },
+    {
+      "id": "KJV5595-5610",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 5595.0,
+      "stop": 5610.0,
+      "subject": "Competition rules. Horizontal and vertical: combinations. Unfair competition"
+    },
+    {
+      "id": "KJV6035-6140",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 6035.0,
+      "stop": 6140.0,
+      "subject": "Water transportation. Administrative maritime: law"
+    },
+    {
+      "id": "KJV7040-7120",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 7040.0,
+      "stop": 7120.0,
+      "subject": "Departmental and communal finance. Local: taxes"
+    },
+    {
+      "id": "KJV7180-7359",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 7180.0,
+      "stop": 7359.0,
+      "subject": "Government measures in time of war, national: emergency, or economic crisis"
+    },
+    {
+      "id": "KJV8054-8134",
+      "parents": [],
+      "prefix": "KJV",
+      "start": 8054.0,
+      "stop": 8134.0,
+      "subject": "Punishment. Measures of rehabilitation and: safety"
+    }
+  ],
+  "KK": [
+    {
+      "id": "KK164",
+      "parents": [],
+      "prefix": "KK",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Works on diverse aspects of a particular subject and: falling within several branches of the law"
+    },
+    {
+      "id": "KK1346-1356",
+      "parents": [],
+      "prefix": "KK",
+      "start": 1346.0,
+      "stop": 1356.0,
+      "subject": "Rights as to the use and profits of another's: land. Servitudes"
+    },
+    {
+      "id": "KK2435-2447",
+      "parents": [],
+      "prefix": "KK",
+      "start": 2435.0,
+      "stop": 2447.0,
+      "subject": "Personal companies. Unincorporated business: associations"
+    },
+    {
+      "id": "KK2448-2561",
+      "parents": [],
+      "prefix": "KK",
+      "start": 2448.0,
+      "stop": 2561.0,
+      "subject": "Stock companies. Incorporated business: associations"
+    },
+    {
+      "id": "KK2991-3038",
+      "parents": [],
+      "prefix": "KK",
+      "start": 2991.0,
+      "stop": 3038.0,
+      "subject": "Works councils. Employee participation in: management. Youth representation"
+    },
+    {
+      "id": "KK3118-3136",
+      "parents": [],
+      "prefix": "KK",
+      "start": 3118.0,
+      "stop": 3136.0,
+      "subject": "Corporate representation. Unions. Employers': associations"
+    },
+    {
+      "id": "KK3769-3792",
+      "parents": [],
+      "prefix": "KK",
+      "start": 3769.0,
+      "stop": 3792.0,
+      "subject": "Practice of law. Attorneys. Legal consultants. Legal: aid"
+    },
+    {
+      "id": "KK5132-5216",
+      "parents": [],
+      "prefix": "KK",
+      "start": 5132.0,
+      "stop": 5216.0,
+      "subject": "Human rights. Fundamental rights and constitutional: guaranties"
+    },
+    {
+      "id": "KK5807-5853.5",
+      "parents": [],
+      "prefix": "KK",
+      "start": 5807.0,
+      "stop": 5853.0,
+      "subject": "Juristic persons of public law. Corporations.: Institutions. Foundations"
+    },
+    {
+      "id": "KK5866-5875",
+      "parents": [],
+      "prefix": "KK",
+      "start": 5866.0,
+      "stop": 5875.0,
+      "subject": "Administrative departments and divisions of the: states"
+    },
+    {
+      "id": "KK6032-6066",
+      "parents": [],
+      "prefix": "KK",
+      "start": 6032.0,
+      "stop": 6066.0,
+      "subject": "Control of individuals. Control of social activities.: Disaster control"
+    },
+    {
+      "id": "KK6079-6123",
+      "parents": [],
+      "prefix": "KK",
+      "start": 6079.0,
+      "stop": 6123.0,
+      "subject": "Roads and highways. Water resources. National: preserves"
+    },
+    {
+      "id": "KK6135-6170",
+      "parents": [],
+      "prefix": "KK",
+      "start": 6135.0,
+      "stop": 6170.0,
+      "subject": "Regional planning. City planning and: redevelopment. Building and construction"
+    },
+    {
+      "id": "KK6208-6227",
+      "parents": [],
+      "prefix": "KK",
+      "start": 6208.0,
+      "stop": 6227.0,
+      "subject": "The health professions. Hospitals, institutions,: or services"
+    },
+    {
+      "id": "KK6465-6534",
+      "parents": [],
+      "prefix": "KK",
+      "start": 6465.0,
+      "stop": 6534.0,
+      "subject": "Horizontal and vertical combinations. Mergers,: cartels, and monopolies"
+    },
+    {
+      "id": "KK6538-6550",
+      "parents": [],
+      "prefix": "KK",
+      "start": 6538.0,
+      "stop": 6550.0,
+      "subject": "Corporate representation of industry, trade, and: commerce"
+    },
+    {
+      "id": "KK7520-7672",
+      "parents": [],
+      "prefix": "KK",
+      "start": 7520.0,
+      "stop": 7672.0,
+      "subject": "Government measures in time of war, national emergency,: or economic crisis. Emergency and wartime legislation"
+    },
+    {
+      "id": "KK7612-7624",
+      "parents": [],
+      "prefix": "KK",
+      "start": 7612.0,
+      "stop": 7624.0,
+      "subject": "Legislation for liberation from National Socialism: and militarism"
+    },
+    {
+      "id": "KK7631-7672",
+      "parents": [],
+      "prefix": "KK",
+      "start": 7631.0,
+      "stop": 7672.0,
+      "subject": "Legislation for economic and social recovery and: restitution KLA-KLW Eurasia Turkey, see KKX"
+    }
+  ],
+  "KL": [
+    {
+      "id": "KL-KWX2",
+      "parents": [],
+      "prefix": "KL",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "956 Government measures in time of war, national: emergency, or economic crisis"
+    },
+    {
+      "id": "KL-KWX4",
+      "parents": [],
+      "prefix": "KL",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "3709 Government measures in time of war, national: emergency, or economic crisis"
+    },
+    {
+      "id": "KL-KWX5",
+      "parents": [],
+      "prefix": "KL",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "322 Control of contracts and combinations in restraint: of trade"
+    },
+    {
+      "id": "KL-KWX7",
+      "parents": [],
+      "prefix": "KL",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "262 Government measures in time of war, national: emergency, or economic crisis"
+    },
+    {
+      "id": "KL-KWX8",
+      "parents": [],
+      "prefix": "KL",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "88.3-89.5 Government measures in time of war, national: emergency, or economic crisis"
+    }
+  ],
+  "KLF": [
+    {
+      "id": "KLF1-490",
+      "parents": [],
+      "prefix": "KLF",
+      "start": 1.0,
+      "stop": 490.0,
+      "subject": "Belarus (Republic): Estonia, see KJS"
+    }
+  ],
+  "KLH": [
+    {
+      "id": "KLH1-490",
+      "parents": [],
+      "prefix": "KLH",
+      "start": 1.0,
+      "stop": 490.0,
+      "subject": "Georgia (Republic): Latvia, see KKI Lithuania, see KKJ"
+    }
+  ],
+  "KLP": [
+    {
+      "id": "KLP9001-9499",
+      "parents": [],
+      "prefix": "KLP",
+      "start": 9001.0,
+      "stop": 9499.0,
+      "subject": "Zakavkazskai?a Sot?sialisticheskai?a Federativnai?a: Sovetskai?a Respublika (to 1936)"
+    }
+  ],
+  "KLQ": [
+    {
+      "id": "KLQ1-499",
+      "parents": [],
+      "prefix": "KLQ",
+      "start": 1.0,
+      "stop": 499.0,
+      "subject": "Bukharskai?a Narodnai?a Sovetskai?a: Respublika (to 1924)"
+    }
+  ],
+  "KLR": [
+    {
+      "id": "KLR1001-1499",
+      "parents": [],
+      "prefix": "KLR",
+      "start": 1001.0,
+      "stop": 1499.0,
+      "subject": "Khorezmskai?a Sovetskai?a Sot?sialisticheskai?a: Respublika (to 1924)"
+    }
+  ],
+  "KMT": [
+    {
+      "id": "KMT1-4990",
+      "parents": [],
+      "prefix": "KMT",
+      "start": 1.0,
+      "stop": 4990.0,
+      "subject": "Saudi Arabia: Southern Yemen, see KMY"
+    }
+  ],
+  "KZ": [
+    {
+      "id": "KZ1329-3085",
+      "parents": [],
+      "prefix": "KZ",
+      "start": 1329.0,
+      "stop": 3085.0,
+      "subject": "Early/Medieval development to ca. 1900.: Ius Naturae et Gentium"
+    },
+    {
+      "id": "KZ1330-1339",
+      "parents": [],
+      "prefix": "KZ",
+      "start": 1330.0,
+      "stop": 1339.0,
+      "subject": "Peace of Westphalia to the French: Revolution (1648-1789)"
+    },
+    {
+      "id": "KZ1345-1369",
+      "parents": [],
+      "prefix": "KZ",
+      "start": 1345.0,
+      "stop": 1369.0,
+      "subject": "French Revolution to the American Civil: War (1789-1861)"
+    },
+    {
+      "id": "KZ1373-1387.2",
+      "parents": [],
+      "prefix": "KZ",
+      "start": 1373.0,
+      "stop": 1387.0,
+      "subject": "American Civil War to the First Conference: of the Hague (1861-1899)"
+    },
+    {
+      "id": "KZ3670-3881",
+      "parents": [],
+      "prefix": "KZ",
+      "start": 3670.0,
+      "stop": 3881.0,
+      "subject": "Objects of the law of nations. Territory: and its different parts"
+    },
+    {
+      "id": "KZ1-7500",
+      "parents": [],
+      "prefix": "KZ",
+      "start": 1.0,
+      "stop": 7500.0,
+      "subject": "Law of nations: The international legal community and members Subjects of the law of nations - Continued"
+    },
+    {
+      "id": "KZ5687-5788.5",
+      "parents": [],
+      "prefix": "KZ",
+      "start": 5687.0,
+      "stop": 5788.0,
+      "subject": "Nuclear weapon free zones and zones: of peace"
+    },
+    {
+      "id": "KZ6009-6299",
+      "parents": [],
+      "prefix": "KZ",
+      "start": 6009.0,
+      "stop": 6299.0,
+      "subject": "Pacific settlement of international: disputes and conflict resolution"
+    },
+    {
+      "id": "KZ6730-6795",
+      "parents": [],
+      "prefix": "KZ",
+      "start": 6730.0,
+      "stop": 6795.0,
+      "subject": "The end of war. Armistice. Surrender.: Postliminy"
+    }
+  ],
+  "KZD": [
+    {
+      "id": "KZD5648-5680.2",
+      "parents": [],
+      "prefix": "KZD",
+      "start": 5648.0,
+      "stop": 5680.0,
+      "subject": "Disarmament and demilitarization: regimes in outer space"
+    }
+  ],
+  "LB": [
+    {
+      "id": "LB1705-2286",
+      "parents": [],
+      "prefix": "LB",
+      "start": 1705.0,
+      "stop": 2286.0,
+      "subject": "Education and training of teachers and: administrators"
+    },
+    {
+      "id": "LB1775-1785",
+      "parents": [],
+      "prefix": "LB",
+      "start": 1775.0,
+      "stop": 1785.0,
+      "subject": "Professional aspects of teaching and school: administrators. Vocational guidance"
+    },
+    {
+      "id": "LB2341-2341.95",
+      "parents": [],
+      "prefix": "LB",
+      "start": 2341.0,
+      "stop": 2341.0,
+      "subject": "Supervision and administration. Business: management"
+    },
+    {
+      "id": "LB3050-3060.87",
+      "parents": [],
+      "prefix": "LB",
+      "start": 3050.0,
+      "stop": 3060.0,
+      "subject": "Educational tests, measurements, evaluations: and examinations"
+    },
+    {
+      "id": "LB3201-3325",
+      "parents": [],
+      "prefix": "LB",
+      "start": 3201.0,
+      "stop": 3325.0,
+      "subject": "School architecture and equipment. School physical: facilities. Campus planning"
+    }
+  ],
+  "LC": [
+    {
+      "id": "LC58-58.7",
+      "parents": [],
+      "prefix": "LC",
+      "start": 58.0,
+      "stop": 58.0,
+      "subject": "Preparatory schools. Preparatory school: education"
+    },
+    {
+      "id": "LC107-120.4",
+      "parents": [],
+      "prefix": "LC",
+      "start": 107.0,
+      "stop": 120.0,
+      "subject": "Public school question. Secularization.: Religious instruction in the public schools"
+    },
+    {
+      "id": "LC230-235",
+      "parents": [],
+      "prefix": "LC",
+      "start": 230.0,
+      "stop": 235.0,
+      "subject": "Parent-teacher associations. Home and: school associations"
+    },
+    {
+      "id": "LC321-951",
+      "parents": [],
+      "prefix": "LC",
+      "start": 321.0,
+      "stop": 951.0,
+      "subject": "Religion and education. Education under: church control"
+    },
+    {
+      "id": "LC2690-2698",
+      "parents": [],
+      "prefix": "LC",
+      "start": 2690.0,
+      "stop": 2698.0,
+      "subject": "Puerto Ricans. Puerto Ricans in the United: States"
+    },
+    {
+      "id": "LC3701-3740",
+      "parents": [],
+      "prefix": "LC",
+      "start": 3701.0,
+      "stop": 3740.0,
+      "subject": "Immigrants or ethnic and linguistic minorities.: Bilingual schools and bilingual education"
+    },
+    {
+      "id": "LC3950-4806.5",
+      "parents": [],
+      "prefix": "LC",
+      "start": 3950.0,
+      "stop": 4806.0,
+      "subject": "Exceptional children and youth. Special: education"
+    },
+    {
+      "id": "LC4001-4806.5",
+      "parents": [],
+      "prefix": "LC",
+      "start": 4001.0,
+      "stop": 4806.0,
+      "subject": "Children and youth with disabilities. Learning: disabled children and youth"
+    },
+    {
+      "id": "LC5201-6660.4",
+      "parents": [],
+      "prefix": "LC",
+      "start": 5201.0,
+      "stop": 6660.0,
+      "subject": "Education extension. Adult education. Continuing: education"
+    },
+    {
+      "id": "LC6571-6581",
+      "parents": [],
+      "prefix": "LC",
+      "start": 6571.0,
+      "stop": 6581.0,
+      "subject": "Radio and television extension courses.: Instruction by radio and television"
+    }
+  ],
+  "LG": [
+    {
+      "id": "LG60-170.2",
+      "parents": [],
+      "prefix": "LG",
+      "start": 60.0,
+      "stop": 170.0,
+      "subject": "India. Pakistan. Bangladesh. Burma. Sri: Lanka. Nepal"
+    }
+  ],
+  "M": [
+    {
+      "id": "M1-1.A15",
+      "parents": [],
+      "prefix": "M",
+      "start": 1.0,
+      "stop": 1.0,
+      "subject": "Music printed or copied in manuscript in the United: States or the colonies before 1860"
+    }
+  ],
+  "ML": [
+    {
+      "id": "ML3800-3923",
+      "parents": [],
+      "prefix": "ML",
+      "start": 3800.0,
+      "stop": 3923.0,
+      "subject": "Philosophical and societal aspects of music. Physics: and acoustics of music. Physiological aspects of music schools"
+    }
+  ],
+  "MT": [
+    {
+      "id": "MT950",
+      "parents": [],
+      "prefix": "MT",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Music to accompany instruction in ballet, folk dancing,: gymnastics, etc."
+    }
+  ],
+  "NB": [
+    {
+      "id": "NB60-1115",
+      "parents": [],
+      "prefix": "NB",
+      "start": 60.0,
+      "stop": 1115.0,
+      "subject": "History: Including collective biography"
+    }
+  ],
+  "NC": [
+    {
+      "id": "NC1-45",
+      "parents": [],
+      "prefix": "NC",
+      "start": 1.0,
+      "stop": 45.0,
+      "subject": "General: Including collective biography"
+    }
+  ],
+  "NK": [
+    {
+      "id": "NK1700-2138",
+      "parents": [],
+      "prefix": "NK",
+      "start": 1700.0,
+      "stop": 2138.0,
+      "subject": "General. History, etc.: Including special rooms"
+    }
+  ],
+  "PA": [
+    {
+      "id": "PA3818-4505",
+      "parents": [],
+      "prefix": "PA",
+      "start": 3818.0,
+      "stop": 4505.0,
+      "subject": "Individual authors: Including"
+    },
+    {
+      "id": "PA6202-6971",
+      "parents": [],
+      "prefix": "PA",
+      "start": 6202.0,
+      "stop": 6971.0,
+      "subject": "Individual authors: Including"
+    }
+  ],
+  "PC": [
+    {
+      "id": "PC901-986",
+      "parents": [],
+      "prefix": "PC",
+      "start": 901.0,
+      "stop": 986.0,
+      "subject": "Raeto-Romance: Including Romansh"
+    }
+  ],
+  "PD": [
+    {
+      "id": "PD2201-2393",
+      "parents": [],
+      "prefix": "PD",
+      "start": 2201.0,
+      "stop": 2393.0,
+      "subject": "Old Norse. Old Icelandic and Old: Norwegian"
+    }
+  ],
+  "PG": [
+    {
+      "id": "PG7900-7925",
+      "parents": [],
+      "prefix": "PG",
+      "start": 7900.0,
+      "stop": 7925.0,
+      "subject": "Lechitic dialects: Slavic. Baltic. Albanian - Continued"
+    }
+  ],
+  "PK": [
+    {
+      "id": "PK1931-2212",
+      "parents": [],
+      "prefix": "PK",
+      "start": 1931.0,
+      "stop": 2212.0,
+      "subject": "Hindi, Urdu, Hindustani languages and: literatures"
+    }
+  ],
+  "PL": [
+    {
+      "id": "PL3501-3509.5",
+      "parents": [],
+      "prefix": "PL",
+      "start": 3501.0,
+      "stop": 3509.0,
+      "subject": "Non-Aryan languages of India and Southeastern Asia in: general"
+    }
+  ],
+  "PM": [
+    {
+      "id": "PM549-2711",
+      "parents": [],
+      "prefix": "PM",
+      "start": 549.0,
+      "stop": 2711.0,
+      "subject": "Special languages of the United States and Canada: (alphabetically)"
+    }
+  ],
+  "PN": [
+    {
+      "id": "PN597-605",
+      "parents": [],
+      "prefix": "PN",
+      "start": 597.0,
+      "stop": 605.0,
+      "subject": "Special relations, movements, and: currents of literature"
+    },
+    {
+      "id": "PN1065-1085",
+      "parents": [],
+      "prefix": "PN",
+      "start": 1065.0,
+      "stop": 1085.0,
+      "subject": "Relations to, and treatment of,: special subjects"
+    },
+    {
+      "id": "PN1635-1650",
+      "parents": [],
+      "prefix": "PN",
+      "start": 1635.0,
+      "stop": 1650.0,
+      "subject": "Relation to, and treatment of, special: subjects"
+    },
+    {
+      "id": "PN4735-4748",
+      "parents": [],
+      "prefix": "PN",
+      "start": 4735.0,
+      "stop": 4748.0,
+      "subject": "Relation to the state. Government and: the press. Liberty of the press"
+    },
+    {
+      "id": "PN6366-6377",
+      "parents": [],
+      "prefix": "PN",
+      "start": 6366.0,
+      "stop": 6377.0,
+      "subject": "Riddles, acrostics, charades,: conundrums, etc."
+    }
+  ],
+  "PQ": [
+    {
+      "id": "PQ1300-1595",
+      "parents": [],
+      "prefix": "PQ",
+      "start": 1300.0,
+      "stop": 1595.0,
+      "subject": "Old French literature: To ca. 1500/1550"
+    },
+    {
+      "id": "PQ1300-1391",
+      "parents": [],
+      "prefix": "PQ",
+      "start": 1300.0,
+      "stop": 1391.0,
+      "subject": "Collections: Individual authors and works"
+    },
+    {
+      "id": "PQ1600-2726",
+      "parents": [],
+      "prefix": "PQ",
+      "start": 1600.0,
+      "stop": 2726.0,
+      "subject": "Modern literature: Individual authors"
+    }
+  ],
+  "QC": [
+    {
+      "id": "QC170-197",
+      "parents": [],
+      "prefix": "QC",
+      "start": 170.0,
+      "stop": 197.0,
+      "subject": "Atomic physics. Constitution and properties of matter: Including molecular physics, relativity, quantum theory, and solid state physics"
+    },
+    {
+      "id": "QC770-798",
+      "parents": [],
+      "prefix": "QC",
+      "start": 770.0,
+      "stop": 798.0,
+      "subject": "Nuclear and particle physics. Atomic energy.: Radioactivity"
+    },
+    {
+      "id": "QC851-999",
+      "parents": [],
+      "prefix": "QC",
+      "start": 851.0,
+      "stop": 999.0,
+      "subject": "Meteorology. Climatology: Including the earth's atmosphere"
+    }
+  ],
+  "QD": [
+    {
+      "id": "QD1-65",
+      "parents": [],
+      "prefix": "QD",
+      "start": 1.0,
+      "stop": 65.0,
+      "subject": "General: Including alchemy"
+    }
+  ],
+  "QE": [
+    {
+      "id": "QE1-350.62",
+      "parents": [],
+      "prefix": "QE",
+      "start": 1.0,
+      "stop": 350.0,
+      "subject": "General: Including geographical divisions"
+    }
+  ],
+  "QH": [
+    {
+      "id": "QH1-(199.5)",
+      "parents": [],
+      "prefix": "QH",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "General: Including nature conservation, geographical distribution"
+    }
+  ],
+  "QK": [
+    {
+      "id": "QK1-474.5",
+      "parents": [],
+      "prefix": "QK",
+      "start": 1.0,
+      "stop": 474.0,
+      "subject": "General: Including geographical distribution"
+    }
+  ],
+  "QL": [
+    {
+      "id": "QL1-355",
+      "parents": [],
+      "prefix": "QL",
+      "start": 1.0,
+      "stop": 355.0,
+      "subject": "General: Including geographical distribution"
+    }
+  ],
+  "QP": [
+    {
+      "id": "QP1-345",
+      "parents": [],
+      "prefix": "QP",
+      "start": 1.0,
+      "stop": 345.0,
+      "subject": "General: Including influence of the environment"
+    }
+  ],
+  "R": [
+    {
+      "id": "R702-703",
+      "parents": [],
+      "prefix": "R",
+      "start": 702.0,
+      "stop": 703.0,
+      "subject": "Medicine and the humanities. Medicine and disease: in relation to history, literature, etc."
+    },
+    {
+      "id": "R726.5-726.8",
+      "parents": [],
+      "prefix": "R",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Medicine and disease in relation to psychology.: Terminal care. Dying"
+    }
+  ],
+  "RA": [
+    {
+      "id": "RA399",
+      "parents": [],
+      "prefix": "RA",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Regulation of medical practice. Evaluation and: quality control of medical care. Medical audit"
+    },
+    {
+      "id": "RA410-410.9",
+      "parents": [],
+      "prefix": "RA",
+      "start": 410.0,
+      "stop": 410.0,
+      "subject": "Medical economics. Economics of medical care.: Employment"
+    },
+    {
+      "id": "RA565-600",
+      "parents": [],
+      "prefix": "RA",
+      "start": 565.0,
+      "stop": 600.0,
+      "subject": "Environmental health: Including sewage disposal, air pollution, nuisances, water supply"
+    },
+    {
+      "id": "RA619-637",
+      "parents": [],
+      "prefix": "RA",
+      "start": 619.0,
+      "stop": 637.0,
+      "subject": "Disposal of the dead. Undertaking. Burial. Cremation.: Cemeteries"
+    },
+    {
+      "id": "RA643-645",
+      "parents": [],
+      "prefix": "RA",
+      "start": 643.0,
+      "stop": 645.0,
+      "subject": "Disease (Communicable and noninfectious) and public: health"
+    },
+    {
+      "id": "RA773-788",
+      "parents": [],
+      "prefix": "RA",
+      "start": 773.0,
+      "stop": 788.0,
+      "subject": "Personal health and hygiene: Including clothing, bathing, exercise, travel, nutrition, sleep, sex hygiene"
+    },
+    {
+      "id": "RA960-1000.5",
+      "parents": [],
+      "prefix": "RA",
+      "start": 960.0,
+      "stop": 1000.0,
+      "subject": "Medical centers. Hospitals. Dispensaries. Clinics: Including ambulance service, nursing homes, hospices"
+    }
+  ],
+  "RC": [
+    {
+      "id": "RC71-78.7",
+      "parents": [],
+      "prefix": "RC",
+      "start": 71.0,
+      "stop": 78.0,
+      "subject": "Examination. Diagnosis: Including radiography"
+    },
+    {
+      "id": "RC86-88.9",
+      "parents": [],
+      "prefix": "RC",
+      "start": 86.0,
+      "stop": 88.0,
+      "subject": "Medical emergencies. Critical care. Intensive care.: First aid"
+    },
+    {
+      "id": "RC254-282",
+      "parents": [],
+      "prefix": "RC",
+      "start": 254.0,
+      "stop": 282.0,
+      "subject": "Neoplasms. Tumors. Oncology: Including cancer and carcinogens"
+    },
+    {
+      "id": "RC346-429",
+      "parents": [],
+      "prefix": "RC",
+      "start": 346.0,
+      "stop": 429.0,
+      "subject": "Neurology. Diseases of the nervous system: Including speech disorders"
+    },
+    {
+      "id": "RC554-569.5",
+      "parents": [],
+      "prefix": "RC",
+      "start": 554.0,
+      "stop": 569.0,
+      "subject": "Personality disorders. Behavior problems: Including sexual problems, drug abuse, suicide, child abuse"
+    },
+    {
+      "id": "RC1030-1160",
+      "parents": [],
+      "prefix": "RC",
+      "start": 1030.0,
+      "stop": 1160.0,
+      "subject": "Transportation medicine: Including automotive, aviation, and space medicine"
+    }
+  ],
+  "RD": [
+    {
+      "id": "RD63-76",
+      "parents": [],
+      "prefix": "RD",
+      "start": 63.0,
+      "stop": 76.0,
+      "subject": "Operating rooms and theaters. Instruments, apparatus, and: appliances"
+    }
+  ],
+  "RF": [
+    {
+      "id": "RF341-437",
+      "parents": [],
+      "prefix": "RF",
+      "start": 341.0,
+      "stop": 437.0,
+      "subject": "Rhinology. Diseases of the nose, accessory sinuses,: and nasopharynx"
+    }
+  ],
+  "RG": [
+    {
+      "id": "RG484-485",
+      "parents": [],
+      "prefix": "RG",
+      "start": 484.0,
+      "stop": 485.0,
+      "subject": "Urogynecology and obstetric urology. Urogynecologic: surgery"
+    }
+  ],
+  "RJ": [
+    {
+      "id": "RJ251-325",
+      "parents": [],
+      "prefix": "RJ",
+      "start": 251.0,
+      "stop": 325.0,
+      "subject": "Newborn infants: Including physiology, care, treatment, diseases"
+    }
+  ],
+  "RL": [
+    {
+      "id": "RL701-751",
+      "parents": [],
+      "prefix": "RL",
+      "start": 701.0,
+      "stop": 751.0,
+      "subject": "Diseases due to psychosomatic and nerve disorders.: Dermatoneuroses"
+    }
+  ],
+  "RM": [
+    {
+      "id": "RM182-190",
+      "parents": [],
+      "prefix": "RM",
+      "start": 182.0,
+      "stop": 190.0,
+      "subject": "Other therapeutic procedures: Including acupuncture, pneumatic aspiration, spinal puncture, pericardial puncture"
+    },
+    {
+      "id": "RM695-893",
+      "parents": [],
+      "prefix": "RM",
+      "start": 695.0,
+      "stop": 893.0,
+      "subject": "Physical medicine. Physical therapy: Including massage, exercise, occupational therapy, hydrotherapy, phototherapy, radiotherapy, thermotherapy, electrotherapy"
+    }
+  ],
+  "RS": [
+    {
+      "id": "RS160-167",
+      "parents": [],
+      "prefix": "RS",
+      "start": 160.0,
+      "stop": 167.0,
+      "subject": "Pharmacognosy. Pharmaceutical substances (Plant,: animal, and inorganic)"
+    }
+  ],
+  "RZ": [
+    {
+      "id": "RZ409.7-999",
+      "parents": [],
+      "prefix": "RZ",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Miscellaneous systems and treatments: Including magnetotherapy, mesmerism, naturopathy, organomic medicine, phrenology, radiesthesia"
+    }
+  ],
+  "S": [
+    {
+      "id": "S560-571.5",
+      "parents": [],
+      "prefix": "S",
+      "start": 560.0,
+      "stop": 571.0,
+      "subject": "Farm economics. Farm management. Agricultural: mathematics Including production standards, record keeping, farmwork rates, marketing"
+    },
+    {
+      "id": "S588.4-589.6",
+      "parents": [],
+      "prefix": "S",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Agricultural physics: Including radioisotopes in agriculture"
+    },
+    {
+      "id": "S590-599.9",
+      "parents": [],
+      "prefix": "S",
+      "start": 590.0,
+      "stop": 599.0,
+      "subject": "Soils. Soil science: Including soil surveys, soil chemistry, soil structure, soil-plant relationships"
+    },
+    {
+      "id": "S602.5-604.37",
+      "parents": [],
+      "prefix": "S",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Methods and systems of culture. Cropping systems: Including fallowing, rotation of crops, plowing"
+    },
+    {
+      "id": "S604.8-621.5",
+      "parents": [],
+      "prefix": "S",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Melioration: Improvement, reclamation, fertilization,: irrigation, etc., of lands"
+    },
+    {
+      "id": "S606-621.5",
+      "parents": [],
+      "prefix": "S",
+      "start": 606.0,
+      "stop": 621.0,
+      "subject": "Special classes of lands and reclamation methods: Including woodlands, burning of lands, deserts, saline environments, moors"
+    },
+    {
+      "id": "S900-(972)",
+      "parents": [],
+      "prefix": "S",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Conservation of natural resources: Including land conservation"
+    }
+  ],
+  "SB": [
+    {
+      "id": "SB109.7-111",
+      "parents": [],
+      "prefix": "SB",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Methods for special areas: Including cold regions, dry farming, tropical agriculture"
+    },
+    {
+      "id": "SB119-124",
+      "parents": [],
+      "prefix": "SB",
+      "start": 119.0,
+      "stop": 124.0,
+      "subject": "Propagation: Including breeding, selection, grafting, air layering"
+    },
+    {
+      "id": "SB183-317",
+      "parents": [],
+      "prefix": "SB",
+      "start": 183.0,
+      "stop": 317.0,
+      "subject": "Field crops: Including cereals, forage crops, grasses, legumes, root crops, sugar plants, textile plants, alkaloidal plants, medicinal plants"
+    },
+    {
+      "id": "SB421-439.8",
+      "parents": [],
+      "prefix": "SB",
+      "start": 421.0,
+      "stop": 439.0,
+      "subject": "Classes of plants: Including annuals, climbers, ferns, lawns, perennials, shrubs"
+    },
+    {
+      "id": "SB442.5",
+      "parents": [],
+      "prefix": "SB",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Care and preparation of cut flowers and ornamental plants: for market"
+    },
+    {
+      "id": "SB481-486",
+      "parents": [],
+      "prefix": "SB",
+      "start": 481.0,
+      "stop": 486.0,
+      "subject": "Parks and public reservations: Including theory, management, history"
+    },
+    {
+      "id": "SB992-998",
+      "parents": [],
+      "prefix": "SB",
+      "start": 992.0,
+      "stop": 998.0,
+      "subject": "Economic zoology applied to crops. Agricultural zoology: Including animals injurious and beneficial to plants"
+    }
+  ],
+  "SD": [
+    {
+      "id": "SD411-428",
+      "parents": [],
+      "prefix": "SD",
+      "start": 411.0,
+      "stop": 428.0,
+      "subject": "Conservation and protection: Including forest influences, damage by elements, fires, forest reserves"
+    },
+    {
+      "id": "SD430-(559)",
+      "parents": [],
+      "prefix": "SD",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Exploitation and utilization: Including timber trees, fuelwood, logging, transportation, valuation"
+    }
+  ],
+  "SF": [
+    {
+      "id": "SF756.5-769.5",
+      "parents": [],
+      "prefix": "SF",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Special preclinical sciences: Including veterinary genetics, ethology, anatomy, physiology, embryology, pathology"
+    },
+    {
+      "id": "SF811-909",
+      "parents": [],
+      "prefix": "SF",
+      "start": 811.0,
+      "stop": 909.0,
+      "subject": "Veterinary medicine of special organs, regions, and: systems"
+    }
+  ],
+  "SH": [
+    {
+      "id": "SH401-691",
+      "parents": [],
+      "prefix": "SH",
+      "start": 401.0,
+      "stop": 691.0,
+      "subject": "Angling: Including tackle, casting, methods of angling, angling for special kinds of fish"
+    }
+  ],
+  "SK": [
+    {
+      "id": "SK281-293",
+      "parents": [],
+      "prefix": "SK",
+      "start": 281.0,
+      "stop": 293.0,
+      "subject": "Special methods and types of hunting: Including bolos, game calling, tracking, trapping, dressing"
+    },
+    {
+      "id": "SK351-579",
+      "parents": [],
+      "prefix": "SK",
+      "start": 351.0,
+      "stop": 579.0,
+      "subject": "Wildlife management. Game protection: Including annual reports of game commissioners"
+    }
+  ],
+  "T": [
+    {
+      "id": "T55-55.3",
+      "parents": [],
+      "prefix": "T",
+      "start": 55.0,
+      "stop": 55.0,
+      "subject": "Industrial safety. Industrial accident: prevention"
+    },
+    {
+      "id": "T55.4-60.8",
+      "parents": [],
+      "prefix": "T",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Industrial engineering. Management: engineering"
+    },
+    {
+      "id": "T59.7-59.77",
+      "parents": [],
+      "prefix": "T",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Human engineering in industry. Manmachine: systems"
+    }
+  ],
+  "TA": [
+    {
+      "id": "TA165",
+      "parents": [],
+      "prefix": "TA",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Engineering instruments, meters, etc.: Industrial instrumentation"
+    },
+    {
+      "id": "TA365-367",
+      "parents": [],
+      "prefix": "TA",
+      "start": 365.0,
+      "stop": 367.0,
+      "subject": "Acoustics in engineering. Acoustical: engineering"
+    },
+    {
+      "id": "TA401-492",
+      "parents": [],
+      "prefix": "TA",
+      "start": 401.0,
+      "stop": 492.0,
+      "subject": "Materials of engineering and construction.: Mechanics of materials"
+    },
+    {
+      "id": "TA703-712",
+      "parents": [],
+      "prefix": "TA",
+      "start": 703.0,
+      "stop": 712.0,
+      "subject": "Engineering geology. Rock mechanics. Soil: mechanics. Underground construction"
+    }
+  ],
+  "TC": [
+    {
+      "id": "TC183-201",
+      "parents": [],
+      "prefix": "TC",
+      "start": 183.0,
+      "stop": 201.0,
+      "subject": "General preliminary operations. Dredging.: Submarine building"
+    },
+    {
+      "id": "TC203-380",
+      "parents": [],
+      "prefix": "TC",
+      "start": 203.0,
+      "stop": 380.0,
+      "subject": "Harbors and coast protective works. Coastal: engineering. Lighthouses"
+    },
+    {
+      "id": "TC401-506",
+      "parents": [],
+      "prefix": "TC",
+      "start": 401.0,
+      "stop": 506.0,
+      "subject": "River, lake, and water-supply engineering: (General)"
+    },
+    {
+      "id": "TC530-537",
+      "parents": [],
+      "prefix": "TC",
+      "start": 530.0,
+      "stop": 537.0,
+      "subject": "River protective works. Regulation.: Flood control"
+    },
+    {
+      "id": "TC801-978",
+      "parents": [],
+      "prefix": "TC",
+      "start": 801.0,
+      "stop": 978.0,
+      "subject": "Irrigation engineering. Reclamation of: wasteland. Drainage"
+    }
+  ],
+  "TD": [
+    {
+      "id": "TD429.5-480.7",
+      "parents": [],
+      "prefix": "TD",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Water purification. Water treatment and: conditioning. Saline water conversion"
+    },
+    {
+      "id": "TD511-780",
+      "parents": [],
+      "prefix": "TD",
+      "start": 511.0,
+      "stop": 780.0,
+      "subject": "Sewage collection and disposal systems.: Sewerage"
+    },
+    {
+      "id": "TD878-894",
+      "parents": [],
+      "prefix": "TD",
+      "start": 878.0,
+      "stop": 894.0,
+      "subject": "Special types of environment: Including soil pollution, air pollution, noise pollution"
+    }
+  ],
+  "TE": [
+    {
+      "id": "TE210-228.3",
+      "parents": [],
+      "prefix": "TE",
+      "start": 210.0,
+      "stop": 228.0,
+      "subject": "Construction details: Including foundations, maintenance, equipment"
+    }
+  ],
+  "TH": [
+    {
+      "id": "TH845-895",
+      "parents": [],
+      "prefix": "TH",
+      "start": 845.0,
+      "stop": 895.0,
+      "subject": "Architectural engineering. Structural: engineering of buildings"
+    },
+    {
+      "id": "TH1000-1725",
+      "parents": [],
+      "prefix": "TH",
+      "start": 1000.0,
+      "stop": 1725.0,
+      "subject": "Systems of building construction: Including fireproof construction, concrete construction"
+    },
+    {
+      "id": "TH2025-3000",
+      "parents": [],
+      "prefix": "TH",
+      "start": 2025.0,
+      "stop": 3000.0,
+      "subject": "Details in building design and construction: Including walls, roofs"
+    },
+    {
+      "id": "TH4021-4977",
+      "parents": [],
+      "prefix": "TH",
+      "start": 4021.0,
+      "stop": 4977.0,
+      "subject": "Buildings: Construction with reference to use: Including public buildings, dwellings"
+    },
+    {
+      "id": "TH6014-6081",
+      "parents": [],
+      "prefix": "TH",
+      "start": 6014.0,
+      "stop": 6081.0,
+      "subject": "Environmental engineering of buildings.: Sanitary engineering of buildings"
+    },
+    {
+      "id": "TH9025-9745",
+      "parents": [],
+      "prefix": "TH",
+      "start": 9025.0,
+      "stop": 9745.0,
+      "subject": "Protection of buildings: Including protection from dampness, fire, burglary"
+    }
+  ],
+  "TJ": [
+    {
+      "id": "TJ210.2-211.47",
+      "parents": [],
+      "prefix": "TJ",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Mechanical devices and figures. Automata.: Ingenious mechanisms. Robots (General)"
+    },
+    {
+      "id": "TJ212-225",
+      "parents": [],
+      "prefix": "TJ",
+      "start": 212.0,
+      "stop": 225.0,
+      "subject": "Control engineering systems. Automatic: machinery (General)"
+    },
+    {
+      "id": "TJ751-805",
+      "parents": [],
+      "prefix": "TJ",
+      "start": 751.0,
+      "stop": 805.0,
+      "subject": "Miscellaneous motors and engines: Including gas, gasoline, diesel engines"
+    },
+    {
+      "id": "TJ807-830",
+      "parents": [],
+      "prefix": "TJ",
+      "start": 807.0,
+      "stop": 830.0,
+      "subject": "Renewable energy sources"
+    }
+  ],
+  "TK": [
+    {
+      "id": "TK1-9971",
+      "parents": [],
+      "prefix": "TK",
+      "start": 1.0,
+      "stop": 9971.0,
+      "subject": "Electrical engineering. Electronics. Nuclear: engineering"
+    },
+    {
+      "id": "TK452-454.4",
+      "parents": [],
+      "prefix": "TK",
+      "start": 452.0,
+      "stop": 454.0,
+      "subject": "Electric apparatus and materials. Electric: circuits. Electric networks"
+    },
+    {
+      "id": "TK1001-1841",
+      "parents": [],
+      "prefix": "TK",
+      "start": 1001.0,
+      "stop": 1841.0,
+      "subject": "Production of electric energy or power.: Powerplants. Central stations"
+    },
+    {
+      "id": "TK2000-2891",
+      "parents": [],
+      "prefix": "TK",
+      "start": 2000.0,
+      "stop": 2891.0,
+      "subject": "Dynamoelectric machinery and auxiliaries: Including generators, motors, transformers"
+    },
+    {
+      "id": "TK2896-2985",
+      "parents": [],
+      "prefix": "TK",
+      "start": 2896.0,
+      "stop": 2985.0,
+      "subject": "Production of electricity by direct energy: conversion"
+    },
+    {
+      "id": "TK5101-6720",
+      "parents": [],
+      "prefix": "TK",
+      "start": 5101.0,
+      "stop": 6720.0,
+      "subject": "Telecommunication: Including telegraphy, telephone, radio, radar, television"
+    },
+    {
+      "id": "TK9900-9971",
+      "parents": [],
+      "prefix": "TK",
+      "start": 9900.0,
+      "stop": 9971.0,
+      "subject": "Electricity for amateurs. Amateur: constructors' manuals"
+    }
+  ],
+  "TN": [
+    {
+      "id": "TN263-271",
+      "parents": [],
+      "prefix": "TN",
+      "start": 263.0,
+      "stop": 271.0,
+      "subject": "Mineral deposits. Metallic ore deposits.: Prospecting"
+    },
+    {
+      "id": "TN331-347",
+      "parents": [],
+      "prefix": "TN",
+      "start": 331.0,
+      "stop": 347.0,
+      "subject": "Mine transportation, haulage and hoisting.: Mining machinery"
+    }
+  ],
+  "TP": [
+    {
+      "id": "TP480-498",
+      "parents": [],
+      "prefix": "TP",
+      "start": 480.0,
+      "stop": 498.0,
+      "subject": "Low temperature engineering. Cryogenic: engineering. Refrigeration"
+    }
+  ],
+  "TR": [
+    {
+      "id": "TR624-835",
+      "parents": [],
+      "prefix": "TR",
+      "start": 624.0,
+      "stop": 835.0,
+      "subject": "Applied photography: Including artistic, commercial, medical photography, photocopying processes"
+    }
+  ],
+  "TS": [
+    {
+      "id": "TS155-194",
+      "parents": [],
+      "prefix": "TS",
+      "start": 155.0,
+      "stop": 194.0,
+      "subject": "Production management. Operations: management"
+    }
+  ],
+  "TT": [
+    {
+      "id": "TT697-927",
+      "parents": [],
+      "prefix": "TT",
+      "start": 697.0,
+      "stop": 927.0,
+      "subject": "Home arts. Homecrafts: Including sewing, embroidery, decorative crafts"
+    }
+  ],
+  "TX": [
+    {
+      "id": "TX301-339",
+      "parents": [],
+      "prefix": "TX",
+      "start": 301.0,
+      "stop": 339.0,
+      "subject": "The house: Including arrangement, care, servants"
+    },
+    {
+      "id": "TX901-946.5",
+      "parents": [],
+      "prefix": "TX",
+      "start": 901.0,
+      "stop": 946.0,
+      "subject": "Hospitality industry. Hotels, clubs,: restaurants, etc. Food service"
+    }
+  ],
+  "UE": [
+    {
+      "id": "UE1-500",
+      "parents": [],
+      "prefix": "UE",
+      "start": 1.0,
+      "stop": 500.0,
+      "subject": "Cavalry. Armor: Including horse cavalry, armored cavalry, mechanized cavalry"
+    }
+  ],
+  "Z": [
+    {
+      "id": "Z48",
+      "parents": [],
+      "prefix": "Z",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Duplicating processes. Copying services: Including mimeographing, multilithing"
+    },
+    {
+      "id": "Z240-241.5",
+      "parents": [],
+      "prefix": "Z",
+      "start": 240.0,
+      "stop": 241.0,
+      "subject": "Incunabula. Block books: Including broadsides, playing cards"
+    },
+    {
+      "id": "Z242.9-264.5",
+      "parents": [],
+      "prefix": "Z",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Practical printing: Including printing as a business, layout, paper and ink, machinery, type and type founding, electrotyping, desktop publishing, typesetting, presswork"
+    },
+    {
+      "id": "Z265-265.5",
+      "parents": [],
+      "prefix": "Z",
+      "start": 265.0,
+      "stop": 265.0,
+      "subject": "Representation or reproduction of books, documents,: etc., by photography, microphotography, or other means"
+    },
+    {
+      "id": "Z679-680",
+      "parents": [],
+      "prefix": "Z",
+      "start": 679.0,
+      "stop": 680.0,
+      "subject": "Library buildings. Library architecture: Including planning, space utilization, security, safety, lighting, etc."
+    },
+    {
+      "id": "Z681-681.3",
+      "parents": [],
+      "prefix": "Z",
+      "start": 681.0,
+      "stop": 681.0,
+      "subject": "Reproduction of library materials. Storage media of: library materials"
+    },
+    {
+      "id": "Z691-692",
+      "parents": [],
+      "prefix": "Z",
+      "start": 691.0,
+      "stop": 692.0,
+      "subject": "Special classes of materials: Including manuscripts, maps, microforms, serials"
+    },
+    {
+      "id": "Z699-699.5",
+      "parents": [],
+      "prefix": "Z",
+      "start": 699.0,
+      "stop": 699.0,
+      "subject": "Machine methods of information and retrieval.: Mechanized bibliographic control"
+    },
+    {
+      "id": "Z700.9-701.5",
+      "parents": [],
+      "prefix": "Z",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Physical parameters, preservation, conservation and: restoration of books and other library materials"
+    },
+    {
+      "id": "Z703.5",
+      "parents": [],
+      "prefix": "Z",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Stack management. Disposition of books on shelves,: etc."
+    },
+    {
+      "id": "Z716-716.15",
+      "parents": [],
+      "prefix": "Z",
+      "start": 716.0,
+      "stop": 716.0,
+      "subject": "Library extension. Library commissions. Traveling: libraries"
+    },
+    {
+      "id": "Z716.2-718.85",
+      "parents": [],
+      "prefix": "Z",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Libraries in relation to special topics: Including libraries and community, libraries and television, children's libraries, libraries and students"
+    },
+    {
+      "id": "Z987-996.3",
+      "parents": [],
+      "prefix": "Z",
+      "start": 987.0,
+      "stop": 996.0,
+      "subject": "Book collecting: Including bibliophilism, bookplates"
+    },
+    {
+      "id": "Z1001",
+      "parents": [],
+      "prefix": "Z",
+      "start": 0.0,
+      "stop": 999999.99,
+      "subject": "Introduction to bibliography. Theory, philosophy,: psychology. Bibliography. Documentation"
+    },
+    {
+      "id": "Z1019-1033",
+      "parents": [],
+      "prefix": "Z",
+      "start": 1019.0,
+      "stop": 1033.0,
+      "subject": "Special classes of books: Including prohibited books, rare books, paperbacks, reprints"
+    },
+    {
+      "id": "Z5051-7999",
+      "parents": [],
+      "prefix": "Z",
+      "start": 5051.0,
+      "stop": 7999.0,
+      "subject": "Subject bibliography: Subjects arranged in alphabetical sequence"
+    },
+    {
+      "id": "Z8001-8999",
+      "parents": [],
+      "prefix": "Z",
+      "start": 8001.0,
+      "stop": 8999.0,
+      "subject": "Personal bibliography: Names of individuals arranged in alphabetical sequence"
+    }
+  ]
+}

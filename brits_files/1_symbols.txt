@@ -2,6 +2,7 @@ subclass split
 | - increase indent
 |+ - decrease indent (*creates alignment issues)
 || - same indentation level as last indentation
+Number of pluses and minuses determine how far many subclasses away from the previous one it is
 
 # We will continue to use the symbols above but...
 # I sense it would have been more intuitive as:

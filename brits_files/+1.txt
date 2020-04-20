@@ -156,7 +156,7 @@ HG9271 Child insurance. Life insurance for children
 HG9969.5-9999 Other insurance: Including automobile, burglary, credit, disaster, title insurance
 HJ5309-5510 Administrative fees. User charges. |+ License fees
 HJ9103-9695 Local finance. Municipal finance: Including the revenue, budget, expenditure, etc. of counties, boroughs, communes, municipalities, etc.
-(HM1-299) These are obsolete numbers no longer used by the Library of Congress
+HM1-299 These are obsolete numbers no longer used by the Library of Congress
 HM435-477 History of sociology. History of sociological theory
 HM1041-1101 Social perception. Social cognition: Including perception of the self and others, prejudices, stereotype
 HN1-995 Social history and conditions. Social problems. Social reform
@@ -186,7 +186,7 @@ HV9051-9230.7 The juvenile offender. Juvenile delinquency. |+ Reform schools, et
 HV9261-9430.7 Reformation and reclamation of adult prisoners
 HX519-550 Communism/socialism in relation to special topics
 HX626-696 Communism: Utopian socialism, collective settlements
-J(1)-(9) Gazettes: The Library of Congress now classes this material in K
+J1-9 Gazettes: The Library of Congress now classes this material in K
 J80-82 Presidents' messages and other executive papers
 JJ1000-1019 Political institutions and public administration (North America)
 JK1-9993 Political institutions and public administration (United States)
@@ -331,7 +331,7 @@ KJE833-838.8 Organization law. Constitution of the Council of Mutual Economic As
 KJE833 Treaties establishing and expanding the organization
 KJE846-847.5 Socialist public property. Public restraint on private property
 KJE887 External trade. Trade with non-member states
-KJE960-(974) Theory and methodology of uniform law development. Integration of law
+KJE960-974 Theory and methodology of uniform law development. Integration of law
 KJE4441-5520 Organization law. Constitution of the European Communities
 KJE4442-4443.4 Treaties establishing and expanding the communities
 KJE5075-5094 Intergovernmental (Internal) relations. Community and member nations
@@ -473,7 +473,7 @@ PA6202-6971 Individual authors |+ Including:
 PC901-986 Raeto-Romance: Including Romansh
 PD2201-2393 Old Norse. Old Icelandic and Old Norwegian
 PG7900-7925 Lechitic dialects |-- Slavic. Baltic. Albanian - Continued
-PG(3100)-(3155) Folk literature: Including texts
+PG3100-3155 Folk literature: Including texts
 PK1931-2212 Hindi, Urdu, Hindustani languages and literatures
 PL3501-3509.5 Non-Aryan languages of India and Southeastern Asia in general
 PM549-2711 Special languages of the United States and Canada (alphabetically)
@@ -490,7 +490,7 @@ QC770-798 Nuclear and particle physics. Atomic energy. |+ Radioactivity
 QC851-999 Meteorology. Climatology: Including the earth's atmosphere
 QD1-65 General: Including alchemy
 QE1-350.62 General: Including geographical divisions
-QH1-(199.5) General: Including nature conservation, geographical distribution
+QH1-199.5 General: Including nature conservation, geographical distribution
 QK1-474.5 General: Including geographical distribution
 QL1-355 General: Including geographical distribution
 QP1-345 General: Including influence of the environment
@@ -524,7 +524,7 @@ S590-599.9 Soils. Soil science: Including soil surveys, soil chemistry, soil str
 S602.5-604.37 Methods and systems of culture. Cropping systems: Including fallowing, rotation of crops, plowing
 S604.8-621.5 Melioration: Improvement, reclamation, fertilization, irrigation, etc., of lands
 S606-621.5 Special classes of lands and reclamation methods: Including woodlands, burning of lands, deserts, saline environments, moors
-S900-(972) Conservation of natural resources: Including land conservation
+S900-972 Conservation of natural resources: Including land conservation
 SB109.7-111 Methods for special areas: Including cold regions, dry farming, tropical agriculture
 SB119-124 Propagation: Including breeding, selection, grafting, air layering
 SB183-317 Field crops: Including cereals, forage crops, grasses, legumes, root crops, sugar plants, textile plants, alkaloidal plants, medicinal plants
@@ -533,7 +533,7 @@ SB442.5 Care and preparation of cut flowers and ornamental plants for market
 SB481-486 Parks and public reservations |+ Including theory, management, history
 SB992-998 Economic zoology applied to crops. Agricultural zoology: Including animals injurious and beneficial to plants
 SD411-428 Conservation and protection: Including forest influences, damage by elements, fires, forest reserves
-SD430-(559) Exploitation and utilization: Including timber trees, fuelwood, logging, transportation, valuation
+SD430-559 Exploitation and utilization: Including timber trees, fuelwood, logging, transportation, valuation
 SF756.5-769.5 Special preclinical sciences: Including veterinary genetics, ethology, anatomy, physiology, embryology, pathology
 SF811-909 Veterinary medicine of special organs, regions, and systems
 SH401-691 Angling: Including tackle, casting, methods of angling, angling for special kinds of fish

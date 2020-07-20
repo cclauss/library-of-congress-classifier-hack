@@ -12,3 +12,11 @@ docker-compose build solr
 PYENV_VERSION=2.7.6 docker-compose up -d
 open http://$(docker-machine ip):8080
 ```
+
+docker run -p 8000:80 -d nginx
+docker container ls
+docker stop amazing_mahavira
+docker rm amazing_mahavira
+
+docker-compose up -d
+http://localhost:8080

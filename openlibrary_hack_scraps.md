@@ -42,3 +42,23 @@ ESC[36mweb_1        |ESC[0m TypeError: can only concatenate str (not "bytes") to
  File "/openlibrary/openlibrary/core/middleware.py", line 44, in __call__
 ESC[36mweb_1        |ESC[0m     return [compress("".join(data), 9)]
 ESC[36mweb_1        |ESC[0m TypeError: sequence item 0: expected str instance, bytes found
+
+File "/openlibrary/openlibrary/core/middleware.py", line 27, in compress
+ESC[36mweb_1        |ESC[0m     gz = gzip.GzipFile(None, 'wb', level, fileobj=f)
+ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.3/lib/python3.8/gzip.py", line 232, in _write_gzip_header
+ESC[36mweb_1        |ESC[0m     self.fileobj.write(b'\037\213')             # magic header
+ESC[36mweb_1        |ESC[0m TypeError: string argument expected, got 'bytes'
+
+File "/openlibrary/infogami/infobase/server.py", line 98, in g
+ESC[36mweb_1        |ESC[0m     result = d.json_data if isinstance(d, JSON) else json.dumps(d)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.3/lib/python3.8/json/__init__.py", line 231, in dumps
+ESC[36mweb_1        |ESC[0m     return _default_encoder.encode(obj)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.3/lib/python3.8/json/encoder.py", line 199, in encode
+ESC[36mweb_1        |ESC[0m     chunks = self.iterencode(o, _one_shot=True)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.3/lib/python3.8/json/encoder.py", line 257, in iterencode
+ESC[36mweb_1        |ESC[0m     return _iterencode(o, 0)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.3/lib/python3.8/json/encoder.py", line 179, in default
+ESC[36mweb_1        |ESC[0m     raise TypeError(f'Object of type {o.__class__.__name__} '
+ESC[36mweb_1        |ESC[0m TypeError: Object of type datetime is not JSON serializable
+ERROR: Aborting.
+cclauss@christians-macbook-pro-1 openlibrary % code openlibrary/core/middleware.py

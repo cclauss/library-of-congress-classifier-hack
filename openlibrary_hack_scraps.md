@@ -1,7 +1,8 @@
 https://github.com/internetarchive/openlibrary/tree/master/docker
 
-* PYENV_VERSION=3.8.3 docker-compose up -d ; docker-compose logs -f web
-* PYENV_VERSION=3.8.3 docker-compose up -d ; docker exec -it openlibrary_web_1 /bin/bash
+* docker-compose down ; PYENV_VERSION=3.8.3 docker-compose up -d ; docker-compose logs -f web
+* docker-compose down ; PYENV_VERSION=3.8.3 docker-compose up -d ; docker exec -it openlibrary_web_1 /bin/bash
+    * pytest -v --show-capture=all openlibrary/plugins/openlibrary/tests/test_home.py
 
 
 ```

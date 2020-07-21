@@ -21,6 +21,11 @@ docker stop amazing_mahavira
 docker rm amazing_mahavira
 
 docker-compose up -d
+
+pytest -v --show-capture stdout openlibrary/catalog/marc/tests/test_parse.py | more  #3584
+pytest -v --show-capture stdout openlibrary/catalog/marc/tests/test_get_subjects.py | more
+pytest -v --show-capture stdout openlibrary/tests/catalog/test_get_ia.py | more
+pytest -v --show-capture stdout openlibrary/plugins/openlibrary/tests/test_home.py | more
 ```
 http://localhost:8080
 http://192.168.99.100:8080

@@ -12,7 +12,6 @@ docker-compose build web
 docker-compose build solr
 PYENV_VERSION=2.7.6 docker-compose up -d
 open http://$(docker-machine ip):8080
-```
 
 docker run -p 8000:80 -d nginx
 docker container ls
@@ -20,10 +19,9 @@ docker stop amazing_mahavira
 docker rm amazing_mahavira
 
 docker-compose up -d
+```
 http://localhost:8080
-
-
-
+http://192.168.99.100:8080
 ```
 File "/openlibrary/openlibrary/solr/solrwriter.py", line 3, in <module>
      import httplib

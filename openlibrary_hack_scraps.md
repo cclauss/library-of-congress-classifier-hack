@@ -99,11 +99,11 @@ File "/openlibrary/infogami/infobase/server.py", line 98, in g
 ### Problematic URLs
 1. http://localhost:8080/search?q=twain
 2. http://localhost:8080/search/authors?q=Twain
-3. ~http://localhost:8080/account/loans~
-4. http://localhost:8080/people/openlibrary7987/books/already-read/stats -- lang
-5. http://localhost:8080/people/openlibrary7987/preferences?m=diff&b=3
-6. http://localhost:8080/people/openlibrary7987/preferences?_compare=Compare&b=3&a=2&m=diff
-7. http://localhost:8080/type/object?m=edit -- lang
+3. http://localhost:8080/people/openlibrary7987/books/already-read/stats -- lang
+4. http://localhost:8080/type/object?m=edit -- lang
+5. ~http://localhost:8080/account/loans~
+6. ~http://localhost:8080/people/openlibrary7987/preferences?m=diff&b=3~
+7. ~http://localhost:8080/people/openlibrary7987/preferences?_compare=Compare&b=3&a=2&m=diff~
 ### Screen elements:
 * Home: http://localhost:8080/ -- OK
 * Vision: http://localhost:8080/about/vision (404 - Page Not Found) -- OK

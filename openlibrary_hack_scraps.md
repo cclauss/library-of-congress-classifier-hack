@@ -29,31 +29,52 @@ pytest -v --show-capture stdout openlibrary/plugins/openlibrary/tests/test_home.
 ```
 http://localhost:8080
 http://192.168.99.100:8080
+
+# 22 July 2020
 ```
-File "/openlibrary/openlibrary/solr/solrwriter.py", line 3, in <module>
-     import httplib
+Traceback (most recent call last):
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/plugins/worksearch/search.py", line 42, in work_search
+ESC[36mweb_1        |ESC[0m     result = solr.select(query, start=offset, rows=limit, **kw)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/utils/solr.py", line 98, in select
+ESC[36mweb_1        |ESC[0m     data = urllib.request.urlopen(request, timeout=10).read()
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/urllib/request.py", line 222, in urlopen
+ESC[36mweb_1        |ESC[0m     return opener.open(url, data, timeout)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/urllib/request.py", line 522, in open
+ESC[36mweb_1        |ESC[0m     req = meth(req)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/urllib/request.py", line 1281, in do_request_
+ESC[36mweb_1        |ESC[0m     raise TypeError(msg)
+ESC[36mweb_1        |ESC[0m TypeError: POST data should be bytes, an iterable of bytes, or a file object. It cannot be of type str.
+ESC[36mweb_1        |ESC[0m Traceback (most recent call last):
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/application.py", line 290, in process
+ESC[36mweb_1        |ESC[0m     return self.handle()
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/application.py", line 281, in handle
+ESC[36mweb_1        |ESC[0m     return self._delegate(fn, self.fvars, args)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
+ESC[36mweb_1        |ESC[0m     return handle_class(cls)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
+ESC[36mweb_1        |ESC[0m     return tocall(*args)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/app.py", line 187, in <lambda>
+ESC[36mweb_1        |ESC[0m     HEAD = GET = POST = PUT = DELET = lambda self: delegate()
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utilsE/app.py", line 206, in delegate
+ESC[36mweb_1        |ESC[0m     return getattr(cls(), method)(*args)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/plugins/worksearch/publishers.py", line 24, in GET
+ESC[36mweb_1        |ESC[0m     if page.work_count == 0:
+ESC[36mweb_1        |ESC[0m AttributeError: 'NoneType' object has no attribute 'work_count'
 
-File "/openlibrary/openlibrary/plugins/worksearch/subjects.py", line 222, in get_subject
-     from search import work_search
- ModuleNotFoundError: No module named 'search'
+Traceback (most recent call last):
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/template.py", line 143, in saferender
+ESC[36mweb_1        |ESC[0m     result = t(*a, **kw)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/template.py", line 987, in __call__
+ESC[36mweb_1        |ESC[0m     return BaseTemplate.__call__(self, *a, **kw)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/template.py", line 898, in __call__
+ESC[36mweb_1        |ESC[0m     return self.t(*a, **kw)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/templates/work_search.html", line 43, in __template__
+ESC[36mweb_1        |ESC[0m     $ start_facet_count = 5
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/plugins/worksearch/code.py", line 396, in do_search
+ESC[36mweb_1        |ESC[0m     if not reply or reply.startswith('<html'):
+ESC[36mweb_1        |ESC[0m TypeError: startswith first arg must be bytes or a tuple of bytes, not str
 
-File "/openlibrary/openlibrary/plugins/upstream/code.py", line 70, in static_url
-     digest = hashlib.md5(open(fullpath).read()).hexdigest()
- TypeError: Unicode-objects must be encoded before hashing
 
-File "/openlibrary/openlibrary/plugins/upstream/utils.py", line 716, in get_donation_include
-     html += opener.open(url_banner_source + param, timeout=3).read()
- TypeError: can only concatenate str (not "bytes") to str
-
-File "/openlibrary/openlibrary/core/middleware.py", line 44, in __call__
-     return [compress("".join(data), 9)]
- TypeError: sequence item 0: expected str instance, bytes found
-
-File "/openlibrary/openlibrary/core/middleware.py", line 27, in compress
-     gz = gzip.GzipFile(None, 'wb', level, fileobj=f)
-   File "/home/openlibrary/.pyenv/versions/3.8.3/lib/python3.8/gzip.py", line 232, in _write_gzip_header
-     self.fileobj.write(b'\037\213')             # magic header
- TypeError: string argument expected, got 'bytes'
 ```
 # Next up...
 ```

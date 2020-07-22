@@ -8,7 +8,7 @@ https://github.com/internetarchive/openlibrary/tree/master/docker
     * pytest -v --show-capture=all openlibrary/plugins/openlibrary/tests/test_home.py
     * apt-get install vim
     * cd vendor/infogami/infogami
-    * apt-get install -y vim ; vendor/infogami/infogami/utils/template.py
+    * apt-get install -y vim ; vi vendor/infogami/infogami/utils/template.py
 
 
 ```

@@ -94,7 +94,7 @@ File "/openlibrary/infogami/infobase/server.py", line 98, in g
 
 # UI test cases:
 ### Problematic URLs
-1. http://localhost:8080/search?q=twain
+1. http://localhost:8080/search?q=twain -- AttributeError: module 'config' has no attribute 'get'
 2. http://localhost:8080/people/openlibrary7987/books/already-read/stats -- lang
 3. http://localhost:8080/type/object?m=edit -- lang
 4. ~http://localhost:8080/search/authors?q=Twain~

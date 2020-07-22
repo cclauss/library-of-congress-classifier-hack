@@ -37,46 +37,46 @@ http://192.168.99.100:8080
 # 22 July 2020
 ```
 Traceback (most recent call last):
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/plugins/worksearch/search.py", line 42, in work_search
-ESC[36mweb_1        |ESC[0m     result = solr.select(query, start=offset, rows=limit, **kw)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/utils/solr.py", line 98, in select
-ESC[36mweb_1        |ESC[0m     data = urllib.request.urlopen(request, timeout=10).read()
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/urllib/request.py", line 222, in urlopen
-ESC[36mweb_1        |ESC[0m     return opener.open(url, data, timeout)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/urllib/request.py", line 522, in open
-ESC[36mweb_1        |ESC[0m     req = meth(req)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/urllib/request.py", line 1281, in do_request_
-ESC[36mweb_1        |ESC[0m     raise TypeError(msg)
-ESC[36mweb_1        |ESC[0m TypeError: POST data should be bytes, an iterable of bytes, or a file object. It cannot be of type str.
-ESC[36mweb_1        |ESC[0m Traceback (most recent call last):
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/application.py", line 290, in process
-ESC[36mweb_1        |ESC[0m     return self.handle()
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/application.py", line 281, in handle
-ESC[36mweb_1        |ESC[0m     return self._delegate(fn, self.fvars, args)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
-ESC[36mweb_1        |ESC[0m     return handle_class(cls)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
-ESC[36mweb_1        |ESC[0m     return tocall(*args)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/app.py", line 187, in <lambda>
-ESC[36mweb_1        |ESC[0m     HEAD = GET = POST = PUT = DELET = lambda self: delegate()
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utilsE/app.py", line 206, in delegate
-ESC[36mweb_1        |ESC[0m     return getattr(cls(), method)(*args)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/plugins/worksearch/publishers.py", line 24, in GET
-ESC[36mweb_1        |ESC[0m     if page.work_count == 0:
-ESC[36mweb_1        |ESC[0m AttributeError: 'NoneType' object has no attribute 'work_count'
+  File "/openlibrary/openlibrary/plugins/worksearch/search.py", line 42, in work_search
+    result = solr.select(query, start=offset, rows=limit, **kw)
+  File "/openlibrary/openlibrary/utils/solr.py", line 98, in select
+    data = urllib.request.urlopen(request, timeout=10).read()
+  File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/urllib/request.py", line 522, in open
+    req = meth(req)
+  File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/urllib/request.py", line 1281, in do_request_
+    raise TypeError(msg)
+TypeError: POST data should be bytes, an iterable of bytes, or a file object. It cannot be of type str.
+Traceback (most recent call last):
+  File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+  File "/openlibrary/infogami/utils/app.py", line 187, in <lambda>
+    HEAD = GET = POST = PUT = DELET = lambda self: delegate()
+  File "/openlibrary/infogami/utilsE/app.py", line 206, in delegate
+    return getattr(cls(), method)(*args)
+  File "/openlibrary/openlibrary/plugins/worksearch/publishers.py", line 24, in GET
+    if page.work_count == 0:
+AttributeError: 'NoneType' object has no attribute 'work_count'
 
 Traceback (most recent call last):
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/template.py", line 143, in saferender
-ESC[36mweb_1        |ESC[0m     result = t(*a, **kw)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/template.py", line 987, in __call__
-ESC[36mweb_1        |ESC[0m     return BaseTemplate.__call__(self, *a, **kw)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/template.py", line 898, in __call__
-ESC[36mweb_1        |ESC[0m     return self.t(*a, **kw)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/templates/work_search.html", line 43, in __template__
-ESC[36mweb_1        |ESC[0m     $ start_facet_count = 5
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/plugins/worksearch/code.py", line 396, in do_search
-ESC[36mweb_1        |ESC[0m     if not reply or reply.startswith('<html'):
-ESC[36mweb_1        |ESC[0m TypeError: startswith first arg must be bytes or a tuple of bytes, not str
+  File "/openlibrary/infogami/utils/template.py", line 143, in saferender
+    result = t(*a, **kw)
+  File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/template.py", line 987, in __call__
+    return BaseTemplate.__call__(self, *a, **kw)
+  File "/home/openlibrary/.pyenv/versions/3.8.4/lib/python3.8/site-packages/web/template.py", line 898, in __call__
+    return self.t(*a, **kw)
+  File "/openlibrary/openlibrary/templates/work_search.html", line 43, in __template__
+    $ start_facet_count = 5
+  File "/openlibrary/openlibrary/plugins/worksearch/code.py", line 396, in do_search
+    if not reply or reply.startswith('<html'):
+TypeError: startswith first arg must be bytes or a tuple of bytes, not str
 
 
 File "/openlibrary/infogami/infobase/server.py", line 98, in g
@@ -95,9 +95,9 @@ File "/openlibrary/infogami/infobase/server.py", line 98, in g
 # UI test cases:
 ### Problematic URLs
 1. http://localhost:8080/search?q=twain
-2. http://localhost:8080/search/authors?q=Twain
-3. http://localhost:8080/people/openlibrary7987/books/already-read/stats -- lang
-4. http://localhost:8080/type/object?m=edit -- lang
+2. http://localhost:8080/people/openlibrary7987/books/already-read/stats -- lang
+3. http://localhost:8080/type/object?m=edit -- lang
+4. ~http://localhost:8080/search/authors?q=Twain~
 5. ~http://localhost:8080/account/loans~
 6. ~http://localhost:8080/people/openlibrary7987/preferences?m=diff&b=3~
 7. ~http://localhost:8080/people/openlibrary7987/preferences?_compare=Compare&b=3&a=2&m=diff~
@@ -109,22 +109,22 @@ File "/openlibrary/infogami/infobase/server.py", line 98, in g
     * "Twain": http://localhost:8080/search?q=twain&mode=everything -- ___Internal Server Error___
 ```
 [ERROR] a: (<Storage {'mode': 'everything', 'q': 'Twain', 'author_key': [], 'language': [], 'first_publish_year': [], 'publisher_facet': [], 'subject_facet': [], 'person_facet': [], 'place_facet': [], 'time_facet': [], 'public_scan_b': []}>, 'Twain', <function do_search at 0x7f9a634645e0>, <function get_doc at 0x7f9a63464670>, <function get_availability_of_ocaids at 0x7f9a681c29d0>, <function fulltext_search at 0x7f9a634509d0>, ['has_fulltext', 'author_facet', 'language', 'first_publish_year', 'publisher_facet', 'subject_facet', 'person_facet', 'place_facet', 'time_facet', 'public_scan_b']), kw: {}
-ESC[36mweb_1        |ESC[0m Traceback (most recent call last):
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/template.py", line 145, in saferender
-ESC[36mweb_1        |ESC[0m     result = t(*a, **kw)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 987, in __call__
-ESC[36mweb_1        |ESC[0m     return BaseTemplate.__call__(self, *a, **kw)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 898, in __call__
-ESC[36mweb_1        |ESC[0m     return self.t(*a, **kw)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/templates/work_search.html", line 236, in __template__
-ESC[36mweb_1        |ESC[0m     <div id="searchFacets">
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 987, in __call__
-ESC[36mweb_1        |ESC[0m     return BaseTemplate.__call__(self, *a, **kw)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 898, in __call__
-ESC[36mweb_1        |ESC[0m     return self.t(*a, **kw)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/macros/Pager.html", line 28, in __template__
-ESC[36mweb_1        |ESC[0m     <a href="$changequery(page=p)" class="ChoosePage">$p</a>
-ESC[36mweb_1        |ESC[0m TypeError: 'float' object cannot be interpreted as an integer
+Traceback (most recent call last):
+  File "/openlibrary/infogami/utils/template.py", line 145, in saferender
+    result = t(*a, **kw)
+  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 987, in __call__
+    return BaseTemplate.__call__(self, *a, **kw)
+  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 898, in __call__
+    return self.t(*a, **kw)
+  File "/openlibrary/openlibrary/templates/work_search.html", line 236, in __template__
+    <div id="searchFacets">
+  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 987, in __call__
+    return BaseTemplate.__call__(self, *a, **kw)
+  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 898, in __call__
+    return self.t(*a, **kw)
+  File "/openlibrary/openlibrary/macros/Pager.html", line 28, in __template__
+    <a href="$changequery(page=p)" class="ChoosePage">$p</a>
+TypeError: 'float' object cannot be interpreted as an integer
 ```
 * Authors: http://localhost:8080/search/authors -- OK
     * "Twain": http://localhost:8080/search/authors?q=Twain (same as Books) -- ___Internal Server Error___
@@ -148,58 +148,58 @@ ESC[36mweb_1        |ESC[0m TypeError: 'float' object cannot be interpreted as a
     * My Profile/Stats: http://localhost:8080/people/openlibrary7987/books/already-read/stats -- ___Internal Server Error___
 ```
  Traceback (most recent call last):
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
-ESC[36mweb_1        |ESC[0m     return self.handle()
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 281, in handle
-ESC[36mweb_1        |ESC[0m     return self._delegate(fn, self.fvars, args)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
-ESC[36mweb_1        |ESC[0m     return handle_class(cls)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
-ESC[36mweb_1        |ESC[0m     return tocall(*args)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/app.py", line 187, in <lambda>
-ESC[36mweb_1        |ESC[0m     HEAD = GET = POST = PUT = DELETE = lambda self: delegate()
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/app.py", line 206, in delegate
-ESC[36mweb_1        |ESC[0m     return getattr(cls(), method)(*args)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/plugins/upstream/account.py", line 826, in GET
-ESC[36mweb_1        |ESC[0m     lang=web.ctx.lang,
-ESC[36mweb_1        |ESC[0m AttributeError: 'ThreadedDict' object has no attribute 'lang'
+  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+  File "/openlibrary/infogami/utils/app.py", line 187, in <lambda>
+    HEAD = GET = POST = PUT = DELETE = lambda self: delegate()
+  File "/openlibrary/infogami/utils/app.py", line 206, in delegate
+    return getattr(cls(), method)(*args)
+  File "/openlibrary/openlibrary/plugins/upstream/account.py", line 826, in GET
+    lang=web.ctx.lang,
+AttributeError: 'ThreadedDict' object has no attribute 'lang'
 ```
     * My Profile/Diff: http://localhost:8080/people/openlibrary7987/preferences?m=diff&b=3 -- ___Internal Server Error___
     * My Profile/Compare: http://localhost:8080/people/openlibrary7987/preferences?_compare=Compare&b=3&a=2&m=diff -- ___Internal Server Error___
     * My Profile/Edit: http://localhost:8080/type/object?m=edit -- ___Internal Server Error___
 ```
 Traceback (most recent call last):
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/i18n.py", line 109, in __call__
-ESC[36mweb_1        |ESC[0m     return str(self) % tuple(web.safestr(x) for x in a)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/i18n.py", line 102, in __str__
-ESC[36mweb_1        |ESC[0m     data = get(web.ctx.lang) or default_data
-ESC[36mweb_1        |ESC[0m AttributeError: 'ThreadedDict' object has no attribute 'lang'
+  File "/openlibrary/infogami/utils/i18n.py", line 109, in __call__
+    return str(self) % tuple(web.safestr(x) for x in a)
+  File "/openlibrary/infogami/utils/i18n.py", line 102, in __str__
+    data = get(web.ctx.lang) or default_data
+AttributeError: 'ThreadedDict' object has no attribute 'lang'
 ```
     * Settings: http://localhost:8080/account -- OK
 
 ### After search succeeds, we get:
+http://localhost:8080/search?q=twain -->
 ```
 Traceback (most recent call last):
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
-ESC[36mweb_1        |ESC[0m     return self.handle()
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 281, in handle
-ESC[36mweb_1        |ESC[0m     return self._delegate(fn, self.fvars, args)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
-ESC[36mweb_1        |ESC[0m     return handle_class(cls)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
-ESC[36mweb_1        |ESC[0m     return tocall(*args)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/coverstore/code.py", line 251, in GET
-ESC[36mweb_1        |ESC[0m     value = self.query(category, key, value)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/coverstore/code.py", line 346, in query
-ESC[36mweb_1        |ESC[0m     return _query(category, key, value)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/coverstore/code.py", line 56, in _query
-ESC[36mweb_1        |ESC[0m     return get_cover_id([olkey])
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/coverstore/code.py", line 38, in get_cover_id
-ESC[36mweb_1        |ESC[0m     doc = ol_get(olkey)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/coverstore/utils.py", line 66, in ol_get
-ESC[36mweb_1        |ESC[0m     if oldb.is_supported():
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/coverstore/oldb.py", line 15, in is_supported
-ESC[36mweb_1        |ESC[0m     return bool(config.get("ol_db_parameters"))
-ESC[36mweb_1        |ESC[0m AttributeError: module 'config' has no attribute 'get'
-ESC[36mweb_1        |ESC[0m
+  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+  File "/openlibrary/openlibrary/coverstore/code.py", line 251, in GET
+    value = self.query(category, key, value)
+  File "/openlibrary/openlibrary/coverstore/code.py", line 346, in query
+    return _query(category, key, value)
+  File "/openlibrary/openlibrary/coverstore/code.py", line 56, in _query
+    return get_cover_id([olkey])
+  File "/openlibrary/openlibrary/coverstore/code.py", line 38, in get_cover_id
+    doc = ol_get(olkey)
+  File "/openlibrary/openlibrary/coverstore/utils.py", line 66, in ol_get
+    if oldb.is_supported():
+  File "/openlibrary/openlibrary/coverstore/oldb.py", line 15, in is_supported
+    return bool(config.get("ol_db_parameters"))
+AttributeError: module 'config' has no attribute 'get'
 ```

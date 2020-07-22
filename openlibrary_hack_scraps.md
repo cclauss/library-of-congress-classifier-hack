@@ -149,7 +149,34 @@ ESC[36mweb_1        |ESC[0m TypeError: 'float' object cannot be interpreted as a
     * My Lists: http://localhost:8080/people/openlibrary7987/lists -- OK
     * My Profile: http://localhost:8080/people/openlibrary7987 -- OK
     * My Profile/Stats: http://localhost:8080/people/openlibrary7987/books/already-read/stats -- ___Internal Server Error___
+# AttributeError: 'ThreadedDict' object has no attribute 'lang'
+```
+ Traceback (most recent call last):
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
+ESC[36mweb_1        |ESC[0m     return self.handle()
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 281, in handle
+ESC[36mweb_1        |ESC[0m     return self._delegate(fn, self.fvars, args)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
+ESC[36mweb_1        |ESC[0m     return handle_class(cls)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
+ESC[36mweb_1        |ESC[0m     return tocall(*args)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/app.py", line 187, in <lambda>
+ESC[36mweb_1        |ESC[0m     HEAD = GET = POST = PUT = DELETE = lambda self: delegate()
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/app.py", line 206, in delegate
+ESC[36mweb_1        |ESC[0m     return getattr(cls(), method)(*args)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/plugins/upstream/account.py", line 826, in GET
+ESC[36mweb_1        |ESC[0m     lang=web.ctx.lang,
+ESC[36mweb_1        |ESC[0m AttributeError: 'ThreadedDict' object has no attribute 'lang'
+```
     * My Profile/Diff: http://localhost:8080/people/openlibrary7987/preferences?m=diff&b=3 -- ___Internal Server Error___
     * My Profile/Compare: http://localhost:8080/people/openlibrary7987/preferences?_compare=Compare&b=3&a=2&m=diff -- ___Internal Server Error___
     * My Profile/Edit: http://localhost:8080/type/object?m=edit -- ___Internal Server Error___
+```
+Traceback (most recent call last):
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/i18n.py", line 109, in __call__
+ESC[36mweb_1        |ESC[0m     return str(self) % tuple(web.safestr(x) for x in a)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/i18n.py", line 102, in __str__
+ESC[36mweb_1        |ESC[0m     data = get(web.ctx.lang) or default_data
+ESC[36mweb_1        |ESC[0m AttributeError: 'ThreadedDict' object has no attribute 'lang'
+```
     * Settings: http://localhost:8080/account -- OK

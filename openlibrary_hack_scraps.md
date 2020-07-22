@@ -5,9 +5,10 @@ https://github.com/internetarchive/openlibrary/tree/master/docker
 * docker-compose down ; PYENV_VERSION=2.7.6 docker-compose up -d ; docker-compose logs -f web | more
 * docker-compose down ; PYENV_VERSION=3.8.4 docker-compose up -d ; docker-compose logs -f web | more
 * docker-compose down ; PYENV_VERSION=3.8.4 docker-compose up -d ; docker exec -it openlibrary_web_1 /bin/bash
-    * apt-get install vim
     * pytest -v --show-capture=all openlibrary/plugins/openlibrary/tests/test_home.py
+    * apt-get install vim
     * cd vendor/infogami/infogami
+    * apt-get install -y vim ; vendor/infogami/infogami/utils/template.py
 
 
 ```

@@ -97,14 +97,13 @@ File "/openlibrary/infogami/infobase/server.py", line 98, in g
 
 # UI test cases:
 ### Problematic URLs
-http://localhost:8080/search?q=twain
-http://localhost:8080/search/authors?q=Twain
-http://localhost:8080/account/loans
-http://localhost:8080/people/openlibrary7987/books/already-read/stats
-http://localhost:8080/people/openlibrary7987/preferences?m=diff&b=3
-http://localhost:8080/people/openlibrary7987/preferences?_compare=Compare&b=3&a=2&m=diff
-http://localhost:8080/type/object?m=edit
-
+1. http://localhost:8080/search?q=twain
+2. http://localhost:8080/search/authors?q=Twain
+3. http://localhost:8080/account/loans
+4. http://localhost:8080/people/openlibrary7987/books/already-read/stats
+5. http://localhost:8080/people/openlibrary7987/preferences?m=diff&b=3
+6. http://localhost:8080/people/openlibrary7987/preferences?_compare=Compare&b=3&a=2&m=diff
+7. http://localhost:8080/type/object?m=edit
 ### Screen elements:
 * Home: http://localhost:8080/ -- OK
 * Vision: http://localhost:8080/about/vision (404 - Page Not Found) -- OK

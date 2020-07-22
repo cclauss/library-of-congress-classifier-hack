@@ -95,8 +95,17 @@ File "/openlibrary/infogami/infobase/server.py", line 98, in g
  TypeError: Object of type datetime is not JSON serializable
 ```
 
+# UI test cases:
+### Problematic URLs
+http://localhost:8080/search?q=twain
+http://localhost:8080/search/authors?q=Twain
+http://localhost:8080/account/loans
+http://localhost:8080/people/openlibrary7987/books/already-read/stats
+http://localhost:8080/people/openlibrary7987/preferences?m=diff&b=3
+http://localhost:8080/people/openlibrary7987/preferences?_compare=Compare&b=3&a=2&m=diff
+http://localhost:8080/type/object?m=edit
 
-Test cases:
+### Screen elements:
 * Home: http://localhost:8080/ -- OK
 * Vision: http://localhost:8080/about/vision (404 - Page Not Found) -- OK
 * Volunteer: http://localhost:8080/volunteer (404 - Page Not Found) -- OK
@@ -135,8 +144,9 @@ ESC[36mweb_1        |ESC[0m TypeError: 'float' object cannot be interpreted as a
 * Report A Problem: http://localhost:8080/contact?path=/help -- OK
     * Fill form and click `Send` --> Sent! -- OK
 * Suggesting Edits: http://localhost:8080/help/faq/editing
-* Login / Logout: -- OK
-* My Loans: http://localhost:8080/account/loans -- ___Internal Server Error___
+* User menu at upper right
+    * Login / Logout: -- OK
+    * My Loans: http://localhost:8080/account/loans -- ___Internal Server Error___
 ```
 Traceback (most recent call last):
 ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/core/lending.py", line 893, in _post
@@ -185,3 +195,10 @@ ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/
 ESC[36mweb_1        |ESC[0m     raise TypeError(msg)
 ESC[36mweb_1        |ESC[0m TypeError: POST data should be bytes, an iterable of bytes, or a file object. It cannot be of type str.
 ```
+    * My Lists: http://localhost:8080/people/openlibrary7987/lists -- OK
+    * My Profile: http://localhost:8080/people/openlibrary7987 -- OK
+    * My Profile/Stats: http://localhost:8080/people/openlibrary7987/books/already-read/stats -- ___Internal Server Error___
+    * My Profile/Diff: http://localhost:8080/people/openlibrary7987/preferences?m=diff&b=3 -- ___Internal Server Error___
+    * My Profile/Compare: http://localhost:8080/people/openlibrary7987/preferences?_compare=Compare&b=3&a=2&m=diff -- ___Internal Server Error___
+    * My Profile/Edit: http://localhost:8080/type/object?m=edit -- ___Internal Server Error___
+    * Settings: http://localhost:8080/account -- OK

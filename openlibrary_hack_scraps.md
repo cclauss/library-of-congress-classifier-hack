@@ -99,7 +99,7 @@ File "/openlibrary/infogami/infobase/server.py", line 98, in g
 ### Problematic URLs
 1. http://localhost:8080/search?q=twain
 2. http://localhost:8080/search/authors?q=Twain
-3. http://localhost:8080/account/loans
+3. ~http://localhost:8080/account/loans~
 4. http://localhost:8080/people/openlibrary7987/books/already-read/stats
 5. http://localhost:8080/people/openlibrary7987/preferences?m=diff&b=3
 6. http://localhost:8080/people/openlibrary7987/preferences?_compare=Compare&b=3&a=2&m=diff
@@ -145,55 +145,7 @@ ESC[36mweb_1        |ESC[0m TypeError: 'float' object cannot be interpreted as a
 * Suggesting Edits: http://localhost:8080/help/faq/editing
 * User menu at upper right
     * Login / Logout: -- OK
-    * My Loans: http://localhost:8080/account/loans -- ___Internal Server Error___
-```
-Traceback (most recent call last):
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/core/lending.py", line 893, in _post
-ESC[36mweb_1        |ESC[0m     jsontext = urllib.request.urlopen(config_ia_loan_api_url, payload,
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/urllib/request.py", line 222, in urlopen
-ESC[36mweb_1        |ESC[0m     return opener.open(url, data, timeout)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/urllib/request.py", line 522, in open
-ESC[36mweb_1        |ESC[0m     req = meth(req)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/urllib/request.py", line 1281, in do_request_
-ESC[36mweb_1        |ESC[0m     raise TypeError(msg)
-ESC[36mweb_1        |ESC[0m TypeError: POST data should be bytes, an iterable of bytes, or a file object. It cannot be of type str.
-ESC[36mweb_1        |ESC[0m Traceback (most recent call last):
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
-ESC[36mweb_1        |ESC[0m     return self.handle()
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 281, in handle
-ESC[36mweb_1        |ESC[0m     return self._delegate(fn, self.fvars, args)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
-ESC[36mweb_1        |ESC[0m     return handle_class(cls)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
-ESC[36mweb_1        |ESC[0m     return tocall(*args)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/app.py", line 187, in <lambda>
-ESC[36mweb_1        |ESC[0m     HEAD = GET = POST = PUT = DELETE = lambda self: delegate()
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/app.py", line 206, in delegate
-ESC[36mweb_1        |ESC[0m     return getattr(cls(), method)(*args)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/view.py", line 357, in g
-ESC[36mweb_1        |ESC[0m     return f(*a, **kw)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/plugins/upstream/account.py", line 878, in GET
-ESC[36mweb_1        |ESC[0m     user.update_loan_status()
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/plugins/upstream/models.py", line 807, in update_loan_status
-ESC[36mweb_1        |ESC[0m     loans = lending.get_loans_of_user(self.key)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/core/cache.py", line 453, in func
-ESC[36mweb_1        |ESC[0m     value = f(*args, **kwargs)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/core/lending.py", line 487, in get_loans_of_user
-ESC[36mweb_1        |ESC[0m     loans = [Loan(d) for d in loandata] + (_get_ia_loans_of_user(account.itemname) +
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/core/lending.py", line 492, in _get_ia_loans_of_user
-ESC[36mweb_1        |ESC[0m     ia_loans = ia_lending_api.find_loans(userid=userid)
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/core/lending.py", line 846, in find_loans
-ESC[36mweb_1        |ESC[0m     return self._post(method="loan.query", **kw).get('result', [])
-ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/core/lending.py", line 893, in _post
-ESC[36mweb_1        |ESC[0m     jsontext = urllib.request.urlopen(config_ia_loan_api_url, payload,
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/urllib/request.py", line 222, in urlopen
-ESC[36mweb_1        |ESC[0m     return opener.open(url, data, timeout)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/urllib/request.py", line 522, in open
-ESC[36mweb_1        |ESC[0m     req = meth(req)
-ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/urllib/request.py", line 1281, in do_request_
-ESC[36mweb_1        |ESC[0m     raise TypeError(msg)
-ESC[36mweb_1        |ESC[0m TypeError: POST data should be bytes, an iterable of bytes, or a file object. It cannot be of type str.
-```
+    * My Loans: http://localhost:8080/account/loans -- OK
     * My Lists: http://localhost:8080/people/openlibrary7987/lists -- OK
     * My Profile: http://localhost:8080/people/openlibrary7987 -- OK
     * My Profile/Stats: http://localhost:8080/people/openlibrary7987/books/already-read/stats -- ___Internal Server Error___

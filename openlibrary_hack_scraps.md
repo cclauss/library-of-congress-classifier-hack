@@ -6,7 +6,7 @@ https://github.com/internetarchive/openlibrary/tree/master/docker
 * docker-compose down ; PYENV_VERSION=3.8.5 docker-compose up -d ; docker-compose logs -f web | more
 * docker-compose down ; PYENV_VERSION=3.8.5 docker-compose up -d ; docker exec -it openlibrary_web_1 /bin/bash
     * pytest -v --show-capture=all openlibrary/plugins/openlibrary/tests/test_home.py
-    * cd vendor/infogami ; git branch ; git diff master ; apt-get install -y vim
+    * apt-get install -y vim ; cd vendor/infogami ; git branch ; git diff master
     * apt-get install vim
     * cd vendor/infogami/infogami
     * git branch ; apt-get install -y vim ; vi vendor/infogami/infogami/utils/template.py

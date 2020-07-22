@@ -79,9 +79,6 @@ ESC[36mweb_1        |ESC[0m     if not reply or reply.startswith('<html'):
 ESC[36mweb_1        |ESC[0m TypeError: startswith first arg must be bytes or a tuple of bytes, not str
 
 
-```
-# Next up...
-```
 File "/openlibrary/infogami/infobase/server.py", line 98, in g
      result = d.json_data if isinstance(d, JSON) else json.dumps(d)
    File "/home/openlibrary/.pyenv/versions/3.8.3/lib/python3.8/json/__init__.py", line 231, in dumps
@@ -149,7 +146,6 @@ ESC[36mweb_1        |ESC[0m TypeError: 'float' object cannot be interpreted as a
     * My Lists: http://localhost:8080/people/openlibrary7987/lists -- OK
     * My Profile: http://localhost:8080/people/openlibrary7987 -- OK
     * My Profile/Stats: http://localhost:8080/people/openlibrary7987/books/already-read/stats -- ___Internal Server Error___
-# AttributeError: 'ThreadedDict' object has no attribute 'lang'
 ```
  Traceback (most recent call last):
 ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
@@ -180,3 +176,30 @@ ESC[36mweb_1        |ESC[0m     data = get(web.ctx.lang) or default_data
 ESC[36mweb_1        |ESC[0m AttributeError: 'ThreadedDict' object has no attribute 'lang'
 ```
     * Settings: http://localhost:8080/account -- OK
+
+### After search succeeds, we get:
+```
+Traceback (most recent call last):
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
+ESC[36mweb_1        |ESC[0m     return self.handle()
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 281, in handle
+ESC[36mweb_1        |ESC[0m     return self._delegate(fn, self.fvars, args)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
+ESC[36mweb_1        |ESC[0m     return handle_class(cls)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
+ESC[36mweb_1        |ESC[0m     return tocall(*args)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/coverstore/code.py", line 251, in GET
+ESC[36mweb_1        |ESC[0m     value = self.query(category, key, value)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/coverstore/code.py", line 346, in query
+ESC[36mweb_1        |ESC[0m     return _query(category, key, value)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/coverstore/code.py", line 56, in _query
+ESC[36mweb_1        |ESC[0m     return get_cover_id([olkey])
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/coverstore/code.py", line 38, in get_cover_id
+ESC[36mweb_1        |ESC[0m     doc = ol_get(olkey)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/coverstore/utils.py", line 66, in ol_get
+ESC[36mweb_1        |ESC[0m     if oldb.is_supported():
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/coverstore/oldb.py", line 15, in is_supported
+ESC[36mweb_1        |ESC[0m     return bool(config.get("ol_db_parameters"))
+ESC[36mweb_1        |ESC[0m AttributeError: module 'config' has no attribute 'get'
+ESC[36mweb_1        |ESC[0m
+```

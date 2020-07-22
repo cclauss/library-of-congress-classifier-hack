@@ -6,6 +6,7 @@ https://github.com/internetarchive/openlibrary/tree/master/docker
 * docker-compose down ; PYENV_VERSION=3.8.5 docker-compose up -d ; docker-compose logs -f web | more
 * docker-compose down ; PYENV_VERSION=3.8.5 docker-compose up -d ; docker exec -it openlibrary_web_1 /bin/bash
     * pytest -v --show-capture=all openlibrary/plugins/openlibrary/tests/test_home.py
+    * cd vendor/infogami ; git branch ; git diff master ; apt-get install -y vim
     * apt-get install vim
     * cd vendor/infogami/infogami
     * git branch ; apt-get install -y vim ; vi vendor/infogami/infogami/utils/template.py
@@ -92,4 +93,95 @@ File "/openlibrary/infogami/infobase/server.py", line 98, in g
    File "/home/openlibrary/.pyenv/versions/3.8.3/lib/python3.8/json/encoder.py", line 179, in default
      raise TypeError(f'Object of type {o.__class__.__name__} '
  TypeError: Object of type datetime is not JSON serializable
+```
+
+
+Test cases:
+* Home: http://localhost:8080/ -- OK
+* Vision: http://localhost:8080/about/vision (404 - Page Not Found) -- OK
+* Volunteer: http://localhost:8080/volunteer (404 - Page Not Found) -- OK
+* Books: http://localhost:8080/search -- OK
+    * "Twain": http://localhost:8080/search?q=twain&mode=everything -- ___Internal Server Error___
+```
+[ERROR] a: (<Storage {'mode': 'everything', 'q': 'Twain', 'author_key': [], 'language': [], 'first_publish_year': [], 'publisher_facet': [], 'subject_facet': [], 'person_facet': [], 'place_facet': [], 'time_facet': [], 'public_scan_b': []}>, 'Twain', <function do_search at 0x7f9a634645e0>, <function get_doc at 0x7f9a63464670>, <function get_availability_of_ocaids at 0x7f9a681c29d0>, <function fulltext_search at 0x7f9a634509d0>, ['has_fulltext', 'author_facet', 'language', 'first_publish_year', 'publisher_facet', 'subject_facet', 'person_facet', 'place_facet', 'time_facet', 'public_scan_b']), kw: {}
+ESC[36mweb_1        |ESC[0m Traceback (most recent call last):
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/template.py", line 145, in saferender
+ESC[36mweb_1        |ESC[0m     result = t(*a, **kw)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 987, in __call__
+ESC[36mweb_1        |ESC[0m     return BaseTemplate.__call__(self, *a, **kw)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 898, in __call__
+ESC[36mweb_1        |ESC[0m     return self.t(*a, **kw)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/templates/work_search.html", line 236, in __template__
+ESC[36mweb_1        |ESC[0m     <div id="searchFacets">
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 987, in __call__
+ESC[36mweb_1        |ESC[0m     return BaseTemplate.__call__(self, *a, **kw)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 898, in __call__
+ESC[36mweb_1        |ESC[0m     return self.t(*a, **kw)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/macros/Pager.html", line 28, in __template__
+ESC[36mweb_1        |ESC[0m     <a href="$changequery(page=p)" class="ChoosePage">$p</a>
+ESC[36mweb_1        |ESC[0m TypeError: 'float' object cannot be interpreted as an integer
+```
+* Authors: http://localhost:8080/search/authors -- OK
+    * "Twain": http://localhost:8080/search/authors?q=Twain (same as Books) -- ___Internal Server Error___
+* http://localhost:8080/subjects (404 - Page Not Found) -- OK
+* Advanced Search http://localhost:8080/advancedsearch -- OK
+    * "Twain" http://localhost:8080/search?author=Twain (same as Books) -- ___Internal Server Error___
+* Developers: http://localhost:8080/developers (404 - Page Not Found) -- OK
+* API: http://localhost:8080/developers/api (404 - Page Not Found) -- OK
+* Bulk Data Dumps: http://localhost:8080/developers/dumps (404 - Page Not Found) -- OK
+* Add a Book: http://localhost:8080/books/add -- OK
+    * DO IT
+* Help Center: http://localhost:8080/help (404 - Page Not Found) -- OK
+* Report A Problem: http://localhost:8080/contact?path=/help -- OK
+    * Fill form and click `Send` --> Sent! -- OK
+* Suggesting Edits: http://localhost:8080/help/faq/editing
+* Login / Logout: -- OK
+* My Loans: http://localhost:8080/account/loans -- ___Internal Server Error___
+```
+Traceback (most recent call last):
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/core/lending.py", line 893, in _post
+ESC[36mweb_1        |ESC[0m     jsontext = urllib.request.urlopen(config_ia_loan_api_url, payload,
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/urllib/request.py", line 222, in urlopen
+ESC[36mweb_1        |ESC[0m     return opener.open(url, data, timeout)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/urllib/request.py", line 522, in open
+ESC[36mweb_1        |ESC[0m     req = meth(req)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/urllib/request.py", line 1281, in do_request_
+ESC[36mweb_1        |ESC[0m     raise TypeError(msg)
+ESC[36mweb_1        |ESC[0m TypeError: POST data should be bytes, an iterable of bytes, or a file object. It cannot be of type str.
+ESC[36mweb_1        |ESC[0m Traceback (most recent call last):
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
+ESC[36mweb_1        |ESC[0m     return self.handle()
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 281, in handle
+ESC[36mweb_1        |ESC[0m     return self._delegate(fn, self.fvars, args)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
+ESC[36mweb_1        |ESC[0m     return handle_class(cls)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
+ESC[36mweb_1        |ESC[0m     return tocall(*args)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/app.py", line 187, in <lambda>
+ESC[36mweb_1        |ESC[0m     HEAD = GET = POST = PUT = DELETE = lambda self: delegate()
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/app.py", line 206, in delegate
+ESC[36mweb_1        |ESC[0m     return getattr(cls(), method)(*args)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/infogami/utils/view.py", line 357, in g
+ESC[36mweb_1        |ESC[0m     return f(*a, **kw)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/plugins/upstream/account.py", line 878, in GET
+ESC[36mweb_1        |ESC[0m     user.update_loan_status()
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/plugins/upstream/models.py", line 807, in update_loan_status
+ESC[36mweb_1        |ESC[0m     loans = lending.get_loans_of_user(self.key)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/core/cache.py", line 453, in func
+ESC[36mweb_1        |ESC[0m     value = f(*args, **kwargs)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/core/lending.py", line 487, in get_loans_of_user
+ESC[36mweb_1        |ESC[0m     loans = [Loan(d) for d in loandata] + (_get_ia_loans_of_user(account.itemname) +
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/core/lending.py", line 492, in _get_ia_loans_of_user
+ESC[36mweb_1        |ESC[0m     ia_loans = ia_lending_api.find_loans(userid=userid)
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/core/lending.py", line 846, in find_loans
+ESC[36mweb_1        |ESC[0m     return self._post(method="loan.query", **kw).get('result', [])
+ESC[36mweb_1        |ESC[0m   File "/openlibrary/openlibrary/core/lending.py", line 893, in _post
+ESC[36mweb_1        |ESC[0m     jsontext = urllib.request.urlopen(config_ia_loan_api_url, payload,
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/urllib/request.py", line 222, in urlopen
+ESC[36mweb_1        |ESC[0m     return opener.open(url, data, timeout)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/urllib/request.py", line 522, in open
+ESC[36mweb_1        |ESC[0m     req = meth(req)
+ESC[36mweb_1        |ESC[0m   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/urllib/request.py", line 1281, in do_request_
+ESC[36mweb_1        |ESC[0m     raise TypeError(msg)
+ESC[36mweb_1        |ESC[0m TypeError: POST data should be bytes, an iterable of bytes, or a file object. It cannot be of type str.
 ```

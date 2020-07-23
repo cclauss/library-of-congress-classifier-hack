@@ -125,7 +125,7 @@ Traceback (most recent call last):
 TypeError: 'float' object cannot be interpreted as an integer
 ```
 * Authors: http://localhost:8080/search/authors -- OK
-    * "Twain": http://localhost:8080/search/authors?q=Twain (same as Books) -- ___Internal Server Error___
+    * "Twain": http://localhost:8080/search/authors?q=Twain (same as Books) -- OK
 * http://localhost:8080/subjects (404 - Page Not Found) -- OK
 * Advanced Search http://localhost:8080/advancedsearch -- OK
     * "Twain" http://localhost:8080/search?author=Twain (same as Books) -- ___Internal Server Error___

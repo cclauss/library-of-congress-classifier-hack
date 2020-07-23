@@ -91,6 +91,7 @@ File "/openlibrary/infogami/infobase/server.py", line 98, in g
  TypeError: Object of type datetime is not JSON serializable
 ```
 
+# 23 July 2020
 # UI test cases:
 ### Problematic URLs
 1. http://localhost:8080/search?q=twain -- AttributeError: module 'config' has no attribute 'get'
@@ -105,31 +106,36 @@ File "/openlibrary/infogami/infobase/server.py", line 98, in g
 * Vision: http://localhost:8080/about/vision (404 - Page Not Found) -- OK
 * Volunteer: http://localhost:8080/volunteer (404 - Page Not Found) -- OK
 * Books: http://localhost:8080/search -- OK
-    * "Twain": http://localhost:8080/search?q=twain&mode=everything -- ___Internal Server Error___
+    * "Twain": http://localhost:8080/search?q=twain&mode=everything -- ___Displays ok but AttributeError___
 ```
-[ERROR] a: (<Storage {'mode': 'everything', 'q': 'Twain', 'author_key': [], 'language': [], 'first_publish_year': [], 'publisher_facet': [], 'subject_facet': [], 'person_facet': [], 'place_facet': [], 'time_facet': [], 'public_scan_b': []}>, 'Twain', <function do_search at 0x7f9a634645e0>, <function get_doc at 0x7f9a63464670>, <function get_availability_of_ocaids at 0x7f9a681c29d0>, <function fulltext_search at 0x7f9a634509d0>, ['has_fulltext', 'author_facet', 'language', 'first_publish_year', 'publisher_facet', 'subject_facet', 'person_facet', 'place_facet', 'time_facet', 'public_scan_b']), kw: {}
 Traceback (most recent call last):
-  File "/openlibrary/infogami/utils/template.py", line 145, in saferender
-    result = t(*a, **kw)
-  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 987, in __call__
-    return BaseTemplate.__call__(self, *a, **kw)
-  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 898, in __call__
-    return self.t(*a, **kw)
-  File "/openlibrary/openlibrary/templates/work_search.html", line 236, in __template__
-    <div id="searchFacets">
-  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 987, in __call__
-    return BaseTemplate.__call__(self, *a, **kw)
-  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 898, in __call__
-    return self.t(*a, **kw)
-  File "/openlibrary/openlibrary/macros/Pager.html", line 28, in __template__
-    <a href="$changequery(page=p)" class="ChoosePage">$p</a>
-TypeError: 'float' object cannot be interpreted as an integer
+   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
+     return self.handle()
+   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 281, in handle
+     return self._delegate(fn, self.fvars, args)
+   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
+     return handle_class(cls)
+   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
+     return tocall(*args)
+   File "/openlibrary/openlibrary/coverstore/code.py", line 251, in GET
+     value = self.query(category, key, value)
+   File "/openlibrary/openlibrary/coverstore/code.py", line 346, in query
+     return _query(category, key, value)
+   File "/openlibrary/openlibrary/coverstore/code.py", line 56, in _query
+     return get_cover_id([olkey])
+   File "/openlibrary/openlibrary/coverstore/code.py", line 38, in get_cover_id
+     doc = ol_get(olkey)
+   File "/openlibrary/openlibrary/coverstore/utils.py", line 66, in ol_get
+     if oldb.is_supported():
+   File "/openlibrary/openlibrary/coverstore/oldb.py", line 15, in is_supported
+     return bool(config.get("ol_db_parameters"))
+ AttributeError: module 'config' has no attribute 'get'
 ```
 * Authors: http://localhost:8080/search/authors -- OK
     * "Twain": http://localhost:8080/search/authors?q=Twain (same as Books) -- OK
 * http://localhost:8080/subjects (404 - Page Not Found) -- OK
 * Advanced Search http://localhost:8080/advancedsearch -- OK
-    * "Twain" http://localhost:8080/search?author=Twain (same as Books) -- ___Internal Server Error___
+    * "Twain" http://localhost:8080/search?author=Twain (same as Books) -- ___Displays ok but AttributeError___
 * Developers: http://localhost:8080/developers (404 - Page Not Found) -- OK
 * API: http://localhost:8080/developers/api (404 - Page Not Found) -- OK
 * Bulk Data Dumps: http://localhost:8080/developers/dumps (404 - Page Not Found) -- OK
@@ -138,12 +144,19 @@ TypeError: 'float' object cannot be interpreted as an integer
 * Help Center: http://localhost:8080/help (404 - Page Not Found) -- OK
 * Report A Problem: http://localhost:8080/contact?path=/help -- OK
     * Fill form and click `Send` --> Sent! -- OK
-* Suggesting Edits: http://localhost:8080/help/faq/editing
+* Suggesting Edits: http://localhost:8080/help/faq/editing (404 - Page Not Found) -- OK
 * User menu at upper right
     * Login / Logout: -- OK
     * My Loans: http://localhost:8080/account/loans -- OK
     * My Lists: http://localhost:8080/people/openlibrary7987/lists -- OK
     * My Profile: http://localhost:8080/people/openlibrary7987 -- OK
+    * My Profile/Diff: http://localhost:8080/people/openlibrary7987/preferences?m=diff&b=3 -- OK
+    * My Profile/Compare: http://localhost:8080/people/openlibrary7987/preferences?_compare=Compare&b=3&a=2&m=diff -- OK
+    * Settings: http://localhost:8080/account -- OK
+
+
+### Problems
+* (continued)
     * My Profile/Stats: http://localhost:8080/people/openlibrary7987/books/already-read/stats -- ___Internal Server Error___
 ```
  Traceback (most recent call last):
@@ -163,8 +176,7 @@ TypeError: 'float' object cannot be interpreted as an integer
     lang=web.ctx.lang,
 AttributeError: 'ThreadedDict' object has no attribute 'lang'
 ```
-    * My Profile/Diff: http://localhost:8080/people/openlibrary7987/preferences?m=diff&b=3 -- ___Internal Server Error___
-    * My Profile/Compare: http://localhost:8080/people/openlibrary7987/preferences?_compare=Compare&b=3&a=2&m=diff -- ___Internal Server Error___
+* (continued)
     * My Profile/Edit: http://localhost:8080/type/object?m=edit -- ___Internal Server Error___
 ```
 Traceback (most recent call last):
@@ -174,10 +186,8 @@ Traceback (most recent call last):
     data = get(web.ctx.lang) or default_data
 AttributeError: 'ThreadedDict' object has no attribute 'lang'
 ```
-    * Settings: http://localhost:8080/account -- OK
-
-### After search succeeds, we get:
-http://localhost:8080/search?q=twain -->
+### After advanced search succeeds, we get:
+* http://localhost:8080/search?q=twain -->
 ```
 Traceback (most recent call last):
   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
@@ -201,4 +211,17 @@ Traceback (most recent call last):
   File "/openlibrary/openlibrary/coverstore/oldb.py", line 15, in is_supported
     return bool(config.get("ol_db_parameters"))
 AttributeError: module 'config' has no attribute 'get'
+```
+* Click `A Tramp Abroad`
+```
+Traceback (most recent call last):
+   File "/openlibrary/infogami/utils/template.py", line 145, in saferender
+     result = t(*a, **kw)
+   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 987, in __call__
+     return BaseTemplate.__call__(self, *a, **kw)
+   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 898, in __call__
+     return self.t(*a, **kw)
+   File "/openlibrary/openlibrary/templates/type/edition/view.html", line 315, in __template__
+     </div>
+ TypeError: '>' not supported between instances of 'Nothing' and 'int'
 ```

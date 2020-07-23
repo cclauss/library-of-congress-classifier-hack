@@ -94,7 +94,7 @@ File "/openlibrary/infogami/infobase/server.py", line 98, in g
 # 23 July 2020
 # UI test cases:
 ### Problematic URLs
-1. http://localhost:8080/search?q=twain -- AttributeError: module 'config' has no attribute 'get'
+1. http://localhost:8080/search?q=twain&debug=true -- AttributeError: module 'config' has no attribute 'get'
 2. http://localhost:8080/people/openlibrary7987/books/already-read/stats -- lang
 3. http://localhost:8080/type/object?m=edit -- lang
 4. ~http://localhost:8080/search/authors?q=Twain~
@@ -157,7 +157,7 @@ Traceback (most recent call last):
 
 ### Problems
 * (continued)
-    * My Profile/Stats: http://localhost:8080/people/openlibrary7987/books/already-read/stats -- ___Internal Server Error___
+    * My Profile/Stats: http://localhost:8080/people/openlibrary7987/books/already-read/stats&debug=true -- ___Internal Server Error___
 ```
  Traceback (most recent call last):
   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
@@ -177,7 +177,7 @@ Traceback (most recent call last):
 AttributeError: 'ThreadedDict' object has no attribute 'lang'
 ```
 * (continued)
-    * My Profile/Edit: http://localhost:8080/type/object?m=edit -- ___Internal Server Error___
+    * My Profile/Edit: http://localhost:8080/type/object?m=edit&debug=true -- ___Internal Server Error___
 ```
 Traceback (most recent call last):
   File "/openlibrary/infogami/utils/i18n.py", line 109, in __call__
@@ -187,7 +187,7 @@ Traceback (most recent call last):
 AttributeError: 'ThreadedDict' object has no attribute 'lang'
 ```
 ### After advanced search succeeds, we get:
-* http://localhost:8080/search?q=twain -->
+* http://localhost:8080/search?q=twain&debug=true -->
 ```
 Traceback (most recent call last):
   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
@@ -213,6 +213,7 @@ Traceback (most recent call last):
 AttributeError: module 'config' has no attribute 'get'
 ```
 * Click `A Tramp Abroad`
+    * http://localhost:8080/books/OL24197475M/The_complete_works_of_Mark_Twain.&debug=true
 ```
 Traceback (most recent call last):
    File "/openlibrary/infogami/utils/template.py", line 145, in saferender

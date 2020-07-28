@@ -226,3 +226,20 @@ Traceback (most recent call last):
      </div>
  TypeError: '>' not supported between instances of 'Nothing' and 'int'
 ```
+
+### URLs to test:
+http://localhost:8080
+http://localhost:8080/search
+http://localhost:8080/search?q=twain&debug=true -- AttributeError: module 'config' has no attribute 'get'
+http://localhost:8080/search?q=twain&mode=everything
+2. 3. http://localhost:8080/type/object?m=edit -- lang
+4. ~http://localhost:8080/search/authors?q=Twain~
+5. ~http://localhost:8080/account/loans~
+http://localhost:8080/people/openlibrary7987/books/already-read/stats -- lang
+http://localhost:8080/account/login
+http://localhost:8080/#  # logout
+http://localhost:8080/works/OL53924W/The_complete_works_of_Mark_Twain
+http://localhost:8080/works/OL24197475M/The_complete_works_of_Mark_Twain.
+
+6. ~http://localhost:8080/people/openlibrary7987/preferences?m=diff&b=3~
+7. ~http://localhost:8080/people/openlibrary7987/preferences?_compare=Compare&b=3&a=2&m=diff~

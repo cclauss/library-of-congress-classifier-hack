@@ -213,7 +213,7 @@ Traceback (most recent call last):
 AttributeError: module 'config' has no attribute 'get'
 ```
 * Click `A Tramp Abroad`
-    * http://localhost:8080/books/OL24197475M/The_complete_works_of_Mark_Twain.&debug=true
+    * http://localhost:8080/books/OL24197475M/The_complete_works_of_Mark_Twain.?debug=true
 ```
 Traceback (most recent call last):
    File "/openlibrary/infogami/utils/template.py", line 145, in saferender

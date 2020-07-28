@@ -228,6 +228,7 @@ Traceback (most recent call last):
 ```
 
 ### URLs to test:
+```python
 #!/usr/bin/env python3
 
 import requests
@@ -260,3 +261,4 @@ http://localhost:8080/works/OL24197475M/The_complete_works_of_Mark_Twain.
 for url in URLS.splitlines():
     print(url)
     print(requests.get(url).text)
+```

@@ -238,24 +238,46 @@ http://localhost:8080
 http://localhost:8080/#  # logout
 http://localhost:8080/account/login
 http://localhost:8080/account
+http://localhost:8080/account/import
 http://localhost:8080/account/loans
+http://localhost:8080/account/notifications
+http://localhost:8080/account/privacy
 http://localhost:8080/advancedsearch
 http://localhost:8080/authors
 http://localhost:8080/authors/OL18319A
-http://localhost:8080/books
 http://localhost:8080/books/add
-http://localhost:8080/books/OL42679M
+http://localhost:8080/contact
 http://localhost:8080/search
+http://localhost:8080/search?q=place%3AItaly
+http://localhost:8080/search?place=Italy
+http://localhost:8080/search?subject=Adventure
 http://localhost:8080/search?q=twain&debug=true -- AttributeError: module 'config' has no attribute 'get'
-http://localhost:8080/search?q=twain&mode=everything
+http://localhost:8080/search?q=twain
 http://localhost:8080/search/authors
 http://localhost:8080/search/authors?q=twain
-http://localhost:8080/type/object?m=edit -- lang
-http://localhost:8080/people/openlibrary7987/books/already-read/stats -- lang
-http://localhost:8080/people/openlibrary7987/preferences?m=diff&b=3
-http://localhost:8080/people/openlibrary7987/preferences?_compare=Compare&b=3&a=2&m=diff
+http://localhost:8080/type/object
+http://localhost:8080/people/openlibrary6320/books/already-read/stats
+http://localhost:8080/people/openlibrary6320/books/currently-reading
+http://localhost:8080/people/openlibrary6320/books/want-to-read
+http://localhost:8080/people/openlibrary6320/lists
+http://localhost:8080/people/openlibrary6320/preferences?m=diff&b=3
+http://localhost:8080/people/openlibrary6320/preferences?_compare=Compare&b=3&a=2&m=diff
 http://localhost:8080/works/OL53924W/The_complete_works_of_Mark_Twain
-http://localhost:8080/works/OL24197475M/The_complete_works_of_Mark_Twain.
+"""
+
+"""
+1. TypeError: '>' not supported between instances of 'Nothing' and 'int' (falling back to default template)
+2. AttributeError: 'ThreadedDict' object has no attribute 'lang'
+* /openlibrary/openlibrary/plugins/worksearch/code.py:489: FutureWarning: The behavior of this method will change in future versions. Use specific 'len(elem)' or 'elem is not None' test instead.
+"""
+
+BAD_URLS = """\
+http://localhost:8080/books/OL42679M  # 1.
+http://localhost:8080/works/OL24197475M/The_complete_works_of_Mark_Twain.  # 1.
+http://localhost:8080/people/openlibrary6320/books/already-read/stats  # 2.
+http://localhost:8080/people/openlibrary6320/books/currently-reading/stats  # 2.
+http://localhost:8080/people/openlibrary6320/books/want-to-read/stats  # 2.
+http://localhost:8080/type/object?m=edit  # 2.
 """
 
 for url in URLS.splitlines():

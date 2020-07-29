@@ -285,5 +285,5 @@ for url in URLS.splitlines():
     print(requests.get(url).text)
 ```
 
-http://localhost:8080/works/OL54120W.json
-http://localhost:8080/books/OL42679M.json
+* http://localhost:8080/works/OL54120W.json
+* http://localhost:8080/books/OL42679M.json

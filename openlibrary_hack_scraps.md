@@ -272,12 +272,12 @@ http://localhost:8080/works/OL53924W/The_complete_works_of_Mark_Twain
 """
 
 BAD_URLS = """\
-http://localhost:8080/books/OL42679M  # 1.
-http://localhost:8080/works/OL24197475M/The_complete_works_of_Mark_Twain.  # 1.
-http://localhost:8080/people/openlibrary6320/books/already-read/stats  # 2.
-http://localhost:8080/people/openlibrary6320/books/currently-reading/stats  # 2.
-http://localhost:8080/people/openlibrary6320/books/want-to-read/stats  # 2.
-http://localhost:8080/type/object?m=edit  # 2.
+http://localhost:8080/books/OL42679M&debug=true  # 1.
+http://localhost:8080/works/OL24197475M/The_complete_works_of_Mark_Twain.?debug=true  # 1.
+http://localhost:8080/people/openlibrary6320/books/already-read/stats?debug=true  # 2.
+http://localhost:8080/people/openlibrary6320/books/currently-reading/stats?debug=true  # 2.
+http://localhost:8080/people/openlibrary6320/books/want-to-read/stats?debug=true  # 2.
+http://localhost:8080/type/object?m=edit&debug=true  # 2.
 """
 
 for url in URLS.splitlines():

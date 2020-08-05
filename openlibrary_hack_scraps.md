@@ -10,6 +10,7 @@ https://github.com/internetarchive/openlibrary/tree/master/docker
     * apt-get install -y vim ; cd vendor/infogami ; git branch ; git diff master
     * git branch ; apt-get install -y vim ; vi infogami/utils/template.py
 
+http://localhost:8080/admin/attach_debugger
 
 ```
 docker build -t olbase:latest -f docker/Dockerfile.olbase .

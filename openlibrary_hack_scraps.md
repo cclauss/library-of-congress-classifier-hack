@@ -11,6 +11,8 @@ https://github.com/internetarchive/openlibrary/tree/master/docker
     * git branch ; apt-get install -y vim ; vi infogami/utils/template.py
 
 http://localhost:8080/admin/attach_debugger
+* code openlibrary/templates/type/edition/view.html
+* code openlibrary/plugins/upstream/models.py
 
 ```
 docker build -t olbase:latest -f docker/Dockerfile.olbase .

@@ -290,3 +290,18 @@ for url in URLS.splitlines():
 
 * http://localhost:8080/works/OL54120W.json
 * http://localhost:8080/books/OL42679M.json
+
+```
+class Work(models.Work):
+    """
+    >>> from openlibrary.mocks.mock_infobase import MockSite
+    >>> web.ctx.site = MockSite()
+    >>> work = models.Work(web.ctx.site, '/works/OL42679M', web.Storage())
+    >>> callable(work.get_sorted_editions)  # Issue #3633
+    True
+    >>> work.get_sorted_editions()
+    []
+    >>> print(work.get_sorted_editions)
+    <bound method Work.get_sorted_editions of <Work: '/works/OL42679M'>>
+    """
+```

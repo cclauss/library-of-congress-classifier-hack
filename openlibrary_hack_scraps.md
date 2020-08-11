@@ -2,8 +2,8 @@ https://github.com/internetarchive/openlibrary/tree/master/docker
 
 * docker build -t olbase:latest -f docker/Dockerfile.olbase . ; docker-compose build web ; docker-compose build solr
 
-* docker-compose down ; INFOGAMI=local PYENV_VERSION=2.7.6 docker-compose up -d ; docker-compose logs -f --tail=10 web  # | more
-* docker-compose down ; INFOGAMI=local PYENV_VERSION=3.8.5 docker-compose up -d ; docker-compose logs -f --tail=10 web  # | more
+* docker-compose down ; INFOGAMI=local PYENV_VERSION=2.7.6 docker-compose up -d ; docker-compose logs -f --tail=10 web
+* docker-compose down ; INFOGAMI=local PYENV_VERSION=3.8.5 docker-compose up -d ; docker-compose logs -f --tail=10 web
 * open http://localhost:8080
 * docker exec -it openlibrary_web_1 /bin/bash
     * pytest -v --show-capture=all openlibrary/plugins/openlibrary/tests/test_home.py

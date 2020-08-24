@@ -23,3 +23,4 @@ fabienne_clauss.pop("created")
 fabienne_clauss.pop("last_modified")
 fabienne_clauss.pop("latest_revision")
 print(requests.post(NEW_URL, json=fabienne_clauss).text)
+# --> Permission Denied.

@@ -15,7 +15,7 @@ http://localhost:8080/admin/attach_debugger
 * code openlibrary/templates/type/edition/view.html
 * code openlibrary/plugins/upstream/models.py
 * http://localhost:8081/b/olid/OL2058361M-L.jpg
-* http://localhost:8081/b/olid/OL19545135W-L.jpg
+* http://localhost:8081/b/olid/OL26835764M-L.jpg
 
 ```
 docker build -t olbase:latest -f docker/Dockerfile.olbase .

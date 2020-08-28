@@ -17,8 +17,12 @@ print(f"{fabienne_clauss = }")
 # PART II: Import data into localhost
 """
 POST_URL = "http://localhost:8080/api/import/ia"
-print(requests.post(POST_URL, json=fabienne_clauss).text)
-print(requests.post(POST_URL, json=la_grande_neige).text)
+response = requests.post(POST_URL, json=fabienne_clauss)
+response.raise_for_error()
+print(response.text)
+response = requests.post(POST_URL, json=la_grande_neige)
+response.raise_for_error()
+print(response.text)
 """
 
 NEW_URL = "http://localhost:8080/api/new.json"

@@ -1,3 +1,10 @@
+# Bookserver
+* docker container stop bookserver
+* docker container rm bookserver
+* ./install.sh ; docker logs bookserver
+
+---
+
 https://github.com/internetarchive/openlibrary/tree/master/docker
 
 * docker build -t olbase:latest -f docker/Dockerfile.olbase . ; docker-compose build web ; docker-compose build solr

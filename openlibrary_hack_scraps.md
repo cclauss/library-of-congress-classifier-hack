@@ -3,6 +3,22 @@
 * docker container rm bookserver
 * ./install.sh ; docker logs bookserver
 
+docker container stop bookserver ; \\
+    docker container rm bookserver ; \\
+    docker run --name bookserver -d -p 8080:443 bookserver & ; \\
+    docker logs -f --tail=10 bookserver
+
+open http://localhost:8080 \
+     http://localhost:8080/inlibrary \
+     http://localhost:8080/downloads.xml \
+     http://localhost:8080/new \
+     http://localhost:8080/alpha.xml \
+     http://localhost:8080/alpha/c/1 \
+     http://localhost:8080/group/openaudiobooks \
+     http://localhost:8080/group/recentreturns \
+     http://localhost:8080/group/staffpicks \
+     http://localhost:8080/group/detective
+
 ---
 
 https://github.com/internetarchive/openlibrary/tree/master/docker

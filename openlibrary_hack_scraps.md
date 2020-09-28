@@ -1,5 +1,6 @@
 # Bookserver
-* docker container stop bookserver
+* docker system prune  # <-- !!! CAUTION !!!
+r* docker container stop bookserver
 * docker container rm bookserver
 * ./install.sh ; docker logs bookserver
 

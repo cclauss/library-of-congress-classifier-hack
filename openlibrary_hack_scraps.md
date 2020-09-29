@@ -1,6 +1,6 @@
 # Bookserver
 * docker system prune  # <-- !!! CAUTION !!!
-r* docker container stop bookserver
+* docker container stop bookserver
 * docker container rm bookserver
 * ./install.sh ; docker logs bookserver
 
@@ -22,7 +22,7 @@ open http://localhost:8080 \
 
 ---
 * ssh -A -i .ssh/id_rsa_archive_org sshgw-sf.us.archive.org
-    * ssh -A ol-dev0
+    * ssh -A ol-dev0  # ls /opt/openlibrary/openlibrary
     * ssh -A ol-web1
 
 ```

@@ -21,6 +21,19 @@ open http://localhost:8080 \
      http://localhost:8080/group/detective
 
 ---
+sshgw-sf.us.archive.org
+
+sudo kill -9 `pgrep -f openlibrary-server`;sudo /olsystem/bin/upstart-service openlibrary-dev-server :7071
+### Please only run this on ol-dev0
+It's a special way of restarting the dev server
+`sudo ./scripts/make-dev-merged.sh _dev-merged.txt; this will blow away any tracked but unstaged changes on ol-dev0`
+The process is to open _dev_merged.txt and to add the remote branch to the right section/location
+We'll then run the script command above which pull the latest master and replay all the patches on the various branches, giving you a super-branch of everything we want to test
+https://github.com/internetarchive/openlibrary/blob/master/CONTRIBUTING.md#maintainers
+
+https://sentry.archive.org/sentry/ol-web/issues/4139/?environment=staging says Py2.7.6
+
+---
 
 https://github.com/internetarchive/openlibrary/tree/master/docker
 

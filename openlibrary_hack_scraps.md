@@ -29,6 +29,7 @@ open http://localhost:8080 \
     * ssh -A ol-web3
     * ssh -A ol-web4
 
+### Only on dev0
 ```
 sudo kill -9 `pgrep -f openlibrary-server`;sudo /olsystem/bin/upstart-service openlibrary-dev-server :7071
 ### Please only run this on ol-dev0
@@ -37,6 +38,9 @@ It's a special way of restarting the dev server
 The process is to open _dev_merged.txt and to add the remote branch to the right section/location
 We'll then run the script command above which pull the latest master and replay all the patches on the various branches, giving you a super-branch of everything we want to test
 ```
+### On dev1
+
+
 https://github.com/internetarchive/openlibrary/blob/master/CONTRIBUTING.md#maintainers
 
 https://sentry.archive.org/sentry/ol-web/issues/4139/?environment=staging says Py2.7.6
@@ -44,6 +48,7 @@ https://sentry.archive.org/sentry/ol-web/issues/4139/?environment=staging says P
 ---
 # dev0 is dev.openlibrary.org on Python 2.7.6
 # dev1 is staging.openlibrary.org on Python 3
+* https://github.com/internetarchive/openlibrary/wiki/Deployment-Guide#stagingopenlibraryorg
 
 * cd /opt/openlibrary
 * git status

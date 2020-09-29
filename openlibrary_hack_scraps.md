@@ -22,10 +22,12 @@ open http://localhost:8080 \
 
 ---
 # Jumpservers
-* ssh -A -i .ssh/id_rsa_archive_org sshgw-sf.us.archive.org
-    * ssh -A ol-dev0  # cd /opt/openlibrary
-    * ssh -A ol-dev1  # cd /opt/openlibrary
+* ssh -A -i ~/.ssh/id_rsa_archive_org sshgw-sf.us.archive.org
+    * ssh -A ol-dev0  # cd /opt/openlibrary/openlibrary
+    * ssh -A ol-dev1  # cd /opt/openlibrary/openlibrary
     * ssh -A ol-web1
+    * ssh -A ol-web3
+    * ssh -A ol-web4
 
 ```
 sudo kill -9 `pgrep -f openlibrary-server`;sudo /olsystem/bin/upstart-service openlibrary-dev-server :7071

@@ -21,8 +21,10 @@ open http://localhost:8080 \
      http://localhost:8080/group/detective
 
 ---
+# Jumpservers
 * ssh -A -i .ssh/id_rsa_archive_org sshgw-sf.us.archive.org
-    * ssh -A ol-dev0  # ls /opt/openlibrary/openlibrary
+    * ssh -A ol-dev0  # cd /opt/openlibrary
+    * ssh -A ol-dev1  # cd /opt/openlibrary
     * ssh -A ol-web1
 
 ```
@@ -37,6 +39,18 @@ https://github.com/internetarchive/openlibrary/blob/master/CONTRIBUTING.md#maint
 
 https://sentry.archive.org/sentry/ol-web/issues/4139/?environment=staging says Py2.7.6
 
+---
+# dev0 is dev.openlibrary.org on Python 2.7.6
+# dev1 is staging.openlibrary.org on Python 3
+
+* cd /opt/openlibrary
+* git status
+* git diff
+* docker-compose ; PYENV_VERSION=3.8.5 docker-compose -f docker-compose.yml -f docker-compose.infogami-local.yml up -d
+* docker-compose logs --tail=10 -f web
+* tail -f /var/log/ansible-pull.log
+* service docker restart
+* INFOGAMI=local PYENV_VERSION=3.8.5 docker-compose up -d
 ---
 
 https://github.com/internetarchive/openlibrary/tree/master/docker

@@ -47,9 +47,9 @@ https://sentry.archive.org/sentry/ol-web/issues/4139/?environment=staging says P
 
 ---
 # dev0 is dev.openlibrary.org on Python 2.7.6
-* [https://dev.openlibrary.org/status]()
+* [https://dev.openlibrary.org/status](https://dev.openlibrary.org/status)
 # dev1 is staging.openlibrary.org on Python 3
-* [https://staging.openlibrary.org/status]()
+* [https://staging.openlibrary.org/status](https://staging.openlibrary.org/status)
 
 * https://github.com/internetarchive/openlibrary/wiki/Deployment-Guide#stagingopenlibraryorg
 

@@ -21,7 +21,9 @@ open http://localhost:8080 \
      http://localhost:8080/group/detective
 
 ---
-sshgw-sf.us.archive.org
+* ssh -A -i .ssh/id_rsa_archive_org sshgw-sf.us.archive.org
+    * ssh -A ol-dev0
+    * ssh -A ol-web1
 
 sudo kill -9 `pgrep -f openlibrary-server`;sudo /olsystem/bin/upstart-service openlibrary-dev-server :7071
 ### Please only run this on ol-dev0

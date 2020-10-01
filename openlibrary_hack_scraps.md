@@ -23,8 +23,8 @@ open http://localhost:8080 \
 ---
 # Jumpservers
 * ssh -A -i ~/.ssh/id_rsa_archive_org sshgw-sf.us.archive.org
-    * ssh -A ol-dev0  # cd /opt/openlibrary/openlibrary ; vim _dev-merged.txt  # dev0 is dev.openlibrary.org on Python 2.7.6
-    * ssh -A ol-dev1  # cd /opt/openlibrary ; vim _dev-merged.txt  # dev1 is staging.openlibrary.org on Python 3
+    * ssh -A ol-dev0  # cd /opt/openlibrary/openlibrary ; sudo vim _dev-merged.txt  # dev0 is dev.openlibrary.org on Python 2.7.6
+    * ssh -A ol-dev1  # cd /opt/openlibrary ; sudo vim _dev-merged.txt  # dev1 is staging.openlibrary.org on Python 3
     * ssh -A ol-web1
     * ssh -A ol-web3
     * ssh -A ol-web4
@@ -39,8 +39,6 @@ The process is to open _dev_merged.txt and to add the remote branch to the right
 We'll then run the script command above which pull the latest master and replay all the patches on the various branches, giving you a super-branch of everything we want to test
 ```
 ### On dev1
-
-
 https://github.com/internetarchive/openlibrary/blob/master/CONTRIBUTING.md#maintainers
 
 https://sentry.archive.org/sentry/ol-web/issues/4139/?environment=staging says Py2.7.6

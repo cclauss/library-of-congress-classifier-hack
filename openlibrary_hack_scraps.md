@@ -28,6 +28,7 @@ open http://localhost:8080 \
     * ssh -A ol-web1
     * ssh -A ol-web3
     * ssh -A ol-web4
+* sudo ./scripts/make-integration-branch.sh _dev-merged.txt dev-merged
 
 ### Only on dev0
 ```

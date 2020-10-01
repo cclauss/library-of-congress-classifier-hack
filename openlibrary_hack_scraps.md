@@ -30,9 +30,9 @@ open http://localhost:8080 \
     * ssh -A ol-web4
 * sudo ./scripts/make-integration-branch.sh _dev-merged.txt dev-merged
 
-### Only on dev0
+### Only on dev0 (zsh: use &! to run a job in backround and disown)
 ```
-sudo kill -9 `pgrep -f openlibrary-server`;sudo /olsystem/bin/upstart-service openlibrary-dev-server :7071
+sudo kill -9 `pgrep -f openlibrary-server`;sudo /olsystem/bin/upstart-service openlibrary-dev-server :7071 &!
 ### Please only run this on ol-dev0
 It's a special way of restarting the dev server
 `sudo ./scripts/make-dev-merged.sh _dev-merged.txt; this will blow away any tracked but unstaged changes on ol-dev0`

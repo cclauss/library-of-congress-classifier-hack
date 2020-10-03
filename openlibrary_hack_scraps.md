@@ -22,7 +22,7 @@ open http://localhost:8080 \
 
 ---
 # Jumpservers
-* ssh -A -i ~/.ssh/id_rsa_archive_org sshgw-sf.us.archive.org
+*  ssh-add ~/.ssh/id_rsa_archive_org ; ssh -A -i ~/.ssh/id_rsa_archive_org sshgw-sf.us.archive.org
     * ssh -A ol-dev0  # cd /opt/openlibrary/openlibrary ; sudo vim _dev-merged.txt  # dev0 is dev.openlibrary.org on Python 2.7.6
     * ssh -A ol-dev1  # cd /opt/openlibrary ; sudo vim _dev-merged.txt  # dev1 is staging.openlibrary.org on Python 3
     * ssh -A ol-web1

@@ -1,26 +1,8 @@
-# Bookserver
-* docker system prune  # <-- !!! CAUTION !!!
-* docker container stop bookserver
-* docker container rm bookserver
-* ./install.sh ; docker logs bookserver
+| Important | URLS | for | Developers |
+| ==== | ==== | ==== | ==== |
+| [Deployment guide](https://github.com/internetarchive/openlibrary/wiki/Deployment-Guide) | [Assigned issues](https://github.com/internetarchive/openlibrary/issues/assigned/cclauss) | [Assigned pull requests](https://github.com/internetarchive/openlibrary/pulls/cclauss) | [Active spring](https://github.com/internetarchive/openlibrary/milestone/34) | 
 
-docker container stop bookserver ; \\
-    docker container rm bookserver ; \\
-    docker run --name bookserver -d -p 8080:443 bookserver & ; \\
-    docker logs -f --tail=10 bookserver
 
-open http://localhost:8080 \
-     http://localhost:8080/inlibrary \
-     http://localhost:8080/downloads.xml \
-     http://localhost:8080/new \
-     http://localhost:8080/alpha.xml \
-     http://localhost:8080/alpha/c/1 \
-     http://localhost:8080/group/openaudiobooks \
-     http://localhost:8080/group/recentreturns \
-     http://localhost:8080/group/staffpicks \
-     http://localhost:8080/group/detective
-
----
 # Jumpservers
 *  ssh-add ~/.ssh/id_rsa_archive_org ; ssh -A -i ~/.ssh/id_rsa_archive_org sshgw-sf.us.archive.org
     * ssh -A ol-dev0  # cd /opt/openlibrary/openlibrary ; sudo vim _dev-merged.txt  # dev0 is dev.openlibrary.org on Python 2.7.6
@@ -95,10 +77,30 @@ docker rm amazing_mahavira
 
 docker-compose up -d
 
-pytest -v --show-capture stdout openlibrary/catalog/marc/tests/test_parse.py | more  #3584
-pytest -v --show-capture stdout openlibrary/catalog/marc/tests/test_get_subjects.py | more
-pytest -v --show-capture stdout openlibrary/tests/catalog/test_get_ia.py | more
-pytest -v --show-capture stdout openlibrary/plugins/openlibrary/tests/test_home.py | more
+# Bookserver
+* docker system prune  # <-- !!! CAUTION !!!
+* docker container stop bookserver
+* docker container rm bookserver
+* ./install.sh ; docker logs bookserver
+
+docker container stop bookserver ; \\
+    docker container rm bookserver ; \\
+    docker run --name bookserver -d -p 8080:443 bookserver & ; \\
+    docker logs -f --tail=10 bookserver
+
+open http://localhost:8080 \
+     http://localhost:8080/inlibrary \
+     http://localhost:8080/downloads.xml \
+     http://localhost:8080/new \
+     http://localhost:8080/alpha.xml \
+     http://localhost:8080/alpha/c/1 \
+     http://localhost:8080/group/openaudiobooks \
+     http://localhost:8080/group/recentreturns \
+     http://localhost:8080/group/staffpicks \
+     http://localhost:8080/group/detective
+
+---
+
 ```
 http://localhost:8080
 http://192.168.99.100:8080

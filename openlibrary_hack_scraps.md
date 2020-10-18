@@ -1,6 +1,6 @@
 | Important | URLS | for | Developers |
-| --- | --- | --- | --- |
-| [Deployment guide](https://github.com/internetarchive/openlibrary/wiki/Deployment-Guide) | [Assigned issues](https://github.com/internetarchive/openlibrary/issues/assigned/cclauss) | [Assigned pull requests](https://github.com/internetarchive/openlibrary/pulls/cclauss) | [Active spring](https://github.com/internetarchive/openlibrary/milestone/34) | 
+| ---:|---:| ---:| ---:|
+| [Deployment guide](https://github.com/internetarchive/openlibrary/wiki/Deployment-Guide) | [Assigned issues](https://github.com/internetarchive/openlibrary/issues/assigned/cclauss) | [Assigned pull requests](https://github.com/internetarchive/openlibrary/pulls/cclauss) | [Active sprint](https://github.com/internetarchive/openlibrary/milestone/34) | 
 | | 8 | 12 | 21 |
 
 

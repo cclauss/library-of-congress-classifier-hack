@@ -8,8 +8,8 @@
 
 # Jumpservers
 *  ssh-add ~/.ssh/id_rsa_archive_org ; ssh -A -i ~/.ssh/id_rsa_archive_org sshgw-sf.us.archive.org
-    * ssh -A ol-dev0  # cd /opt/openlibrary/openlibrary ; sudo vim _dev-merged.txt | head _dev-merged.txt
-    * ssh -A ol-dev1  # cd /opt/openlibrary ; sudo vim _dev-merged.txt
+    * ssh -A ol-dev0  # cd /opt/openlibrary/openlibrary && sudo vim _dev-merged.txt && head _dev-merged.txt
+    * ssh -A ol-dev1  # cd /opt/openlibrary && sudo vim _dev-merged.txt
     * ssh -A ol-web1  # Python 3 on Docker
     * ssh -A ol-web3  # Production on Python 2.7.6 [blue node](https://github.com/internetarchive/openlibrary/wiki/Deployment-Guide#strategy)
     * ssh -A ol-web4  # Production on Python 2.7.6 green node

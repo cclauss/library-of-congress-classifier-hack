@@ -3,7 +3,7 @@
 | [Deployment guide](https://github.com/internetarchive/openlibrary/wiki/Deployment-Guide) | [Assigned issues](https://github.com/internetarchive/openlibrary/issues/assigned/cclauss) | [Assigned pull requests](https://github.com/internetarchive/openlibrary/pulls/assigned/cclauss) | [Active sprint](https://github.com/internetarchive/openlibrary/milestone/34) | 
 | | 8 | 12 | 21 |
 | localhost | dev0 | dev1 | prod |
-| http://localhost:8080?debug=true | http://dev.openlibrary.org?debug=true | http://staging.openlibrary.org?debug=true  | http://openlibrary.org?debug=true |
+| [http://localhost:8080](http://localhost:8080?debug=true) | [http://dev.openlibrary.org](http://dev.openlibrary.org?debug=true) | [http://staging.openlibrary.org](http://staging.openlibrary.org?debug=true) | [http://openlibrary.org](http://openlibrary.org?debug=true) |
 
 
 # Jumpservers

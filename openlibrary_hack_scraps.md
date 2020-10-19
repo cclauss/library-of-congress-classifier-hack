@@ -6,6 +6,7 @@
 | [http://localhost:8080](http://localhost:8080?debug=true) | [http://dev.openlibrary.org](http://dev.openlibrary.org?debug=true) | [http://staging.openlibrary.org](http://staging.openlibrary.org?debug=true) | [http://openlibrary.org](http://openlibrary.org?debug=true) |
 
 https://github.com/internetarchive/openlibrary/tree/master/docker
+* __CAUTION:__ docker system prune -y
 
 # Jumpservers
 *  ssh-add ~/.ssh/id_rsa_archive_org ; ssh -A -i ~/.ssh/id_rsa_archive_org sshgw-sf.us.archive.org

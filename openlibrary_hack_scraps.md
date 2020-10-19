@@ -8,6 +8,28 @@
 https://github.com/internetarchive/openlibrary/tree/master/docker
 * __CAUTION:__ docker system prune -y
 
+---
+https://github.com/internetarchive/openlibrary/pull/3934
+
+https://github.com/internetarchive/openlibrary/wiki/Deployment-Guide#rolling-back
+
+```
+ssh ol-covers1
+/opt/openlibrary
+. venv/bin/activate
+sudo su openlibrary
+ln -sf deploys/openlibrary/68474f6 openlibrary
+sudo supervisorctl  status
+rm openlibrary
+ln -sf deploys/openlibrary/68474f6 openlibrary
+ls -al
+rm openlibrary
+ln -sf deploys/openlibrary/4ed1ca3 openlibrary
+ls -al
+python2 -m pip --version
+```
+---
+
 # Jumpservers
 *  ssh-add ~/.ssh/id_rsa_archive_org ; ssh -A -i ~/.ssh/id_rsa_archive_org sshgw-sf.us.archive.org
     * ssh -A ol-dev0  # cd /opt/openlibrary/openlibrary && sudo vim _dev-merged.txt && head _dev-merged.txt

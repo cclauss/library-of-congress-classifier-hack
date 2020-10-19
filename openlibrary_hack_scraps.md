@@ -2,17 +2,17 @@
 |:---:|:---:|:---:|:---:|
 | [Deployment guide](https://github.com/internetarchive/openlibrary/wiki/Deployment-Guide) | [Assigned issues](https://github.com/internetarchive/openlibrary/issues/assigned/cclauss) | [Assigned pull requests](https://github.com/internetarchive/openlibrary/pulls/assigned/cclauss) | [Active sprint](https://github.com/internetarchive/openlibrary/milestone/34) | 
 | | 8 | 12 | 21 |
-| localhost | dev0 | dev1 | prod |
+| localhost | dev0 is Python 2.7.6 | dev1 is Python 3 | prod is Python 2.7.6 |
 | [http://localhost:8080](http://localhost:8080?debug=true) | [http://dev.openlibrary.org](http://dev.openlibrary.org?debug=true) | [http://staging.openlibrary.org](http://staging.openlibrary.org?debug=true) | [http://openlibrary.org](http://openlibrary.org?debug=true) |
 
 
 # Jumpservers
 *  ssh-add ~/.ssh/id_rsa_archive_org ; ssh -A -i ~/.ssh/id_rsa_archive_org sshgw-sf.us.archive.org
-    * ssh -A ol-dev0  # cd /opt/openlibrary/openlibrary ; sudo vim _dev-merged.txt  # dev0 is dev.openlibrary.org on Python 2.7.6
-    * ssh -A ol-dev1  # cd /opt/openlibrary ; sudo vim _dev-merged.txt  # dev1 is staging.openlibrary.org on Python 3
-    * ssh -A ol-web1
-    * ssh -A ol-web3
-    * ssh -A ol-web4
+    * ssh -A ol-dev0  # cd /opt/openlibrary/openlibrary ; sudo vim _dev-merged.txt | head _dev-merged.txt
+    * ssh -A ol-dev1  # cd /opt/openlibrary ; sudo vim _dev-merged.txt
+    * ssh -A ol-web1  # Python 3 on Docker
+    * ssh -A ol-web3  # Production on Python 2.7.6 [blue node](https://github.com/internetarchive/openlibrary/wiki/Deployment-Guide#strategy)
+    * ssh -A ol-web4  # Production on Python 2.7.6 green node
 * sudo ./scripts/make-integration-branch.sh _dev-merged.txt dev-merged
 
 ### Only on dev0 (zsh: use &! to run a job in backround and disown)

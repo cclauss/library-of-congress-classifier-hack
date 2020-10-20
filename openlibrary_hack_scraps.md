@@ -52,7 +52,11 @@ We'll then run the script command above which pull the latest master and replay 
 https://github.com/internetarchive/openlibrary/blob/master/CONTRIBUTING.md#maintainers
 
 https://sentry.archive.org/sentry/ol-web/issues/4139/?environment=staging says Py2.7.6
+```
+ssh -A ol-dev0
+cd /opt/openlibrary/openlibrary && sudo vim _dev-merged.txt && head _dev-merged.txt
 
+```
 ---
 # dev0 is dev.openlibrary.org on Python 2.7.6
 * [https://dev.openlibrary.org/status](https://dev.openlibrary.org/status)

@@ -9,7 +9,7 @@ https://github.com/internetarchive/openlibrary/tree/master/docker
 * __CAUTION:__ docker system prune -y
 
 ---
-https://github.com/internetarchive/openlibrary/pull/3934
+https://github.com/internetarchive/openlibrary/pull/3938
 
 https://github.com/internetarchive/openlibrary/wiki/Deployment-Guide#rolling-back
 

@@ -5,6 +5,8 @@
 | localhost | dev0 is Python 2.7.6 | dev1 is Python 3 | prod is Python 2.7.6 |
 | [http://localhost:8080](http://localhost:8080?debug=true) | [http://dev.openlibrary.org](http://dev.openlibrary.org?debug=true) | [http://staging.openlibrary.org](http://staging.openlibrary.org?debug=true) | [http://openlibrary.org](http://openlibrary.org?debug=true) |
 
+https://sentry.archive.org/sentry/ol-web/
+
 https://github.com/internetarchive/openlibrary/tree/master/docker
 * __CAUTION:__ docker system prune -y
 

@@ -1,3 +1,6 @@
+* [ ] https://github.com/internetarchive/openlibrary/blob/master/openlibrary/tests/core/test_lending.py
+needs tests for `compose_ia_url()`
+
 | Important | URLs | for | Developers |
 |:---:|:---:|:---:|:---:|
 | [Deployment guide](https://github.com/internetarchive/openlibrary/wiki/Deployment-Guide) | [Assigned issues](https://github.com/internetarchive/openlibrary/issues/assigned/cclauss) | [Assigned pull requests](https://github.com/internetarchive/openlibrary/pulls/assigned/cclauss) | [Active sprint](https://github.com/internetarchive/openlibrary/milestone/34) | 

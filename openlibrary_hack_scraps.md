@@ -410,3 +410,10 @@ class Work(models.Work):
     <bound method Work.get_sorted_editions of <Work: '/works/OL42679M'>>
     """
 ```
+
+# SENTRY
+https://git.archive.org/www/sentry/-/blob/master/NEWER-CHART.md
+export KUBECONFIG=~/.kube/sentry
+kubectl version
+kubectl get -A all
+kubectl logs -ngitlab-managed-apps pods/sentry-web-6dc7c6d8cf-6mhbg

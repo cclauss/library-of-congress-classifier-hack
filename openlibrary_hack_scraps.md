@@ -1,9 +1,10 @@
 ```sh
 docker-compose down && \
-    PYENV_VERSION=3.8.6 docker-compose && \
-        -f docker-compose.yml && \
-        -f docker-compose.infogami-local.yml && \
-        -f docker-compose.staging.yml && \
+    docker-compose up -d memcached && \
+    PYENV_VERSION=3.8.6 docker-compose \
+        -f docker-compose.yml \
+        -f docker-compose.infogami-local.yml \
+        -f docker-compose.staging.yml \
         up -d web && \
     docker-compose logs -f --tail=10 web
 ```

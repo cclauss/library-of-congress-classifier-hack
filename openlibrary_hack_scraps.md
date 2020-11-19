@@ -1,3 +1,13 @@
+```sh
+docker-compose down && \
+    PYENV_VERSION=3.8.6 docker-compose && \
+        -f docker-compose.yml && \
+        -f docker-compose.infogami-local.yml && \
+        -f docker-compose.staging.yml && \
+        up -d web && \
+    docker-compose logs -f --tail=10 web
+```
+
 * [ ] https://github.com/internetarchive/openlibrary/blob/master/openlibrary/tests/core/test_lending.py
 needs tests for `compose_ia_url()`
 
@@ -73,11 +83,11 @@ cd /opt/openlibrary/openlibrary && sudo vim _dev-merged.txt && head _dev-merged.
 * cd /opt/openlibrary
 * git status
 * git diff
-* docker-compose ; PYENV_VERSION=3.8.5 docker-compose -f docker-compose.yml -f docker-compose.infogami-local.yml up -d
+* docker-compose ; PYENV_VERSION=3.8.6 docker-compose -f docker-compose.yml -f docker-compose.infogami-local.yml up -d
 * docker-compose logs --tail=10 -f web
 * tail -f /var/log/ansible-pull.log
 * service docker restart
-* INFOGAMI=local PYENV_VERSION=3.8.5 docker-compose up -d
+* INFOGAMI=local PYENV_VERSION=3.8.6 docker-compose up -d
 ---
 
 https://github.com/internetarchive/openlibrary/tree/master/docker
@@ -85,8 +95,8 @@ https://github.com/internetarchive/openlibrary/tree/master/docker
 * docker build -t olbase:latest -f docker/Dockerfile.olbase . ; docker-compose build web ; docker-compose build solr
 
 * docker-compose down ; INFOGAMI=local PYENV_VERSION=2.7.6 docker-compose up -d ; docker-compose logs -f --tail=10 web
-* docker-compose down ; INFOGAMI=local PYENV_VERSION=3.8.5 docker-compose up -d ; docker-compose logs -f --tail=10 web
-* docker-compose down ; PYENV_VERSION=3.8.5 docker-compose -f docker-compose.yml -f docker-compose.infogami-local.yml up -d ; docker-compose logs -f --tail=10 web
+* docker-compose down ; INFOGAMI=local PYENV_VERSION=3.8.6 docker-compose up -d ; docker-compose logs -f --tail=10 web
+* docker-compose down ; PYENV_VERSION=3.8.6 docker-compose -f docker-compose.yml -f docker-compose.infogami-local.yml up -d ; docker-compose logs -f --tail=10 web
 * open http://localhost:8080
 * docker exec -it openlibrary_web_1 /bin/bash
     * pytest -v --show-capture=all openlibrary/plugins/openlibrary/tests/test_home.py
@@ -217,13 +227,13 @@ File "/openlibrary/infogami/infobase/server.py", line 98, in g
     * "Twain": http://localhost:8080/search?q=twain&mode=everything -- ___Displays ok but AttributeError___
 ```
 Traceback (most recent call last):
-   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
+   File "/home/openlibrary/.pyenv/versions/3.8.6/lib/python3.8/site-packages/web/application.py", line 290, in process
      return self.handle()
-   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 281, in handle
+   File "/home/openlibrary/.pyenv/versions/3.8.6/lib/python3.8/site-packages/web/application.py", line 281, in handle
      return self._delegate(fn, self.fvars, args)
-   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
+   File "/home/openlibrary/.pyenv/versions/3.8.6/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
      return handle_class(cls)
-   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
+   File "/home/openlibrary/.pyenv/versions/3.8.6/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
      return tocall(*args)
    File "/openlibrary/openlibrary/coverstore/code.py", line 251, in GET
      value = self.query(category, key, value)
@@ -268,13 +278,13 @@ Traceback (most recent call last):
     * My Profile/Stats: http://localhost:8080/people/openlibrary7987/books/already-read/stats&debug=true -- ___Internal Server Error___
 ```
  Traceback (most recent call last):
-  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
+  File "/home/openlibrary/.pyenv/versions/3.8.6/lib/python3.8/site-packages/web/application.py", line 290, in process
     return self.handle()
-  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 281, in handle
+  File "/home/openlibrary/.pyenv/versions/3.8.6/lib/python3.8/site-packages/web/application.py", line 281, in handle
     return self._delegate(fn, self.fvars, args)
-  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
+  File "/home/openlibrary/.pyenv/versions/3.8.6/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
     return handle_class(cls)
-  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
+  File "/home/openlibrary/.pyenv/versions/3.8.6/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
     return tocall(*args)
   File "/openlibrary/infogami/utils/app.py", line 187, in <lambda>
     HEAD = GET = POST = PUT = DELETE = lambda self: delegate()
@@ -298,13 +308,13 @@ AttributeError: 'ThreadedDict' object has no attribute 'lang'
 * http://localhost:8080/search?q=twain&debug=true -->
 ```
 Traceback (most recent call last):
-  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 290, in process
+  File "/home/openlibrary/.pyenv/versions/3.8.6/lib/python3.8/site-packages/web/application.py", line 290, in process
     return self.handle()
-  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 281, in handle
+  File "/home/openlibrary/.pyenv/versions/3.8.6/lib/python3.8/site-packages/web/application.py", line 281, in handle
     return self._delegate(fn, self.fvars, args)
-  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
+  File "/home/openlibrary/.pyenv/versions/3.8.6/lib/python3.8/site-packages/web/application.py", line 531, in _delegate
     return handle_class(cls)
-  File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
+  File "/home/openlibrary/.pyenv/versions/3.8.6/lib/python3.8/site-packages/web/application.py", line 509, in handle_class
     return tocall(*args)
   File "/openlibrary/openlibrary/coverstore/code.py", line 251, in GET
     value = self.query(category, key, value)
@@ -326,9 +336,9 @@ AttributeError: module 'config' has no attribute 'get'
 Traceback (most recent call last):
    File "/openlibrary/infogami/utils/template.py", line 145, in saferender
      result = t(*a, **kw)
-   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 987, in __call__
+   File "/home/openlibrary/.pyenv/versions/3.8.6/lib/python3.8/site-packages/web/template.py", line 987, in __call__
      return BaseTemplate.__call__(self, *a, **kw)
-   File "/home/openlibrary/.pyenv/versions/3.8.5/lib/python3.8/site-packages/web/template.py", line 898, in __call__
+   File "/home/openlibrary/.pyenv/versions/3.8.6/lib/python3.8/site-packages/web/template.py", line 898, in __call__
      return self.t(*a, **kw)
    File "/openlibrary/openlibrary/templates/type/edition/view.html", line 315, in __template__
      </div>

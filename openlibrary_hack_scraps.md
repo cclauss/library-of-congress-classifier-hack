@@ -1,4 +1,5 @@
 ```sh
+export HOSTNAME=${HOSTNAME:-$HOST}
 docker-compose down && \
     docker-compose up -d memcached && \
     PYENV_VERSION=3.8.6 docker-compose \

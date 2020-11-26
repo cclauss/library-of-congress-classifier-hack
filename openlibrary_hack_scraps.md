@@ -1,4 +1,5 @@
 ```sh
+export COMPOSE_FILE="docker-compose.yml:docker-compose.infogami-local.yml:docker-compose.staging.yml"
 export HOSTNAME=${HOSTNAME:-$HOST}
 docker-compose down && \
     docker-compose up -d memcached && \

@@ -1,5 +1,12 @@
 ```sh
+# ol-dev01 is http://staging.openlibrary.org/status
 export COMPOSE_FILE="docker-compose.yml:docker-compose.infogami-local.yml:docker-compose.staging.yml"
+
+# http://localhost:8080/status
+export COMPOSE_FILE="docker-compose.yml:docker-compose.override.yml:docker-compose.infogami-local.yml"
+
+docker-compose down && PYENV_VERSION=3.8.6 docker-compose up -d && docker-compose logs -f --tail=10
+ 
 export HOSTNAME=${HOSTNAME:-$HOST}
 docker-compose down && \
     docker-compose up -d memcached && \

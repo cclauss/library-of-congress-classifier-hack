@@ -1,6 +1,6 @@
 ```sh
-# Required for zsh users
-export HOSTNAME=$HOST
+# Required for users of zsh
+export HOSTNAME=${HOSTNAME:-$HOST}
 
 # ol-dev01 is http://staging.openlibrary.org/status
 export COMPOSE_FILE="docker-compose.yml:docker-compose.infogami-local.yml:docker-compose.staging.yml"

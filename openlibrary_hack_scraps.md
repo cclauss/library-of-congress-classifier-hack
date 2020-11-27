@@ -21,6 +21,13 @@ docker-compose down && \
     docker-compose logs -f --tail=10 web
 ```
 
+Docker and Kubernetes:
+* https://k3d.io/
+* https://kubernetes.io/docs/tutorials/
+* https://www.docker.com/blog/tag/python-env-series/
+* https://docs.docker.com/develop/develop-images/multistage-build/
+* https://www.ibm.com/uk-en/cloud/container-service/kubernetes-tutorials
+
 * [ ] https://github.com/internetarchive/openlibrary/blob/master/openlibrary/tests/core/test_lending.py
 needs tests for `compose_ia_url()`
 

@@ -1,4 +1,5 @@
 ```sh
+# Required for zsh users
 export HOSTNAME=$HOST
 
 # ol-dev01 is http://staging.openlibrary.org/status

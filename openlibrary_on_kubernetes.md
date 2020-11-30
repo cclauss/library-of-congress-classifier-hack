@@ -1,16 +1,30 @@
+https://kubernetes.io/docs/reference/kubectl/cheatsheet
+
 There are three ways to run Kubernetes on my Mac:
+    * kubectl config get-contexts
 1. Kubernetes built into Docker Desktop Mac (leverages [Docker Compose on Kubernetes](https://github.com/docker/compose-on-kubernetes)?)
     * `brew case install docker`
     * `config use-context docker-desktop`
 2. [k3d](https://k3d.io) & [k3s](https://k3s.io)
     * `brew install k3d`
     * `kubectl config use-context k3d-k3d-cluster`
+    * `k3d cluster list`
+    * ` k3d cluster create`
+    * `kubectl config use-context k3d-k3s-default`
+    * `kubectl cluster-info`
+    * `kubectl get nodes,services,endpoints,events`
+    * `k3d image import -c k3s-default hello-python:latest`
+    * `kubectl apply -f deployment.yaml`
+    
 3. Kubernetes in Docker ([kind](https://kind.sigs.k8s.io))
     * `brew install kind`
     * `kubectl config use-context kind-kind`
     * `kind create cluster`
     * `kind get clusters,nodes`
     * `kind load docker-image hello-python:latest`
+    * `kubectl apply -f deployment.yaml && kubectl get pods`
+    * `kubectl get nodes,services,endpoints,events`
+
 
 The easiest way to run OpenLibrary for local testing would be:
 ```
@@ -20,6 +34,8 @@ docker-compose logs -f --tail=10
 ```
 but... [`failed to find a Stack API version`](https://github.com/docker/for-mac/issues/4966)
 
+### Articles
+* https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/
 
 ### Kubernetes hacking with Docker Desktop
 ```sh

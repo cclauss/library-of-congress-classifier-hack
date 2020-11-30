@@ -1,20 +1,23 @@
 https://kubernetes.io/docs/reference/kubectl/cheatsheet
 
+~/Python/kubernetes_hacks/hello-python/kubernetes
+
 There are three ways to run Kubernetes on my Mac:
     * kubectl config get-contexts
 1. Kubernetes built into Docker Desktop Mac (leverages [Docker Compose on Kubernetes](https://github.com/docker/compose-on-kubernetes)?)
     * `brew case install docker`
     * `config use-context docker-desktop`
+    * `kubectl create deployment openlibrary --image=openlibrary/olbase --replicas=3`
+    * `kubectl delete deployment openlibrary`
 2. [k3d](https://k3d.io) & [k3s](https://k3s.io)
     * `brew install k3d`
-    * `kubectl config use-context k3d-k3d-cluster`
     * `k3d cluster list`
-    * ` k3d cluster create`
+    * `k3d cluster create -p "8081:5000@loadbalancer" --agents 2`
     * `kubectl config use-context k3d-k3s-default`
-    * `kubectl cluster-info`
-    * `kubectl get nodes,services,endpoints,events`
     * `k3d image import -c k3s-default hello-python:latest`
     * `kubectl apply -f deployment.yaml`
+    * `kubectl cluster-info`
+    * `kubectl get pods,nodes,services,endpoints,events`
     
 3. Kubernetes in Docker ([kind](https://kind.sigs.k8s.io))
     * `brew install kind`

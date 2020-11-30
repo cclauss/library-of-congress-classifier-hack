@@ -36,6 +36,7 @@ but... [`failed to find a Stack API version`](https://github.com/docker/for-mac/
 
 ### Articles
 * https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/
+* https://yannalbou.medium.com/k3d-k3s-k8s-perfect-match-for-dev-and-testing-896c8953acc0
 
 ### Kubernetes hacking with Docker Desktop
 ```sh

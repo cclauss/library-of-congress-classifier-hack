@@ -38,6 +38,7 @@ docker-compose logs -f --tail=10
 but... [`failed to find a Stack API version`](https://github.com/docker/for-mac/issues/4966)
 
 ### Articles
+* https://k3d.io/usage/guides/exposing_services/
 * https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/
 * https://yannalbou.medium.com/k3d-k3s-k8s-perfect-match-for-dev-and-testing-896c8953acc0
 

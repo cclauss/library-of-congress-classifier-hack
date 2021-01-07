@@ -22,6 +22,7 @@ docker-compose down && \
 
 Docker and Kubernetes:
 * https://k3d.io/
+* https://microk8s.io/
 * https://kubernetes.io/docs/tutorials/
 * https://www.docker.com/blog/tag/python-env-series/
 * https://docs.docker.com/develop/develop-images/multistage-build/

@@ -3,10 +3,10 @@
 export HOSTNAME=${HOSTNAME:-$HOST}
 
 # ol-dev01 is http://staging.openlibrary.org/status
-export COMPOSE_FILE="docker-compose.yml:docker-compose.infogami-local.yml:docker-compose.staging.yml"
+export COMPOSE_FILE="docker-compose.yml:docker-compose.staging.yml"
 
 # http://localhost:8080/status
-export COMPOSE_FILE="docker-compose.yml:docker-compose.override.yml:docker-compose.infogami-local.yml"
+export COMPOSE_FILE="docker-compose.yml:docker-compose.override.yml"
 
 docker-compose down && PYENV_VERSION=3.8.6 docker-compose up -d && docker-compose logs -f --tail=10
  
@@ -15,7 +15,6 @@ docker-compose down && \
     docker-compose up -d memcached && \
     PYENV_VERSION=3.8.6 docker-compose \
         -f docker-compose.yml \
-        -f docker-compose.infogami-local.yml \
         -f docker-compose.staging.yml \
         up -d web && \
     docker-compose logs -f --tail=10 web
@@ -103,24 +102,23 @@ cd /opt/openlibrary/openlibrary && sudo vim _dev-merged.txt && head _dev-merged.
 * cd /opt/openlibrary
 * git status
 * git diff
-* docker-compose ; PYENV_VERSION=3.8.6 docker-compose -f docker-compose.yml -f docker-compose.infogami-local.yml up -d
+* docker-compose ; PYENV_VERSION=3.8.6 docker-compose -f docker-compose.yml up -d
 * docker-compose logs --tail=10 -f web
 * tail -f /var/log/ansible-pull.log
 * service docker restart
-* INFOGAMI=local PYENV_VERSION=3.8.6 docker-compose up -d
+* PYENV_VERSION=3.8.6 docker-compose up -d
 ---
 
 https://github.com/internetarchive/openlibrary/tree/master/docker
 
 * docker build -t olbase:latest -f docker/Dockerfile.olbase . ; docker-compose build web ; docker-compose build solr
 
-* docker-compose down ; INFOGAMI=local PYENV_VERSION=2.7.6 docker-compose up -d ; docker-compose logs -f --tail=10 web
-* docker-compose down ; INFOGAMI=local PYENV_VERSION=3.8.6 docker-compose up -d ; docker-compose logs -f --tail=10 web
-* docker-compose down ; PYENV_VERSION=3.8.6 docker-compose -f docker-compose.yml -f docker-compose.infogami-local.yml up -d ; docker-compose logs -f --tail=10 web
+* docker-compose down ; PYENV_VERSION=2.7.6 docker-compose up -d ; docker-compose logs -f --tail=10 web
+* docker-compose down ; PYENV_VERSION=3.8.6 docker-compose up -d ; docker-compose logs -f --tail=10 web
+* docker-compose down ; PYENV_VERSION=3.8.6 docker-compose -f docker-compose.yml up -d ; docker-compose logs -f --tail=10 web
 * open http://localhost:8080
 * docker exec -it openlibrary_web_1 /bin/bash
     * pytest -v --show-capture=all openlibrary/plugins/openlibrary/tests/test_home.py
-    * apt-get install -y vim ; cd vendor/infogami ; git branch ; git diff master
     * git branch ; apt-get install -y vim ; vi infogami/utils/template.py
 
 http://localhost:8080/admin/attach_debugger

@@ -2,13 +2,13 @@
 # Required for users of zsh
 export HOSTNAME=${HOSTNAME:-$HOST}
 
-# ol-dev01 is http://staging.openlibrary.org/status
-export COMPOSE_FILE="docker-compose.yml:docker-compose.staging.yml"
-
 # http://localhost:8080/status
 export COMPOSE_FILE="docker-compose.yml:docker-compose.override.yml"
 
-docker-compose down && PYENV_VERSION=3.8.6 docker-compose up -d && docker-compose logs -f --tail=10
+docker-compose down && PYENV_VERSION=3.9.1 docker-compose up -d && docker-compose logs -f --tail=10
+
+# ol-dev01 is http://staging.openlibrary.org/status
+export COMPOSE_FILE="docker-compose.yml:docker-compose.staging.yml"
  
 export HOSTNAME=${HOSTNAME:-$HOST}
 docker-compose down && \

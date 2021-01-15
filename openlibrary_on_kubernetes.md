@@ -5,7 +5,7 @@ https://kubernetes.io/docs/reference/kubectl/cheatsheet
 There are three ways to run Kubernetes on my Mac:
     * kubectl config get-contexts
 1. Kubernetes built into Docker Desktop Mac (leverages [Docker Compose on Kubernetes](https://github.com/docker/compose-on-kubernetes)?)
-    * `brew case install docker`
+    * `brew cask install docker`
     * `config use-context docker-desktop`
     * `kubectl create deployment openlibrary --image=openlibrary/olbase --replicas=3`
     * `kubectl delete deployment openlibrary`

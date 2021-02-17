@@ -25,6 +25,14 @@ docker-compose down && \
     docker-compose logs -f --tail=10 web
 ```
 
+# Copy docker error log to the local machine
+* [ ] ol-web1% `docker-compose exec web /bin/bash`
+* [ ] openlibrary@ol-web1:`/var/log/openlibrary/ol-errors/2021-02-17$ grep "https://openlibrary.org/works/OL413150W" *`
+* [ ] openlibrary@ol-web1:`vim 205420910740.html` # Make sure the file is of interest
+* [ ] exit
+* [ ] cp openlibrary_web_1:/var/log/openlibrary/ol-errors/2021-02-17/205420910740.html .
+* [ ] cat 205420910740.html | mail -s "205420910740.html" cclauss@archive.org
+
 Docker and Kubernetes:
 * https://k3d.io/
 * https://microk8s.io/

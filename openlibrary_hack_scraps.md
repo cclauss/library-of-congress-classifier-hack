@@ -1,11 +1,16 @@
 ```sh
 # Required for users of zsh
+# http://localhost:8080/status
+
 export HOSTNAME=${HOSTNAME:-$HOST}
 
-# http://localhost:8080/status
 export COMPOSE_FILE="docker-compose.yml:docker-compose.override.yml"
 
 docker-compose down && PYENV_VERSION=3.9.1 docker-compose up -d && docker-compose logs -f --tail=10
+
+# docker exec -it openlibrary_web_1 /bin/bash
+
+---
 
 # ol-dev01 is http://staging.openlibrary.org/status
 export COMPOSE_FILE="docker-compose.yml:docker-compose.staging.yml"

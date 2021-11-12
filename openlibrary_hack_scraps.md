@@ -1,3 +1,9 @@
+tmux - https://gist.github.com/michaellihs/b6d46fa460fa5e429ea7ee5ff8794b96
+
+Control-b d -- to put in background
+tmux attach -t 0
+
+
 ```sh
 # Required for users of zsh
 # http://localhost:8080/status

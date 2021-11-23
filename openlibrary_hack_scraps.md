@@ -465,3 +465,18 @@ export KUBECONFIG=~/.kube/sentry
 kubectl version
 kubectl get -A all
 kubectl logs -ngitlab-managed-apps pods/sentry-web-6dc7c6d8cf-6mhbg
+
+
+# PURL
+* https://git.archive.org/www/purl
+* https://webarchive.jira.com/wiki/spaces/WWM/pages/169639946/PURL.org
+* https://nomad.ux.archive.org/ui/jobs/www-purl
+* https://nomad.ux.archive.org/ui/settings/tokens
+* https://nomad.ux.archive.org/ui/jobs/www-purl/allocations
+* https://ux-log0.us.archive.org:15601/app/home#/
+* https://ux-log0.us.archive.org:15601/app/dashboards#/view/febd85f0-f706-11eb-978d-075f6fe91b95?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))
+
+```
+docker build -t purl_hack .
+docker run -dp 8000:8000 purl_hack
+```

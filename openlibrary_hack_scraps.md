@@ -1,3 +1,7 @@
+Logger on macOS: log stream --info --debug --predicate "process == 'logger’”
+
+Logger on Ubuntu: tail -f /var/log/syslog
+
 tmux - https://gist.github.com/michaellihs/b6d46fa460fa5e429ea7ee5ff8794b96
 
 Control-b d -- to put in background

@@ -470,7 +470,7 @@ kubectl version
 kubectl get -A all
 kubectl logs -ngitlab-managed-apps pods/sentry-web-6dc7c6d8cf-6mhbg
 
-
+---
 # PURL
 * https://git.archive.org/www/purl
 * https://webarchive.jira.com/wiki/spaces/WWM/pages/169639946/PURL.org
@@ -484,4 +484,10 @@ kubectl logs -ngitlab-managed-apps pods/sentry-web-6dc7c6d8cf-6mhbg
 docker build -t purl_hack .
 docker run -dp 5001:5000 purl_hack
 http://localhost:5001/
+---
+python3 -m venv .venv  # Local does NOT work: 
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
 ```
+---

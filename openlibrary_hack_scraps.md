@@ -485,7 +485,8 @@ docker build -t purl_hack .
 docker run -dp 5001:5000 purl_hack
 http://localhost:5001/
 ---
-python3 -m venv .venv  # Local does NOT work: 
+# Local does NOT work: Need memcached running, etc.
+python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt

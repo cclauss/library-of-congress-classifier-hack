@@ -483,7 +483,8 @@ kubectl logs -ngitlab-managed-apps pods/sentry-web-6dc7c6d8cf-6mhbg
 ```
 docker build -t purl_hack .
 docker run -dp 5001:5000 purl_hack
-http://localhost:5001/
+open http://localhost:5001/
+docker logs --follow purl_hack
 ---
 # Local does NOT work: Need memcached running, etc.
 python3 -m venv .venv

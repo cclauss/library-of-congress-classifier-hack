@@ -481,15 +481,24 @@ kubectl logs -ngitlab-managed-apps pods/sentry-web-6dc7c6d8cf-6mhbg
 * https://ux-log0.us.archive.org:15601/app/dashboards#/view/febd85f0-f706-11eb-978d-075f6fe91b95?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))
 
 ```
-docker build -t purl_hack .
-docker run -dp 5001:5000 purl_hack
-open http://localhost:5001/
-docker logs --follow purl_hack
+docker build -t purl .
+docker run -dp 5001:5000 --name purl purl
+sleep 3
+open http://purl.archive.org:5001/
+docker logs --follow purl
 ---
 # Local does NOT work: Need memcached running, etc.
 python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
+```
+### supervisord.conf`
+```[program:gunicorn]
+command=gunicorn -w 32 -b 0.0.0.0:5000 app
+stderr_logfile=/dev/stderr
+stderr_logfile_maxbytes=0
+stdout_logfile=/dev/stdout
+stdout_logfile_maxbytes=0
 ```
 ---

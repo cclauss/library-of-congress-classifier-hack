@@ -13,11 +13,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
-        node-version: [12.x, 14.x, 16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-        # python-version: ["2.7", "3.7", "3.10", "pypy-3.8"]
-        # See supported Python release schedule at https://devguide.python.org/#status-of-python-branches
+        node-version: [12.x, 14.x, 16.x]  # https://nodejs.org/en/about/releases/
     steps:
     - run: brew install python-launcher  # just to ensure this does not create conflicts
     - uses: actions/checkout@v3
@@ -25,30 +23,56 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-    #- name: Use Python ${{ matrix.python-version }}
-    #  uses: actions/setup-python@v3
-    #  with:
-    #    python-version: ${{ matrix.python-version }}
 
-    # GitHub Actions has both Python 2 and 3 installed by default. --> BOTH: python √, python2 √, python3 √
-    - run: py --list ; echo "python $(python --version)" ; echo "python2 $(python2 --version)" ; echo "python3 $(python3 --version)" || true
+    # GitHub Actions default to having both Python 2 and 3 installed with `python` always pointing to `python3`
+    - name: "BOTH: python √, python2 √, python3 √"
+      run: |
+        py --list
+        echo "python $(python --version || true)"
+        echo "python2 $(python2 --version || true)"
+        echo "python3 $(python3 --version || true)"
+        # npm run ci
 
-    # Let's disable Python 3 --> PY2 ONLY: python √, python2 √, python3 x
-    - run: sudo mv /usr/bin/python3.8 /usr/bin/python3.8.disabled
-    - run: py --list ; echo "python $(python --version)" ; echo "python2 $(python2 --version)" ; echo "python3 $(python3 --version)" || true
+    # Let's disable Python 3
+    - name: "PY2 ONLY: python √, python2 √, python3 x"
+      run: |
+        sudo mv /usr/bin/python3.8 /usr/bin/python3.8.disabled
+        py --list
+        echo "python $(python --version || true)"
+        echo "python2 $(python2 --version || true)"
+        echo "python3 $(python3 --version || true)"
+        # npm run ci
 
-    # Let's disable Python 2 --> NONE: python x, python2 x, python3 x
-    - run: sudo mv /usr/bin/python2.7 /usr/bin/python2.7.disabled
-    - run: py --list ; echo "python $(python --version)" ; echo "python2 $(python2 --version)" ; echo "python3 $(python3 --version)" || true
+    # Let's disable Python 2
+    - name: "NONE: python x, python2 x, python3 x"
+      run: |
+        sudo mv /usr/bin/python2.7 /usr/bin/python2.7.disabled
+        py --list
+        echo "python $(python --version || true)"
+        echo "python2 $(python2 --version || true)"
+        echo "python3 $(python3 --version || true)"
+        # npm run ci
 
-    # Let's install PyPy 3 --> PyPy3 ONLY: python x, python2 x, python3 √
-    - run: brew install pypy3
-    - run: py --list ; echo "python $(python --version)" ; echo "python2 $(python2 --version)" ; echo "python3 $(python3 --version)" || true
+    # Let's install PyPy 3
+    - name: "PyPy3 ONLY: python x, python2 x, python3 √"
+      run: |
+        brew install pypy3
+        py --list
+        echo "python $(python --version || true)"
+        echo "python2 $(python2 --version || true)"
+        echo "python3 $(python3 --version || true)"
+        # npm run ci
 
-    # Let's uninstall pypy3 and enable Python 3 --> Py3 ONLY: python √, python2 x, python3 √
-    - run: brew remove pypy3 && sudo mv /usr/bin/python3.8.disabled /usr/bin/python3.8
-    - run: py --list ; echo "python $(python --version)" ; echo "python2 $(python2 --version)" ; echo "python3 $(python3 --version)" || true
-    # - run: npm run ci
+    # Let's uninstall PyPy 3 and re-enable Python 3
+    - name: "Py3 ONLY: python √, python2 x, python3 √"
+      run: |
+        brew uninstall pypy3
+        sudo mv /usr/bin/python3.8.disabled /usr/bin/python3.8
+        py --list
+        echo "python $(python --version || true)"
+        echo "python2 $(python2 --version || true)"
+        echo "python3 $(python3 --version || true)"
+        # npm run ci
 
     # - run: npm install
     # - run: npm run ci

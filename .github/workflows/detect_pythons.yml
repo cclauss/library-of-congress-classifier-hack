@@ -17,7 +17,7 @@ jobs:
       matrix:
         node-version: [12.x, 14.x, 16.x]  # https://nodejs.org/en/about/releases/
     steps:
-    - run: brew install python-launcher  # just to ensure this does not create conflicts
+    - run: brew install pypy3 python-launcher  # just to ensure this does not create conflicts
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
@@ -56,7 +56,6 @@ jobs:
     # Let's re-enable Python 3
     - name: "Py3 ONLY: python √, python2 x, python3 √"
       run: |
-        brew uninstall pypy3
         sudo mv /usr/bin/python3.8.disabled /usr/bin/python3.8
         py --list
         echo "python" && python --version || true

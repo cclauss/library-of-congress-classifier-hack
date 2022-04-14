@@ -25,7 +25,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     # GitHub Actions default to having both Python 2 and 3 installed with `python` always pointing to `python3`
-    - name: "BOTH: python √, python2 √, python3 √"
+    - name: "BOTH: python ✅, python2 ✅, python3 ✅"
       run: |
         py --list
         echo "python" && python --version || true
@@ -34,7 +34,7 @@ jobs:
         # npm run ci
 
     # Let's disable Python 3
-    - name: "PY2 ONLY: python √, python2 √, python3 x"
+    - name: "PY2 ONLY: python 🚫, python2 ✅, python3 🚫"
       run: |
         sudo mv /usr/bin/python3.8 /usr/bin/python3.8.disabled
         py --list
@@ -44,7 +44,7 @@ jobs:
         # npm run ci
 
     # Let's disable Python 2
-    - name: "NONE: python x, python2 x, python3 x"
+    - name: "NONE: python 🚫, python2 🚫, python3 🚫"
       run: |
         sudo mv /usr/bin/python2.7 /usr/bin/python2.7.disabled
         py --list || true
@@ -54,7 +54,7 @@ jobs:
         # npm run ci
 
     # Let's re-enable Python 3
-    - name: "Py3 ONLY: python √, python2 x, python3 √"
+    - name: "Py3 ONLY: python ✅, python2 🚫, python3 ✅"
       run: |
         sudo mv /usr/bin/python3.8.disabled /usr/bin/python3.8
         py --list

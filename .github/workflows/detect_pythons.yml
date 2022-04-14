@@ -29,17 +29,27 @@ jobs:
     #  uses: actions/setup-python@v3
     #  with:
     #    python-version: ${{ matrix.python-version }}
-    - run: py --list  # python √, python2 √, python3 √
-    - run: python --version || true
-    - run: python2 --version || true
-    - run: python3 --version || true
-    - run: py --list ; python --version ; python2 --version ; python3 --version || true
+
+    # GitHub Actions has both Python 2 and 3 installed by default. --> BOTH: python √, python2 √, python3 √
+    - run: py --list ; echo "python $(python --version)" ; echo "python2 $(python2 --version)" ; echo "python3 $(python3 --version)" || true
+
+    # Let's disable Python 3 --> PY2 ONLY: python √, python2 √, python3 x
     - run: sudo mv /usr/bin/python3.8 /usr/bin/python3.8.disabled
-    - run: py --list  # python √, python2 √, python3 x
-    - run: mv /usr/bin/python2.7 /usr/bin/python2.7.disabled
-    - run: py --list  # python x, python2 x, python3 x
+    - run: py --list ; echo "python $(python --version)" ; echo "python2 $(python2 --version)" ; echo "python3 $(python3 --version)" || true
+
+    # Let's disable Python 2 --> NONE: python x, python2 x, python3 x
+    - run: sudo mv /usr/bin/python2.7 /usr/bin/python2.7.disabled
+    - run: py --list ; echo "python $(python --version)" ; echo "python2 $(python2 --version)" ; echo "python3 $(python3 --version)" || true
+
+    # Let's install PyPy 3 --> PyPy3 ONLY: python x, python2 x, python3 √
     - run: brew install pypy3
-    - run: py --list ; python --version ; python2 --version ; python3 --version || true
+    - run: py --list ; echo "python $(python --version)" ; echo "python2 $(python2 --version)" ; echo "python3 $(python3 --version)" || true
+
+    # Let's uninstall pypy3 and enable Python 3 --> Py3 ONLY: python √, python2 x, python3 √
+    - run: brew remove pypy3 && sudo mv /usr/bin/python3.8.disabled /usr/bin/python3.8
+    - run: py --list ; echo "python $(python --version)" ; echo "python2 $(python2 --version)" ; echo "python3 $(python3 --version)" || true
+    # - run: npm run ci
+
     # - run: npm install
     # - run: npm run ci
     #- name: Coveralls

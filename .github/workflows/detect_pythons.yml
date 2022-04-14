@@ -57,7 +57,7 @@ jobs:
     - name: "PyPy3 ONLY: python x, python2 x, python3 √"
       run: |
         brew install pypy3
-        py --list
+        py --list || true
         echo "python $(python --version || true)"
         echo "python2 $(python2 --version || true)"
         echo "python3 $(python3 --version || true)"

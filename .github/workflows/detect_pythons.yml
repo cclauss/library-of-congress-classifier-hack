@@ -33,7 +33,8 @@ jobs:
     - run: python --version || true
     - run: python2 --version || true
     - run: python3 --version || true
-    - run: mv /usr/bin/python3.8 /usr/bin/python3.8.disabled
+    - run: py --list ; python --version ; python2 --verssion ; python3 --verssion || true
+    - run: sudo mv /usr/bin/python3.8 /usr/bin/python3.8.disabled
     - run: py --list  # python √, python2 √, python3 x
     - run: mv /usr/bin/python2.7 /usr/bin/python2.7.disabled
     - run: py --list  # python x, python2 x, python3 x

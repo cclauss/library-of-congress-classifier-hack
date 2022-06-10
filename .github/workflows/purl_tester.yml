@@ -31,3 +31,18 @@ jobs:
           URL=$URL/purl_${{ github.event.inputs.purl_domain }}_purl.json
           echo $URL
           curl -X GET $URL
+  test_claussoft:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo "Testing ${{ github.event.inputs.purl_domain }}..."
+        run: curl -X GET https://purl.org/cclaussoft
+  test_AERO:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo "Testing ${{ github.event.inputs.purl_domain }}..."
+        run: curl -X GET https://purl.org/AERO
+  test_INRMM-MiD:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo "Testing ${{ github.event.inputs.purl_domain }}..."
+        run: curl -X GET https://purl.org/INRMM-MiD

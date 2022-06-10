@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      max-parallel: 1  # Don't abuse purl.org
+      max-parallel: 4  # Don't abuse purl.org
       matrix:
         purl_domain:
           - claussoft
@@ -26,4 +26,4 @@ jobs:
           - TCAD
           - ArchOnto
     steps:
-      - run: curl --fail -X GET https://purl.org/${{ matrix.repo }}
+      - run: curl --fail -X GET https://purl.org/${{ matrix.purl_domain }}

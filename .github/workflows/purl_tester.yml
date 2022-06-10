@@ -34,15 +34,14 @@ jobs:
   test_claussoft:
     runs-on: ubuntu-latest
     steps:
-      - name: echo "Testing ${{ github.event.inputs.purl_domain }}..."
-        run: curl -X GET https://purl.org/cclaussoft
+      - run: curl -X GET https://purl.org/cclaussoft
+      #    exit_status=$?
+      #    echo Exit status: $exit_status
   test_AERO:
     runs-on: ubuntu-latest
     steps:
-      - name: echo "Testing ${{ github.event.inputs.purl_domain }}..."
-        run: curl -X GET https://purl.org/AERO
+      - run: curl -X GET https://purl.org/AERO
   test_INRMM-MiD:
     runs-on: ubuntu-latest
     steps:
-      - name: echo "Testing ${{ github.event.inputs.purl_domain }}..."
-        run: curl -X GET https://purl.org/INRMM-MiD
+      - run: curl -X GET https://purl.org/INRMM-MiD

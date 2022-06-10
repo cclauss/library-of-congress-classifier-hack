@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Testing ${{ github.event.inputs.purl_domain }}..."
-      - run: python3 -m pip install tqdm
-      - run: python3 -m pip install httpx internetarchive
+      # - run: python3 -m pip install tqdm
+      - run: python3 -m pip install internetarchive
       - run: |
           ia --version
           ia list purl_${{ github.event.inputs.purl_domain }}

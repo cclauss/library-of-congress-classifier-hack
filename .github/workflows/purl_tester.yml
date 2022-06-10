@@ -7,8 +7,7 @@ on:
         required: true
 jobs:
   purl_tester:
-    strategy:
-      runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Testing ${{ github.event.inputs.purl_domain }}..."
       - run: python3 -m pip install httpx internetarchive requests
@@ -16,5 +15,4 @@ jobs:
       - run: curl --version || true
       - run: curl -X GET https://purl.archive.org/${{ github.event.inputs.purl_domain }} || true
       - run: sleep 0.5
-      - run: curl -X GET https://purl.archive.org/${{ github.event.inputs.purl_domain }} || true
- 
+      - run: curl -X GET https://purl.archive.org/${{ github.event.inputs.purl_domain }} || true 

@@ -12,8 +12,10 @@ jobs:
       - run: echo "Testing ${{ github.event.inputs.purl_domain }}..."
       - run: python3 -m pip install tqdm
       - run: python3 -m pip install httpx internetarchive
-      - run: ia --version && ia list ${{ github.event.inputs.purl_domain }}
-      - run: curl --version || true
-      - run: curl -X GET https://purl.archive.org/${{ github.event.inputs.purl_domain }} || true
-      - run: sleep 0.5
-      - run: curl -X GET https://purl.archive.org/${{ github.event.inputs.purl_domain }} || true 
+      - run: |
+          ia --version
+          ia list purl_${{ github.event.inputs.purl_domain }}
+          curl --version || true
+          curl -X GET https://purl.archive.org/${{ github.event.inputs.purl_domain }} || true
+          sleep 0.5
+          curl -X GET https://purl.archive.org/${{ github.event.inputs.purl_domain }} || true 

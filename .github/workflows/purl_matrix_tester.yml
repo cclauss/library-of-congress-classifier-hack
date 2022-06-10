@@ -1,0 +1,28 @@
+name: purl_matrix_tester
+on:
+  workflow_dispatch:
+jobs:
+  purl_matrix_tester:
+    strategy:
+      fail-fast: false
+      max-parallel: 1  # Don't abuse purl.org
+      matrix:
+        purl_domain:
+          - claussoft
+          - AERO
+          - AeroLectures
+          - AircraftDesign
+          - BV-NFC
+          - CabinAir
+          - Corona
+          - EcoLabel
+          - EWADE
+          - HAW
+          - INRMM-MiD
+          - Novoa
+          - ProfScholz
+          - SCAD
+          - TCAD
+          - ArchOnto
+    steps:
+      - run: curl --fail -X GET https://purl.org/${{ matrix.repo }}

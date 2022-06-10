@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   purl_matrix_tester:
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       max-parallel: 1  # Don't abuse purl.org

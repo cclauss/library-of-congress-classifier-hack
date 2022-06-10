@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: pip install internetarchive
-  install_tqdm_and_then_internetarchive
+  install_tqdm_and_then_internetarchive:
     runs-on: ubuntu-latest
     steps:
       - run: pip install tqdm  # This line is REQUIRED

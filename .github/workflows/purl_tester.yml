@@ -34,14 +34,12 @@ jobs:
   test_claussoft:
     runs-on: ubuntu-latest
     steps:
-      - run: curl -X GET https://purl.org/cclaussoft
-      #    exit_status=$?
-      #    echo Exit status: $exit_status
+      - run: curl --fail -X GET https://purl.org/claussoft
   test_AERO:
     runs-on: ubuntu-latest
     steps:
-      - run: curl -X GET https://purl.org/AERO
+      - run: curl --fail -X GET https://purl.org/AERO
   test_INRMM-MiD:
     runs-on: ubuntu-latest
     steps:
-      - run: curl -X GET https://purl.org/INRMM-MiD
+      - run: curl --fail -X GET https://purl.org/INRMM-MiD

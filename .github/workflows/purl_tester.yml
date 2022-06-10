@@ -16,6 +16,18 @@ jobs:
           ia --version
           ia list purl_${{ github.event.inputs.purl_domain }}
           curl --version || true
-          curl -X GET https://purl.archive.org/${{ github.event.inputs.purl_domain }} || true
+          URL=https://purl.archive.org/${{ github.event.inputs.purl_domain }}
+          echo $URL
+          curl -X GET $URL
           sleep 0.5
-          curl -X GET https://purl.archive.org/${{ github.event.inputs.purl_domain }} || true 
+          URL=https://purl.archive.org/domain/${{ github.event.inputs.purl_domain }}
+          echo $URL
+          curl -X GET $URL
+          sleep 0.5
+          URL=https://archive.org/purl_${{ github.event.inputs.purl_domain }}
+          echo $URL
+          curl -X GET $URL
+          sleep 0.5
+          URL=$URL/purl_${{ github.event.inputs.purl_domain }}_purl.json
+          echo $URL
+          curl -X GET $URL

@@ -28,4 +28,5 @@ jobs:
     steps:
       - run: python3 -m pip install tqdm
       - run: python3 -m pip install internetarchive
-      - run: curl --fail -X GET https://purl.org/${{ matrix.purl_domain }} || ia list ${{ matrix.purl_domain }}
+      - run: ia search purl_${{ matrix.purl_domain }}
+      - run: curl --fail -X GET https://purl.org/${{ matrix.purl_domain }} || ia list purl_${{ matrix.purl_domain }}

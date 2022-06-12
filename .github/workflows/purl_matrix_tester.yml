@@ -30,8 +30,10 @@ jobs:
       - run: python3 -m pip install internetarchive
       - run: ia search purl_${{ matrix.purl_domain }}
       - run: |
+          URL=https://purl.org/
           URL_BASE="https://purl.org"
           URL_BASE="https://www-purl-mixedcase-not-working.dev.archive.org"
-          ia search purl_${{ matrix.purl_domain }}  # Is the case (upper, lower, mixed) correct?
-          ia list purl_${{ matrix.purl_domain }}  # Are there files for this PURL domain?
+          ia search purl_${{ matrix.purl_domain }} || ia list purl_${{ matrix.purl_domain }}
+          # ia search purl_${{ matrix.purl_domain }}  # Is the case (upper, lower, mixed) correct?
+          # ia list purl_${{ matrix.purl_domain }}  # Are there files for this PURL domain?
           curl --fail -X GET $URL_BASE/${{ matrix.purl_domain }}  # Can PURL find this domain?

@@ -29,4 +29,7 @@ jobs:
       - run: python3 -m pip install tqdm
       - run: python3 -m pip install internetarchive
       - run: ia search purl_${{ matrix.purl_domain }}
-      - run: curl --fail -X GET https://purl.org/${{ matrix.purl_domain }} || ia list purl_${{ matrix.purl_domain }}
+      - run: |
+          URL_BASE="https://purl.org"
+          URL_BASE="https://www-purl-mixedcase-not-working.dev.archive.org"
+          curl --fail -X GET $URL_BASE/${{ matrix.purl_domain }} || ia list purl_${{ matrix.purl_domain }}

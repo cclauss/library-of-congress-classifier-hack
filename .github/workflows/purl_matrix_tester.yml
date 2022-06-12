@@ -10,6 +10,11 @@ jobs:
       matrix:
         purl_domain:
           - claussoft
+          - cLaUsSoFt
+          - CLAUSSOFT
+          - claussoft/apple
+          - claussoft/APPLE
+          - CLAUSSOFT/PYTHON
           - AERO
           - AeroLectures
           - AircraftDesign
@@ -19,12 +24,13 @@ jobs:
           - EcoLabel
           - EWADE
           - HAW
-          - INRMM-MiD
+          # - INRMM-MiD  # This would fail because it does not point anywhere.
+          - INRMM-MiD/z-THSLFEYQ
           - Novoa
           - ProfScholz
           - SCAD
           - TCAD
-          - ArchOnto
+          # - ArchOnto  # No `ia search ArchOnto` finds no item
     steps:
       - run: python3 -m pip install tqdm
       - run: python3 -m pip install internetarchive

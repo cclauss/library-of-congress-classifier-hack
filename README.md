@@ -1,3 +1,5 @@
+https://openlibrary.org/query.json?type=/type/edition&isbn_~=1*&limit=100
+
 # Library of Congress classifier hack
 Convert Library of Congress classification codes into the classification of a particular work.
 * https://www.terkko.helsinki.fi/files/9666/classify_trnee_manual.pdf

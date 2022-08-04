@@ -1,3 +1,6 @@
+Problems with `/vendors`?
+* `git submodule deinit -f . && git submodule update --init`
+
 Logger on macOS: log stream --info --debug --predicate "process == 'logger’”
 
 Logger on Ubuntu: tail -f /var/log/syslog

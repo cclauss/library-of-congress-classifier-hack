@@ -1,6 +1,8 @@
 Problems with `/vendors`?
 * `git submodule deinit -f . && git submodule update --init`
 
+Monthly Dumps: [Cron-Jobs#monthly-data-dumps](https://github.com/internetarchive/openlibrary/wiki/Cron-Jobs#monthly-data-dumps)
+
 Logger on macOS: log stream --info --debug --predicate "process == 'logger’”
 
 Logger on Ubuntu: tail -f /var/log/syslog

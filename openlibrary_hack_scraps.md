@@ -3,10 +3,14 @@ Problems with `/vendors`?
 
 ---
 
-How to work on someone else’s pull request :
+How to work on someone else’s pull request that is on their `master` branch :
 * git remote add theOtherGuy https://github.com/theOtherGuy/openlibrary
 * git fetch theOtherGuy
 * git checkout --track -b test_readlinks theOtherGuy/master
+
+* docker compose run --rm home pytest openlibrary/plugins/books/tests/test_readlinks.py
+
+*  git push --force theOtherGuy HEAD:master
 
 ---
 

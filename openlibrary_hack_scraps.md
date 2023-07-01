@@ -1,6 +1,15 @@
 Problems with `/vendors`?
 * `git submodule deinit -f . && git submodule update --init`
 
+---
+
+How to work on someone else’s pull request :
+* git remote add theOtherGuy https://github.com/theOtherGuy/openlibrary
+* git fetch theOtherGuy
+* git checkout --track -b test_readlinks theOtherGuy/master
+
+---
+
 Monthly Dumps: [Cron-Jobs#monthly-data-dumps](https://github.com/internetarchive/openlibrary/wiki/Cron-Jobs#monthly-data-dumps)
 
 Logger on macOS: log stream --info --debug --predicate "process == 'logger’”
